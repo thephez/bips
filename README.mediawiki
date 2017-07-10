@@ -37,7 +37,6 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Replaced
 | Ignored
 |
-|
 |- style="background-color: #cfffcf"
 | [[bip-0002.mediawiki|2]]
 |
@@ -74,7 +73,6 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Withdrawn
 | Ignored
 |
-|
 |- style="background-color: #cfffcf"
 | [[bip-0011.mediawiki|11]]
 | Applications
@@ -92,7 +90,6 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Standard
 | Withdrawn
 | Ignored
-|
 |
 |- style="background-color: #cfffcf"
 | [[bip-0013.mediawiki|13]]
