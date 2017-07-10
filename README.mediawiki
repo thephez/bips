@@ -6,16 +6,16 @@ Having a BIP referenced here does not mean it was formally accepted in the bitco
 
 One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statuses can be one of the following:
 
-Accepted - Kept from bitcoin, but not yet implemented.  
-Partial - Kept from bitcoin, implemented partially.  Notes should explain in the BIP current progress.  
-Active - Kept from bitcoin, fully implemented.  
-Ignored - Not applicable to DASH or previously withdrawn from Bitcoin.  
-Rejected - Accepted or Final in Bitcoin but Rejected in DASH.  
+* Accepted - Kept from bitcoin, but not yet implemented.  
+* Partial - Kept from bitcoin, implemented partially.  Notes should explain in the BIP current progress.  
+* Active - Kept from bitcoin, fully implemented.  
+* Ignored - Not applicable to DASH or previously withdrawn from Bitcoin.  
+* Rejected - Accepted or Final in Bitcoin but Rejected in DASH.  
 
 2 Keywords can also give more information, they will proceed the Status: (ie Extended Partial).  
 
-Extented - Kept from bitcoin with extensions to meet DASH network demands.  
-Modified - Kept from bitcoin and slightly modified.  
+* Extented - Kept from bitcoin with extensions to meet DASH network demands.  
+* Modified - Kept from bitcoin and slightly modified.  
 
 
 
