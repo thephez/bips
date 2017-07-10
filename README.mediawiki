@@ -126,6 +126,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Standard
 | Final
 |
+|
 |- style="background-color: #ffcfcf"
 | [[bip-0017.mediawiki|17]]
 | Consensus (soft fork)
@@ -187,6 +188,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Luke Dashjr
 | Standard
 | Final
+|
+|
 |- style="background-color: #cfffcf"
 | [[bip-0030.mediawiki|30]]
 | Consensus (soft fork)
@@ -204,6 +207,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Standard
 | Final
 | Active
+|
 |- style="background-color: #cfffcf"
 | [[bip-0032.mediawiki|32]]
 | Applications
@@ -438,6 +442,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Standard
 | Final
 | Active
+|
 |- style="background-color: #ffffcf"
 | [[bip-0069.mediawiki|69]]
 | Applications
@@ -518,6 +523,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Informational
 | Deferred
 | Ignored
+|
 |-
 | [[bip-0083.mediawiki|83]]
 | Applications
