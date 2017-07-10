@@ -1,10 +1,23 @@
-People wishing to submit BIPs, first should propose their idea or document to the mailing list. After discussion they should email Luke Dashjr &lt;luke_bipeditor@dashjr.org&gt;. After copy-editing and acceptance, it will be published here.
+Here we discuss bitcoin improvement protocols that have made or could make their way into dash generally from an downstream merge from bitcoin core.
 
-We are fairly liberal with approving BIPs, and try not to be too involved in decision making on behalf of the community. The exception is in very rare cases of dispute resolution when a decision is contentious and cannot be agreed upon. In those cases, the conservative option will always be preferred.
+You can not submit BIPs into Dash.  The name for Dash improvement protocols are DIPS and are DASH specific.
 
-Having a BIP here does not make it a formally accepted standard until its status becomes Final or Active.
+Having a BIP referenced here does not mean it was formally accepted in the bitcoin ecosystem unless its status is Final or Active.
 
-Those proposing changes should consider that ultimately consent may rest with the consensus of the Bitcoin users (see also: [https://en.bitcoin.it/wiki/Economic_majority economic majority]).
+One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statuses can be one of the following:
+
+Accepted - Kept from bitcoin, but not yet implemented.
+Partial - Kept from bitcoin, implemented partially.  Notes should explain in the BIP current progress.
+Active - Kept from bitcoin, fully implemented.
+Ignored - Not applicable to DASH or previously withdrawn from Bitcoin.
+Rejected - Accepted or Final in Bitcoin but Rejected in DASH.
+
+2 Keywords can also give more information, they will proceed the Status: (ie Extended Partial).
+
+Extented - Kept from bitcoin with extensions to meet DASH network demands.  
+Modified - Kept from bitcoin and slightly modified.
+
+
 
 {| class="wikitable sortable" style="width: auto; text-align: center; font-size: smaller; table-layout: fixed;"
 !Number
@@ -12,7 +25,9 @@ Those proposing changes should consider that ultimately consent may rest with th
 !Title
 !Owner
 !Type
-!Status
+!Bitcoin Status
+!DASH Status
+!Extention Owner
 |- style="background-color: #ffcfcf"
 | [[bip-0001.mediawiki|1]]
 |
@@ -20,6 +35,8 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Amir Taaki
 | Process
 | Replaced
+|
+|
 |- style="background-color: #cfffcf"
 | [[bip-0002.mediawiki|2]]
 |
@@ -27,6 +44,8 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Luke Dashjr
 | Process
 | Active
+|
+|
 |-
 | [[bip-0008.mediawiki|8]]
 |
@@ -34,6 +53,8 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Shaolin Fry
 | Informational
 | Draft
+|
+|
 |- style="background-color: #cfffcf"
 | [[bip-0009.mediawiki|9]]
 |
@@ -41,6 +62,8 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Pieter Wuille, Peter Todd, Greg Maxwell, Rusty Russell
 | Informational
 | Final
+|
+|
 |- style="background-color: #ffcfcf"
 | [[bip-0010.mediawiki|10]]
 | Applications
@@ -48,6 +71,8 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Alan Reiner
 | Informational
 | Withdrawn
+|
+|
 |- style="background-color: #cfffcf"
 | [[bip-0011.mediawiki|11]]
 | Applications
@@ -55,6 +80,8 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Gavin Andresen
 | Standard
 | Final
+|
+|
 |- style="background-color: #ffcfcf"
 | [[bip-0012.mediawiki|12]]
 | Consensus (soft fork)
@@ -62,6 +89,8 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Gavin Andresen
 | Standard
 | Withdrawn
+|
+|
 |- style="background-color: #cfffcf"
 | [[bip-0013.mediawiki|13]]
 | Applications
@@ -69,6 +98,8 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Gavin Andresen
 | Standard
 | Final
+|
+|
 |- style="background-color: #cfffcf"
 | [[bip-0014.mediawiki|14]]
 | Peer Services
