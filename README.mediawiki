@@ -2,7 +2,7 @@ People wishing to submit BIPs, first should propose their idea or document to th
 
 We are fairly liberal with approving BIPs, and try not to be too involved in decision making on behalf of the community. The exception is in very rare cases of dispute resolution when a decision is contentious and cannot be agreed upon. In those cases, the conservative option will always be preferred.
 
-Having a BIP here does not make it a formally accepted standard until its status becomes Active. For a BIP to become Active requires the mutual consent of the community.
+Having a BIP here does not make it a formally accepted standard until its status becomes Final or Active.
 
 Those proposing changes should consider that ultimately consent may rest with the consensus of the Bitcoin users (see also: [https://en.bitcoin.it/wiki/Economic_majority economic majority]).
 
@@ -27,6 +27,13 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Luke Dashjr
 | Process
 | Active
+|-
+| [[bip-0008.mediawiki|8]]
+|
+| Version bits with lock-in by height
+| Shaolin Fry
+| Informational
+| Draft
 |- style="background-color: #cfffcf"
 | [[bip-0009.mediawiki|9]]
 |
@@ -407,6 +414,13 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Informational
 | Draft
 |-
+| [[bip-0091.mediawiki|91]]
+| Consensus (soft fork)
+| Reduced threshold Segwit MASF
+| James Hilliard
+| Standard
+| Draft
+|-
 | [[bip-0099.mediawiki|99]]
 |
 | Motivation and deployment of consensus rule changes ([soft/hard]forks)
@@ -498,6 +512,13 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Standard
 | Draft
 |-
+| [[bip-0115.mediawiki|115]]
+| Consensus (soft fork)
+| Generic anti-replay protection using Script
+| Luke Dashjr
+| Standard
+| Draft
+|-
 | [[bip-0120.mediawiki|120]]
 | Applications
 | Proof of Payment
@@ -582,6 +603,13 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Standard
 | Draft
 |-
+| [[bip-0135.mediawiki|135]]
+|
+| Generalized version bits voting
+| Sancho Panza
+| Informational
+| Draft
+|-
 | [[bip-0140.mediawiki|140]]
 | Consensus (soft fork)
 | Normalized TXID
@@ -645,6 +673,13 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Standard
 | Draft
 |-
+| [[bip-0149.mediawiki|149]]
+| Consensus (soft fork)
+| Segregated Witness (second deployment)
+| Shaolin Fry
+| Standard
+| Draft
+|-
 | [[bip-0150.mediawiki|150]]
 | Peer Services
 | Peer Authentication
@@ -666,11 +701,25 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Standard
 | Draft
 |-
+| [[bip-0154.mediawiki|154]]
+| Peer Services
+| Rate Limiting via peer specified challenges
+| Karl-Johan Alm
+| Standard
+| Draft
+|-
 | [[bip-0171.mediawiki|171]]
 | Applications
 | Currency/exchange rate information API
 | Luke Dashjr
 | Standard
+| Draft
+|-
+| [[bip-0173.mediawiki|173]]
+| Applications
+| Base32 address format for native v0-16 witness outputs
+| Pieter Wuille, Greg Maxwell
+| Informational
 | Draft
 |-
 | [[bip-0180.mediawiki|180]]
