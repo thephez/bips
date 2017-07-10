@@ -12,9 +12,9 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 * Ignored - Not applicable to DASH or previously withdrawn from Bitcoin.  
 * Rejected - Accepted or Final in Bitcoin but Rejected in DASH.  
 
-2 Keywords can also give more information, they will proceed the Status: (ie Extended Partial).  
+2 Keywords can also give more information, they will preceed the Status: (ie Extended Partial).  
 
-* Extented - Kept from bitcoin with extensions to meet DASH network demands.  
+* Extended - Kept from bitcoin with extensions to meet DASH network demands.  
 * Modified - Kept from bitcoin and slightly modified.  
 
 
@@ -44,7 +44,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Luke Dashjr
 | Process
 | Active
-|
+| Ignored
 |
 |-
 | [[bip-0008.mediawiki|8]]
@@ -62,7 +62,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Pieter Wuille, Peter Todd, Greg Maxwell, Rusty Russell
 | Informational
 | Final
-|
+| Active
 |
 |- style="background-color: #ffcfcf"
 | [[bip-0010.mediawiki|10]]
@@ -107,6 +107,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Amir Taaki, Patrick Strateman
 | Standard
 | Final
+| Active
 |-
 | [[bip-0015.mediawiki|15]]
 | Applications
@@ -187,6 +188,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Mike Hearn
 | Standard
 | Final
+| Active
 |- style="background-color: #cfffcf"
 | [[bip-0032.mediawiki|32]]
 | Applications
@@ -208,6 +210,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Gavin Andresen
 | Standard
 | Final
+| Active
 |- style="background-color: #cfffcf"
 | [[bip-0035.mediawiki|35]]
 | Peer Services
@@ -215,6 +218,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Jeff Garzik
 | Standard
 | Final
+| Active
 |-
 | [[bip-0036.mediawiki|36]]
 | Peer Services
@@ -229,6 +233,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Mike Hearn, Matt Corallo
 | Standard
 | Final
+| Active
 |-
 | [[bip-0038.mediawiki|38]]
 | Applications
@@ -308,6 +313,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Gavin Andresen
 | Informational
 | Final
+| Ignored
 <!-- 50 series reserved for a group of post-mortems -->
 |-
 | [[bip-0060.mediawiki|60]]
@@ -323,6 +329,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Gavin Andresen
 | Standard
 | Final
+| Extended Active
 |- style="background-color: #ffcfcf"
 | [[bip-0062.mediawiki|62]]
 | Consensus (soft fork)
@@ -353,6 +360,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Peter Todd
 | Standard
 | Final
+| Active
 |- style="background-color: #cfffcf"
 | [[bip-0066.mediawiki|66]]
 | Consensus (soft fork)
@@ -360,6 +368,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Pieter Wuille
 | Standard
 | Final
+| Active
 |- style="background-color: #ffffcf"
 | [[bip-0067.mediawiki|67]]
 | Applications
@@ -374,6 +383,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Mark Friedenbach, BtcDrak, Nicolas Dorier, kinoshitajona
 | Standard
 | Final
+| Active
 |- style="background-color: #ffffcf"
 | [[bip-0069.mediawiki|69]]
 | Applications
@@ -546,6 +556,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | BtcDrak, Mark Friedenbach, Eric Lombrozo
 | Standard
 | Final
+| Active
 |- style="background-color: #cfffcf"
 | [[bip-0113.mediawiki|113]]
 | Consensus (soft fork)
@@ -553,6 +564,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Thomas Kerin, Mark Friedenbach
 | Standard
 | Final
+| Active
 |-
 | [[bip-0114.mediawiki|114]]
 | Consensus (soft fork)
@@ -595,6 +607,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Eric Lombrozo
 | Process
 | Active
+| Ignored
 |-
 | [[bip-0124.mediawiki|124]]
 | Applications
