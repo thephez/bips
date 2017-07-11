@@ -98,7 +98,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Gavin Andresen
 | Standard
 | Final
-|
+| Modified Active
 |
 |- style="background-color: #cfffcf"
 | [[bip-0014.mediawiki|14]]
@@ -125,7 +125,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Gavin Andresen
 | Standard
 | Final
-|
+| Active
 |
 |- style="background-color: #ffcfcf"
 | [[bip-0017.mediawiki|17]]
@@ -143,7 +143,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Luke Dashjr
 | Standard
 | Proposed
-|
+| Ignored
 |
 |-
 | [[bip-0019.mediawiki|19]]
@@ -152,7 +152,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Luke Dashjr
 | Standard
 | Draft
-|
+| Ignored
 |
 |- style="background-color: #ffcfcf"
 | [[bip-0020.mediawiki|20]]
@@ -179,7 +179,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Luke Dashjr
 | Standard
 | Final
-|
+| Modified Active
 |
 |- style="background-color: #cfffcf"
 | [[bip-0023.mediawiki|23]]
@@ -188,7 +188,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Luke Dashjr
 | Standard
 | Final
-|
+| Modified Active
 |
 |- style="background-color: #cfffcf"
 | [[bip-0030.mediawiki|30]]
@@ -197,7 +197,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Pieter Wuille
 | Standard
 | Final
-|
+| Active
 |
 |- style="background-color: #cfffcf"
 | [[bip-0031.mediawiki|31]]
@@ -305,7 +305,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Pieter Wuille
 | Standard
 | Draft
-|
+| Ignored
 |
 |-
 | [[bip-0043.mediawiki|43]]
@@ -369,7 +369,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Amir Taaki
 | Standard
 | Draft
-|
+| Ignored
 |
 |- style="background-color: #cfffcf"
 | [[bip-0061.mediawiki|61]]
@@ -540,7 +540,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Suhas Daftuar
 | Informational
 | Draft
-|
+| Ignored
 |
 |-
 | [[bip-0091.mediawiki|91]]
