@@ -22,7 +22,7 @@ Enable "end-to-end" secure wallets and payments to fund escrow transactions or o
 
 ==Specification==
 
-The new address type is constructed in the same manner as existing addresses - see [Base58Check encoding](https://en.bitcoin.it/wiki/Base58Check_encoding):
+The new address type is constructed in the same manner as existing addresses - see [https://en.bitcoin.it/wiki/Base58Check_encoding Base58Check encoding]:
 
     base58-encode: [one-byte version][20-byte hash][4-byte checksum]
 
