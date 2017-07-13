@@ -729,7 +729,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | David A. Harding, Peter Todd
 | Standard
 | Proposed
-| Modified Accepted
+| Modified Partial
 |
 |-
 | [[bip-0126.mediawiki|126]]
