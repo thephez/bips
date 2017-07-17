@@ -13,7 +13,7 @@
 
 ==Abstract==
 
-This BIP describes a new JSON-RPC method for "smart" Bitcoin miners and proxies.
+This BIP describes a new JSON-RPC method for "smart" miners and proxies.
 Instead of sending a simple block header for hashing, the entire block structure is sent, and left to the miner to (optionally) customize and assemble.
 
 ==Copyright==
@@ -57,7 +57,7 @@ getblocktemplate MUST return a JSON Object containing the following keys:
 |-
 | sizelimit || No || Number || number of bytes allowed in blocks
 |-
-| transactions || Should || Array of Objects || Objects containing [[#Transactions Object Format|information for Bitcoin transactions]] (excluding coinbase)
+| transactions || Should || Array of Objects || Objects containing [[#Transactions Object Format|information for transactions]] (excluding coinbase)
 |-
 | version || Yes || Number || always 1 or 2 (at least for bitcoin) - clients MUST understand the implications of the version they use (eg, comply with [[bip-0034.mediawiki|BIP 0034]] for version 2)
 |-
@@ -65,9 +65,21 @@ getblocktemplate MUST return a JSON Object containing the following keys:
 |-
 | coinbasetxn || this or ↓ || Object || [[#Transactions Object Format|information for coinbase transaction]]
 |-
-| coinbasevalue || this or ↑ || Number || total funds available for the coinbase (in Satoshis)
+| coinbasevalue || this or ↑ || Number || total funds available for the coinbase (in duffs - 1/100,000,000 DASH)
 |-
 | workid || No || String || if provided, this value must be returned with results (see [[#Block Submission|Block Submission]])
+|-
+| masternode || Yes || Object || Required masternode payee that must be included in the next block
+|-
+| masternode_payments_started || Yes || Boolean || True, if masternode payments started
+|-
+| masternode_payments_enforced || Yes || Boolean || True, if masternode payments are enforced
+|-
+| superblock || Yes || Array || Required superblock payees that must be included in the next block
+|-
+| superblocks_started || Yes || Boolean || True, if superblock payments started
+|-
+| superblocks_enforced || Yes || Boolean || True, if superblock payments are enabled
 |}
 
 ==== Transactions Object Format ====
@@ -93,6 +105,38 @@ The Objects listed in the response's "transactions" key contains these keys:
 |}
 
 Only the "data" key is required, but servers should provide the others if they are known.
+
+==== Masternode Object Format ====
+
+The Objects listed in the response's "masternode" key contains these keys:
+
+{| class="wikitable"
+!colspan=3|template "masternode" element
+|-
+! Key !! Type !! Description
+|-
+| payee || String || Payee address
+|-
+| script || String || Payee scriptPubKey
+|-
+| amount || Number || Required amount to pay
+|}
+
+==== Superblock Object Format ====
+
+The Objects listed in the response's "suberblock" key contains these keys:
+
+{| class="wikitable"
+!colspan=3|template "superblock" element
+|-
+! Key !! Type !! Description
+|-
+| payee || String || Payee address
+|-
+| script || String || Payee scriptPubKey
+|-
+| amount || Number || Required amount to pay
+|}
 
 ===Block Submission===
 
@@ -185,7 +229,7 @@ Possible reasons a share may be rejected include, but are not limited to:
 |-
 | bad-cb-flag || the server detected a feature-signifying flag that it does not allow
 |-
-| bad-cb-length || the coinbase was too long (bitcoin limit is 100 bytes)
+| bad-cb-length || the coinbase was too long (Dash limit is 100 bytes)
 |-
 | bad-cb-prefix || the server only allows appending to the coinbase, but it was modified beyond that
 |-
@@ -222,7 +266,7 @@ Possible reasons a share may be rejected include, but are not limited to:
 
 ==Motivation==
 
-bitcoind's JSON-RPC server can no longer support the load of generating the work required to productively mine Bitcoin, and external software specializing in work generation has become necessary.
+bitcoind's JSON-RPC server can no longer support the load of generating the work required to productively mine, and external software specializing in work generation has become necessary.
 At the same time, new independent node implementations are maturing to the point where they will also be able to support miners.
 
 A common standard for communicating block construction details is necessary to ensure compatibility between the full nodes and work generation software.
@@ -246,3 +290,6 @@ Why should "sigops" be provided for transactions?
 
 ==See Also==
 * [[bip-0023.mediawiki|BIP 23: getblocktemplate - Pooled Mining]]
+
+== Dash Modifications ==
+* Add Dash specific masternode / superblock template items
