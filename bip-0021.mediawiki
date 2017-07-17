@@ -5,7 +5,6 @@
   Author: Nils Schneider <nils.schneider@gmail.com>
           Matt Corallo <bip21@bluematt.me>
   Comments-Summary: No comments yet.
-  Comments-URI: https://github.com/bitcoin/bips/wiki/Comments:BIP-0021
   Status: Final
   Dash Status: Modified Active
   Type: Standards Track
@@ -38,7 +37,7 @@ Elements of the query component may contain characters outside the valid range. 
 
 === ABNF grammar ===
 
-(See also [[#Simpler syntax|a simpler representation of syntax]])
+(See also [[#simpler-syntax|a simpler representation of syntax]])
 
  dashurn     = "dash:" dashaddress [ "?" dashparams ]
  dashaddress = *base58
@@ -59,7 +58,7 @@ The scheme component ("dash:") is case-insensitive, and implementations must acc
 *label: Label for that address (e.g. name of receiver)
 *address: dash address
 *message: message that describes the transaction to the user ([[#Examples|see examples below]])
-*size: amount of base coin units ([[#Transfer amount/size|see below]])
+*size: amount of base coin units ([[#transfer-amountsize|see below]])
 *(others): optional, for future extensions
 
 ==== Transfer amount/size ====
