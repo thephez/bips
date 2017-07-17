@@ -1,6 +1,6 @@
 Here we discuss bitcoin improvement protocols that have made or could make their way into dash generally from an downstream merge from bitcoin core.
 
-You can not submit BIPs into Dash.  The name for Dash improvement protocols are DIPS and are DASH specific.
+You can not submit BIPs into Dash.  The name for Dash improvement protocols are DIPs and are DASH specific.
 
 Having a BIP referenced here does not mean it was formally accepted in the bitcoin ecosystem unless its status is Final or Active.
 
@@ -12,9 +12,9 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 * Ignored - Not applicable to DASH or previously withdrawn from Bitcoin.  
 * Rejected - Accepted or Final in Bitcoin but Rejected in DASH.  
 
-2 Keywords can also give more information, they will proceed the Status: (ie Extended Partial).  
+2 Keywords can also give more information, they will preceed the Status: (ie Extended Partial).  
 
-* Extented - Kept from bitcoin with extensions to meet DASH network demands.  
+* Extended - Kept from bitcoin with extensions to meet DASH network demands.  
 * Modified - Kept from bitcoin and slightly modified.  
 
 
@@ -35,7 +35,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Amir Taaki
 | Process
 | Replaced
-|
+| Ignored
 |
 |- style="background-color: #cfffcf"
 | [[bip-0002.mediawiki|2]]
@@ -44,7 +44,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Luke Dashjr
 | Process
 | Active
-|
+| Ignored
 |
 |-
 | [[bip-0008.mediawiki|8]]
@@ -53,7 +53,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Shaolin Fry
 | Informational
 | Draft
-|
+| Ignored
 |
 |- style="background-color: #cfffcf"
 | [[bip-0009.mediawiki|9]]
@@ -62,7 +62,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Pieter Wuille, Peter Todd, Greg Maxwell, Rusty Russell
 | Informational
 | Final
-|
+| Active
 |
 |- style="background-color: #ffcfcf"
 | [[bip-0010.mediawiki|10]]
@@ -71,7 +71,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Alan Reiner
 | Informational
 | Withdrawn
-|
+| Ignored
 |
 |- style="background-color: #cfffcf"
 | [[bip-0011.mediawiki|11]]
@@ -80,7 +80,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Gavin Andresen
 | Standard
 | Final
-|
+| Active
 |
 |- style="background-color: #ffcfcf"
 | [[bip-0012.mediawiki|12]]
@@ -89,7 +89,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Gavin Andresen
 | Standard
 | Withdrawn
-|
+| Ignored
 |
 |- style="background-color: #cfffcf"
 | [[bip-0013.mediawiki|13]]
@@ -98,7 +98,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Gavin Andresen
 | Standard
 | Final
-|
+| Modified Active
 |
 |- style="background-color: #cfffcf"
 | [[bip-0014.mediawiki|14]]
@@ -107,6 +107,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Amir Taaki, Patrick Strateman
 | Standard
 | Final
+| Active
+| 
 |-
 | [[bip-0015.mediawiki|15]]
 | Applications
@@ -114,6 +116,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Amir Taaki
 | Standard
 | Deferred
+| Ignored
+|
 |- style="background-color: #cfffcf"
 | [[bip-0016.mediawiki|16]]
 | Consensus (soft fork)
@@ -121,6 +125,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Gavin Andresen
 | Standard
 | Final
+| Active
+|
 |- style="background-color: #ffcfcf"
 | [[bip-0017.mediawiki|17]]
 | Consensus (soft fork)
@@ -128,6 +134,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Luke Dashjr
 | Standard
 | Withdrawn
+| Ignored
+|
 |- style="background-color: #ffffcf"
 | [[bip-0018.mediawiki|18]]
 | Consensus (soft fork)
@@ -135,6 +143,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Luke Dashjr
 | Standard
 | Proposed
+| Ignored
+|
 |-
 | [[bip-0019.mediawiki|19]]
 | Applications
@@ -142,6 +152,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Luke Dashjr
 | Standard
 | Draft
+| Ignored
+|
 |- style="background-color: #ffcfcf"
 | [[bip-0020.mediawiki|20]]
 | Applications
@@ -149,6 +161,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Luke Dashjr
 | Standard
 | Replaced
+| Ignored
+|
 |- style="background-color: #cfffcf"
 | [[bip-0021.mediawiki|21]]
 | Applications
@@ -156,6 +170,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Nils Schneider, Matt Corallo
 | Standard
 | Final
+| Modified Active
+|
 |- style="background-color: #cfffcf"
 | [[bip-0022.mediawiki|22]]
 | API/RPC
@@ -163,6 +179,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Luke Dashjr
 | Standard
 | Final
+| Modified Active
+|
 |- style="background-color: #cfffcf"
 | [[bip-0023.mediawiki|23]]
 | API/RPC
@@ -170,6 +188,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Luke Dashjr
 | Standard
 | Final
+| Modified Active
+|
 |- style="background-color: #cfffcf"
 | [[bip-0030.mediawiki|30]]
 | Consensus (soft fork)
@@ -177,6 +197,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Pieter Wuille
 | Standard
 | Final
+| Active
+|
 |- style="background-color: #cfffcf"
 | [[bip-0031.mediawiki|31]]
 | Peer Services
@@ -184,6 +206,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Mike Hearn
 | Standard
 | Final
+| Active
+|
 |- style="background-color: #cfffcf"
 | [[bip-0032.mediawiki|32]]
 | Applications
@@ -191,6 +215,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Pieter Wuille
 | Informational
 | Final
+| *
+|
 |-
 | [[bip-0033.mediawiki|33]]
 | Peer Services
@@ -198,6 +224,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Amir Taaki
 | Standard
 | Draft
+| Ignored
+|
 |- style="background-color: #cfffcf"
 | [[bip-0034.mediawiki|34]]
 | Consensus (soft fork)
@@ -205,6 +233,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Gavin Andresen
 | Standard
 | Final
+| Active
+|
 |- style="background-color: #cfffcf"
 | [[bip-0035.mediawiki|35]]
 | Peer Services
@@ -212,6 +242,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Jeff Garzik
 | Standard
 | Final
+| Active
+|
 |-
 | [[bip-0036.mediawiki|36]]
 | Peer Services
@@ -219,6 +251,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Stefan Thomas
 | Standard
 | Draft
+| Ignored
+|
 |- style="background-color: #cfffcf"
 | [[bip-0037.mediawiki|37]]
 | Peer Services
@@ -226,6 +260,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Mike Hearn, Matt Corallo
 | Standard
 | Final
+| Active
+|
 |-
 | [[bip-0038.mediawiki|38]]
 | Applications
@@ -233,6 +269,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Mike Caldwell, Aaron Voisine
 | Standard
 | Draft
+| *
+|
 |- style="background-color: #ffffcf"
 | [[bip-0039.mediawiki|39]]
 | Applications
@@ -240,6 +278,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Marek Palatinus, Pavol Rusnak, Aaron Voisine, Sean Bowe
 | Standard
 | Proposed
+| *
+|
 |-
 | 40
 | API/RPC
@@ -247,6 +287,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Marek Palatinus
 | Standard
 | BIP number allocated
+| Ignored
+|
 |-
 | 41
 | API/RPC
@@ -254,6 +296,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Marek Palatinus
 | Standard
 | BIP number allocated
+| Ignored
+|
 |-
 | [[bip-0042.mediawiki|42]]
 | Consensus (soft fork)
@@ -261,6 +305,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Pieter Wuille
 | Standard
 | Draft
+| Ignored
+|
 |-
 | [[bip-0043.mediawiki|43]]
 | Applications
@@ -268,6 +314,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Marek Palatinus, Pavol Rusnak
 | Informational
 | Draft
+| *
+|
 |- style="background-color: #ffffcf"
 | [[bip-0044.mediawiki|44]]
 | Applications
@@ -275,6 +323,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Marek Palatinus, Pavol Rusnak
 | Standard
 | Proposed
+| *
+|
 |- style="background-color: #ffffcf"
 | [[bip-0045.mediawiki|45]]
 | Applications
@@ -282,6 +332,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Manuel Araoz, Ryan X. Charles, Matias Alejo Garcia
 | Standard
 | Proposed
+| *
+|
 |-
 | [[bip-0047.mediawiki|47]]
 | Applications
@@ -289,6 +341,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Justus Ranvier
 | Informational
 | Draft
+| *
+|
 |-
 | [[bip-0049.mediawiki|49]]
 | Applications
@@ -296,6 +350,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Daniel Weigl
 | Informational
 | Draft
+| Ignored
+|
 |- style="background-color: #cfffcf"
 | [[bip-0050.mediawiki|50]]
 |
@@ -303,6 +359,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Gavin Andresen
 | Informational
 | Final
+| Ignored
+|
 <!-- 50 series reserved for a group of post-mortems -->
 |-
 | [[bip-0060.mediawiki|60]]
@@ -311,6 +369,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Amir Taaki
 | Standard
 | Draft
+| Ignored
+|
 |- style="background-color: #cfffcf"
 | [[bip-0061.mediawiki|61]]
 | Peer Services
@@ -318,6 +378,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Gavin Andresen
 | Standard
 | Final
+| Extended Active
+|
 |- style="background-color: #ffcfcf"
 | [[bip-0062.mediawiki|62]]
 | Consensus (soft fork)
@@ -325,6 +387,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Pieter Wuille
 | Standard
 | Withdrawn
+| Ignored
+|
 |-
 | 63
 | Applications
@@ -332,6 +396,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Peter Todd
 | Standard
 | BIP number allocated
+| Ignored
+|
 |-
 | [[bip-0064.mediawiki|64]]
 | Peer Services
@@ -339,6 +405,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Mike Hearn
 | Standard
 | Draft
+| Ignored
+|
 |- style="background-color: #cfffcf"
 | [[bip-0065.mediawiki|65]]
 | Consensus (soft fork)
@@ -346,6 +414,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Peter Todd
 | Standard
 | Final
+| Active
+|
 |- style="background-color: #cfffcf"
 | [[bip-0066.mediawiki|66]]
 | Consensus (soft fork)
@@ -353,6 +423,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Pieter Wuille
 | Standard
 | Final
+| Active
+|
 |- style="background-color: #ffffcf"
 | [[bip-0067.mediawiki|67]]
 | Applications
@@ -360,6 +432,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Thomas Kerin, Jean-Pierre Rupp, Ruben de Vries
 | Standard
 | Proposed
+| *
+|
 |- style="background-color: #cfffcf"
 | [[bip-0068.mediawiki|68]]
 | Consensus (soft fork)
@@ -367,6 +441,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Mark Friedenbach, BtcDrak, Nicolas Dorier, kinoshitajona
 | Standard
 | Final
+| Active
+|
 |- style="background-color: #ffffcf"
 | [[bip-0069.mediawiki|69]]
 | Applications
@@ -374,6 +450,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Kristov Atlas
 | Informational
 | Proposed
+| *
+|
 |- style="background-color: #cfffcf"
 | [[bip-0070.mediawiki|70]]
 | Applications
@@ -381,6 +459,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Gavin Andresen, Mike Hearn
 | Standard
 | Final
+| *
+|
 |- style="background-color: #cfffcf"
 | [[bip-0071.mediawiki|71]]
 | Applications
@@ -388,6 +468,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Gavin Andresen
 | Standard
 | Final
+| Modified Active
+|
 |- style="background-color: #cfffcf"
 | [[bip-0072.mediawiki|72]]
 | Applications
@@ -395,6 +477,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Gavin Andresen
 | Standard
 | Final
+| Modified Active
+|
 |- style="background-color: #cfffcf"
 | [[bip-0073.mediawiki|73]]
 | Applications
@@ -402,6 +486,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Stephen Pair
 | Standard
 | Final
+| *
+|
 |-
 | [[bip-0074.mediawiki|74]]
 | Applications
@@ -409,6 +495,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Toby Padilla
 | Standard
 | Draft
+| *
+|
 |-
 | [[bip-0075.mediawiki|75]]
 | Applications
@@ -416,6 +504,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Justin Newton, Matt David, Aaron Voisine, James MacWhyte
 | Standard
 | Draft
+| *
+|
 |-
 | [[bip-0080.mediawiki|80]]
 |
@@ -423,6 +513,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Justus Ranvier, Jimmy Song
 | Informational
 | Deferred
+| Ignored
+|
 |-
 | [[bip-0081.mediawiki|81]]
 |
@@ -430,6 +522,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Justus Ranvier, Jimmy Song
 | Informational
 | Deferred
+| Ignored
+|
 |-
 | [[bip-0083.mediawiki|83]]
 | Applications
@@ -437,6 +531,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Eric Lombrozo
 | Standard
 | Draft
+| *
+|
 |-
 | [[bip-0090.mediawiki|90]]
 | Consensus (hard fork)
@@ -444,6 +540,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Suhas Daftuar
 | Informational
 | Draft
+| Ignored
+|
 |-
 | [[bip-0091.mediawiki|91]]
 | Consensus (soft fork)
@@ -451,6 +549,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | James Hilliard
 | Standard
 | Draft
+| Ignored
+|
 |-
 | [[bip-0099.mediawiki|99]]
 |
@@ -458,6 +558,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Jorge Timón
 | Informational
 | Draft
+| Ignored
+|
 |- style="background-color: #ffcfcf"
 | [[bip-0101.mediawiki|101]]
 | Consensus (hard fork)
@@ -465,6 +567,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Gavin Andresen
 | Standard
 | Withdrawn
+| Ignored
+|
 |-
 | [[bip-0102.mediawiki|102]]
 | Consensus (hard fork)
@@ -472,6 +576,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Jeff Garzik
 | Standard
 | Draft
+| Ignored
+|
 |-
 | [[bip-0103.mediawiki|103]]
 | Consensus (hard fork)
@@ -479,6 +585,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Pieter Wuille
 | Standard
 | Draft
+| Ignored
+|
 |-
 | [[bip-0104.mediawiki|104]]
 | Consensus (hard fork)
@@ -486,6 +594,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | t.khan
 | Standard
 | Draft
+| Ignored
+|
 |-
 | [[bip-0105.mediawiki|105]]
 | Consensus (hard fork)
@@ -493,6 +603,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | BtcDrak
 | Standard
 | Draft
+| Ignored
+|
 |-
 | [[bip-0106.mediawiki|106]]
 | Consensus (hard fork)
@@ -500,6 +612,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Upal Chakraborty
 | Standard
 | Draft
+| Ignored
+|
 |-
 | [[bip-0107.mediawiki|107]]
 | Consensus (hard fork)
@@ -507,6 +621,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Washington Y. Sanchez
 | Standard
 | Draft
+| Ignored
+|
 |- style="background-color: #ffcfcf"
 | [[bip-0109.mediawiki|109]]
 | Consensus (hard fork)
@@ -514,6 +630,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Gavin Andresen
 | Standard
 | Rejected
+| Ignored
+|
 |- style="background-color: #ffffcf"
 | [[bip-0111.mediawiki|111]]
 | Peer Services
@@ -521,6 +639,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Matt Corallo, Peter Todd
 | Standard
 | Proposed
+| Active
+|
 |- style="background-color: #cfffcf"
 | [[bip-0112.mediawiki|112]]
 | Consensus (soft fork)
@@ -528,6 +648,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | BtcDrak, Mark Friedenbach, Eric Lombrozo
 | Standard
 | Final
+| Active
+|
 |- style="background-color: #cfffcf"
 | [[bip-0113.mediawiki|113]]
 | Consensus (soft fork)
@@ -535,6 +657,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Thomas Kerin, Mark Friedenbach
 | Standard
 | Final
+| Active
+|
 |-
 | [[bip-0114.mediawiki|114]]
 | Consensus (soft fork)
@@ -542,6 +666,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Johnson Lau
 | Standard
 | Draft
+| Ignored
+|
 |-
 | [[bip-0115.mediawiki|115]]
 | Consensus (soft fork)
@@ -549,6 +675,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Luke Dashjr
 | Standard
 | Draft
+| Ignored
+|
 |-
 | [[bip-0120.mediawiki|120]]
 | Applications
@@ -556,6 +684,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Kalle Rosenbaum
 | Standard
 | Draft
+| *
+|
 |-
 | [[bip-0121.mediawiki|121]]
 | Applications
@@ -563,6 +693,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Kalle Rosenbaum
 | Standard
 | Draft
+| Ignored
+|
 |-
 | [[bip-0122.mediawiki|122]]
 | Applications
@@ -570,6 +702,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Marco Pontello
 | Standard
 | Draft
+| *
+|
 |- style="background-color: #cfffcf"
 | [[bip-0123.mediawiki|123]]
 |
@@ -577,6 +711,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Eric Lombrozo
 | Process
 | Active
+| Ignored
+|
 |-
 | [[bip-0124.mediawiki|124]]
 | Applications
@@ -584,6 +720,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Eric Lombrozo, William Swanson
 | Informational
 | Draft
+| *
+|
 |- style="background-color: #ffffcf"
 | [[bip-0125.mediawiki|125]]
 | Applications
@@ -591,6 +729,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | David A. Harding, Peter Todd
 | Standard
 | Proposed
+| Modified Partial
+|
 |-
 | [[bip-0126.mediawiki|126]]
 |
@@ -598,6 +738,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Kristov Atlas
 | Informational
 | Draft
+| Ignored
+|
 |- style="background-color: #ffffcf"
 | [[bip-0130.mediawiki|130]]
 | Peer Services
@@ -605,6 +747,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Suhas Daftuar
 | Standard
 | Proposed
+| Active
+|
 |-
 | [[bip-0131.mediawiki|131]]
 | Consensus (hard fork)
@@ -612,6 +756,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Chris Priest
 | Standard
 | Draft
+| Ignored
+|
 |- style="background-color: #ffcfcf"
 | [[bip-0132.mediawiki|132]]
 |
@@ -619,6 +765,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Andy Chase
 | Process
 | Withdrawn
+| Ignored
+|
 |-
 | [[bip-0133.mediawiki|133]]
 | Peer Services
@@ -626,6 +774,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Alex Morcos
 | Standard
 | Draft
+| Ignored
+|
 |-
 | [[bip-0134.mediawiki|134]]
 | Consensus (hard fork)
@@ -633,6 +783,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Tom Zander
 | Standard
 | Draft
+| Ignored
+|
 |-
 | [[bip-0135.mediawiki|135]]
 |
@@ -640,6 +792,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Sancho Panza
 | Informational
 | Draft
+| Ignored
+|
 |-
 | [[bip-0140.mediawiki|140]]
 | Consensus (soft fork)
@@ -647,6 +801,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Christian Decker
 | Standard
 | Draft
+| Ignored
+|
 |-
 | [[bip-0141.mediawiki|141]]
 | Consensus (soft fork)
@@ -654,6 +810,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Eric Lombrozo, Johnson Lau, Pieter Wuille
 | Standard
 | Draft
+| Ignored
+|
 |-
 | [[bip-0142.mediawiki|142]]
 | Applications
@@ -661,6 +819,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Johnson Lau
 | Standard
 | Deferred
+| Ignored
+|
 |-
 | [[bip-0143.mediawiki|143]]
 | Consensus (soft fork)
@@ -668,6 +828,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Johnson Lau, Pieter Wuille
 | Standard
 | Draft
+| Ignored
+|
 |-
 | [[bip-0144.mediawiki|144]]
 | Peer Services
@@ -675,6 +837,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Eric Lombrozo, Pieter Wuille
 | Standard
 | Draft
+| Ignored
+|
 |-
 | [[bip-0145.mediawiki|145]]
 | API/RPC
@@ -682,6 +846,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Luke Dashjr
 | Standard
 | Draft
+| Ignored
+|
 |-
 | [[bip-0146.mediawiki|146]]
 | Consensus (soft fork)
@@ -689,6 +855,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Johnson Lau, Pieter Wuille
 | Standard
 | Draft
+| Ignored
+|
 |-
 | [[bip-0147.mediawiki|147]]
 | Consensus (soft fork)
@@ -696,6 +864,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Johnson Lau
 | Standard
 | Draft
+| Ignored
+|
 |-
 | [[bip-0148.mediawiki|148]]
 | Consensus (soft fork)
@@ -703,6 +873,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Shaolin Fry
 | Standard
 | Draft
+| Ignored
+|
 |-
 | [[bip-0149.mediawiki|149]]
 | Consensus (soft fork)
@@ -710,6 +882,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Shaolin Fry
 | Standard
 | Draft
+| Ignored
+|
 |-
 | [[bip-0150.mediawiki|150]]
 | Peer Services
@@ -717,6 +891,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Jonas Schnelli
 | Standard
 | Draft
+| Ignored
+|
 |-
 | [[bip-0151.mediawiki|151]]
 | Peer Services
@@ -724,6 +900,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Jonas Schnelli
 | Standard
 | Draft
+| Ignored
+|
 |-
 | [[bip-0152.mediawiki|152]]
 | Peer Services
@@ -731,6 +909,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Matt Corallo
 | Standard
 | Draft
+| Ignored
+|
 |-
 | [[bip-0154.mediawiki|154]]
 | Peer Services
@@ -738,6 +918,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Karl-Johan Alm
 | Standard
 | Draft
+| Ignored
+|
 |-
 | [[bip-0171.mediawiki|171]]
 | Applications
@@ -745,6 +927,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Luke Dashjr
 | Standard
 | Draft
+| Ignored
+|
 |-
 | [[bip-0173.mediawiki|173]]
 | Applications
@@ -752,6 +936,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Pieter Wuille, Greg Maxwell
 | Informational
 | Draft
+| Ignored
+|
 |-
 | [[bip-0180.mediawiki|180]]
 | Peer Services
@@ -759,6 +945,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Luke Dashjr
 | Standard
 | Draft
+| Ignored
+|
 |-
 | [[bip-0199.mediawiki|199]]
 | Applications
@@ -766,6 +954,10 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Sean Bowe, Daira Hopwood
 | Standard
 | Draft
+| Ignored
+|
 |}
+
+* BIP is not Bitcoin or Dash specific (i.e. BIP-0032 for HD Wallets).  Generally relates to the Application Layer and not specifically the reference client. 
 
 <!-- IMPORTANT!  See the instructions at the top of this page, do NOT JUST add BIPs here! -->

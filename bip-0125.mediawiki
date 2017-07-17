@@ -7,6 +7,7 @@
   Comments-Summary: No comments yet.
   Comments-URI: https://github.com/bitcoin/bips/wiki/Comments:BIP-0125
   Status: Proposed
+  Dash Status: Modified Partial
   Type: Standards Track
   Created: 2015-12-04
   License: PD
@@ -190,3 +191,10 @@ existing wallets signals inherited replaceability.
 ==Copyright==
 
 This document is placed in the public domain.
+
+== Dash Modifications ==
+* RBF was disabled when bitcoin code was merged
+
+== References ==
+* [https://www.dash.org/forum/threads/version-12-1-release.12985/ 12.1 Release announcement]
+* [https://github.com/dashpay/dash/blob/master/src/main.h main.h] (DEFAULT_ENABLE_REPLACEMENT = false)
