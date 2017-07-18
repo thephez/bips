@@ -34,7 +34,7 @@ Block template creation can be influenced by various parameters:
 |-
 ! Key !! Required !! Type !! Description
 |-
-| capabilities || No || Array of Strings || SHOULD contain a list of the following, to indicate client-side support: [[#Optional: Long Polling|"longpoll"]], "coinbasetxn", "coinbasevalue", [[bip-0023.mediawiki#block-proposal|"proposal"]], [[bip-0023.mediawiki#Logical Services|"serverlist"]], "workid", and any of the [[bip-0023.mediawiki#Mutations|mutations]]
+| capabilities || No || Array of Strings || SHOULD contain a list of the following, to indicate client-side support: [[#Optional: Long Polling|"longpoll"]], "coinbasetxn", "coinbasevalue", [[bip-0023.mediawiki#block-proposal|"proposal"]], [[bip-0023.mediawiki#logical-services|"serverlist"]], "workid", and any of the [[bip-0023.mediawiki#Mutations|mutations]]
 |-
 | mode || No || String || MUST be "template" or omitted
 |}
