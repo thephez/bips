@@ -4,15 +4,15 @@
   Title: Reject P2P message
   Author: Gavin Andresen <gavinandresen@gmail.com>
   Comments-Summary: Controversial; some recommendation, and some discouragement
-  Comments-URI: https://github.com/bitcoin/bips/wiki/Comments:BIP-0061
   Status: Final
+  Dash Status: Extended Active
   Type: Standards Track
   Created: 2014-06-18
 </pre>
 
 ==Abstract==
 
-This BIP describes a new message type for the Bitcoin peer-to-peer network.
+This BIP describes a new message type for the peer-to-peer network.
 
 ==Motivation==
 
@@ -26,7 +26,7 @@ or fees.
 
 ==Specification==
 
-Data types in this specification are as described at https://en.bitcoin.it/wiki/Protocol_specification
+Data types in this specification are as described in the [https://en.bitcoin.it/wiki/Protocol_specification Bitcoin protocol specification] and the [https://github.com/dashpay/dash/blob/master/dash-docs/protocol-documentation.md Dash protocol extensions].
 
 ===reject===
 
@@ -57,7 +57,7 @@ Every reject message begins with the following fields. Some messages append extr
 |}
 
 The human-readable string is intended only for debugging purposes; in particular, different implementations may
-use different strings. The string should not be shown to users or used for anthing besides diagnosing
+use different strings. The string should not be shown to users or used for anything besides diagnosing
 interoperability problems.
 
 The following reject code categories are used; in the descriptions below, "server" is the peer generating
@@ -72,6 +72,20 @@ the reject message, "client" is the peer that will receive the message.
 |-
 | 0x40-0x4f || Server policy rule
 |}
+
+==== Defined reject codes ====
+{|
+| Code || Description
+|-
+| 0x01 || Malformed
+| 0x10 || Invalid
+| 0x11 || Obsolete
+| 0x12 || Duplicate
+| 0x40 || Non-standard
+| 0x41 || Dust
+| 0x42 || Insufficient fee
+| 0x43 || Checkpoint
+}
 
 ==== rejection codes common to all message types ====
 
@@ -156,3 +170,10 @@ For example, notifying the user of every reject message received
 would make it trivial for an attacker to mount an annoy-the-user attack.
 Even merely writing every reject message to a debugging log could make
 an implementation vulnerable to a fill-up-the-users-disk attack.
+
+== References ==
+* [https://github.com/dashpay/dash/blob/master/src/consensus/validation.h Reject message codes]
+
+== Dash Modifications ==
+* Add reject messages for Instant Send Transaction Lock Request message (ix)
+  * [https://github.com/dashpay/dash/blob/master/src/main.cpp#L1103 Bad TxLockRequest and TxLock conflict reject messages]
