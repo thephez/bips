@@ -93,7 +93,7 @@ the reject message, "client" is the peer that will receive the message.
 |-
 | 0x43 || Checkpoint
 |-
-}
+|}
 
 ==== Rejection codes common to all message types ====
 
@@ -184,4 +184,4 @@ an implementation vulnerable to a fill-up-the-users-disk attack.
 
 == Dash Modifications ==
 * Add reject messages for Instant Send Transaction Lock Request message (ix)
-  * Bad TxLockRequest and TxLock conflict reject messages - https://github.com/dashpay/dash/blob/master/src/main.cpp (Line 1103)
+  * [https://github.com/dashpay/dash/blob/master/src/main.cpp Bad TxLockRequest and TxLock conflict reject messages] -  see Line 1103 and following
