@@ -41,7 +41,7 @@ For example, the message flow between two peers for a relayed transaction that i
 
 All implementations of the P2P protocol version 70,002 and later should support the reject message.
 
-====common payload====
+====Common payload====
 
 
 Every reject message begins with the following fields. Some messages append extra, message-specific data.
@@ -78,16 +78,23 @@ the reject message, "client" is the peer that will receive the message.
 | Code || Description
 |-
 | 0x01 || Malformed
+|-
 | 0x10 || Invalid
+|-
 | 0x11 || Obsolete
+|-
 | 0x12 || Duplicate
+|-
 | 0x40 || Non-standard
+|-
 | 0x41 || Dust
+|-
 | 0x42 || Insufficient fee
+|-
 | 0x43 || Checkpoint
 }
 
-==== rejection codes common to all message types ====
+==== Rejection codes common to all message types ====
 
 {|
 | Code || Description
@@ -107,7 +114,7 @@ Codes generated during the intial connection process in response to a "version" 
 | 0x12 || Duplicate version message received
 |}
 
-==== reject tx payload, codes ====
+==== Reject tx payload, codes ====
 
 Transaction rejection messages extend the basic message with the transaction id hash:
 
@@ -133,7 +140,7 @@ The following codes are used:
 | 0x42 || Transaction does not have enough fee/priority to be relayed or mined
 |}
 
-==== payload, reject block ====
+==== Payload, reject block ====
 
 Block rejection messages extend the basic message with the block header hash:
 
@@ -176,4 +183,4 @@ an implementation vulnerable to a fill-up-the-users-disk attack.
 
 == Dash Modifications ==
 * Add reject messages for Instant Send Transaction Lock Request message (ix)
-  * [https://github.com/dashpay/dash/blob/master/src/main.cpp#L1103 Bad TxLockRequest and TxLock conflict reject messages]
+  * Bad TxLockRequest and TxLock conflict reject messages - https://github.com/dashpay/dash/blob/master/src/main.cpp#L1103
