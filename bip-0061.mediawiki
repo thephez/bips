@@ -181,7 +181,8 @@ an implementation vulnerable to a fill-up-the-users-disk attack.
 
 == References ==
 * [https://github.com/dashpay/dash/blob/master/src/consensus/validation.h Reject message codes]
+* [https://github.com/dashpay/dash/blob/master/src/main.cpp Bad TxLockRequest and TxLock conflict reject messages] 
 
 == Dash Modifications ==
 * Add reject messages for Instant Send Transaction Lock Request message (ix)
-  * [https://github.com/dashpay/dash/blob/master/src/main.cpp Bad TxLockRequest and TxLock conflict reject messages] -  see Line 1103 and following
+  * Bad TxLockRequest and TxLock conflict reject messages included
