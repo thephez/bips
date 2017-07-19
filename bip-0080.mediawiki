@@ -4,8 +4,8 @@
   Author: Justus Ranvier <justus@opentransactions.org>
           Jimmy Song <jimmy@monetas.net>
   Comments-Summary: No comments yet.
-  Comments-URI: https://github.com/bitcoin/bips/wiki/Comments:BIP-0080
   Status: Deferred
+  Dash Status:
   Type: Informational
   Created: 2014-08-11
   License: PD

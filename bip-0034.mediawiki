@@ -4,8 +4,8 @@
   Title: Block v2, Height in Coinbase
   Author: Gavin Andresen <gavinandresen@gmail.com>
   Comments-Summary: No comments yet.
-  Comments-URI: https://github.com/bitcoin/bips/wiki/Comments:BIP-0034
   Status: Final
+  Dash Status:
   Type: Standards Track
   Created: 2012-07-06
 </pre>
