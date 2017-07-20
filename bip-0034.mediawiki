@@ -36,7 +36,7 @@ All older clients are compatible with this change. Users and merchants should no
 
 [https://github.com/bitcoin/bitcoin/pull/1526 Bitcoin]
 
-https://github.com/dashpay/dash/commits/d18f2fd9d6927b1a132c5e0094479cf44fc54aeb Dash merge]
+[https://github.com/dashpay/dash/commits/d18f2fd9d6927b1a132c5e0094479cf44fc54aeb Dash merge]
 
 ==Dash Modifications==
 * None
