@@ -38,8 +38,9 @@ Clients must opt-in to the new feature by advertising a protocol version > 60000
 
 ==Implementation==
 
-https://github.com/bitcoin/bitcoin/pull/932/files
-https://github.com/dashpay/dash/commit/2fef9dac628524a528263e0ac1efcb719cd8a98d
+[https://github.com/bitcoin/bitcoin/pull/932/files Bitcoin implementation]
+
+[https://github.com/dashpay/dash/commit/991193a07c438396bd0654e5e74ac33bfc81c455 Dash commit cross reference]
 
 ==Dash Modifications==
 * None
