@@ -65,7 +65,7 @@ Examples:
 
 This BIP replaces [[bip-0012.mediawiki|BIP 12]], which proposed a new Script opcode ("OP_EVAL") to accomplish everything in this BIP and more.
 
-The Motivation for this BIP (and [[bip-0013.mediawiki|BIP 13], the pay-to-script-hash address type) is somewhat controversial; several people feel that it is unnecessary, and complex/multisignature transaction types should be supported by simply giving the sender the complete {serialized script}. The author believes that this BIP will minimize the changes needed to all of the supporting infrastructure that has already been created to send funds to a base58-encoded-20-byte bitcoin addresses, allowing merchants and exchanges and other software to start supporting multisignature transactions sooner.
+The Motivation for this BIP (and [[bip-0013.mediawiki|BIP 13]], the pay-to-script-hash address type) is somewhat controversial; several people feel that it is unnecessary, and complex/multisignature transaction types should be supported by simply giving the sender the complete {serialized script}. The author believes that this BIP will minimize the changes needed to all of the supporting infrastructure that has already been created to send funds to a base58-encoded-20-byte bitcoin addresses, allowing merchants and exchanges and other software to start supporting multisignature transactions sooner.
 
 Recognizing one 'special' form of scriptPubKey and performing extra validation when it is detected is ugly. However, the consensus is that the alternatives are either uglier, are more complex to implement, and/or expand the power of the expression language in dangerous ways.
 
