@@ -6,7 +6,7 @@
           Matt Corallo <bip37@bluematt.me>
   Comments-Summary: No comments yet.
   Status: Final
-  Dash Status:
+  Dash Status: Active
   Type: Standards Track
   Created: 2012-10-24
   License: PD
