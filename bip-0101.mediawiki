@@ -5,7 +5,7 @@
   Author: Gavin Andresen <gavinandresen@gmail.com>
   Comments-Summary: No comments yet.
   Status: Withdrawn
-  Dash Status:
+  Dash Status: Ignored
   Type: Standards Track
   Created: 2015-06-22
 </pre>
@@ -127,3 +127,5 @@ Simplified Payment Verification software is not affected, unless it makes assump
 
 https://github.com/bitcoin/bitcoin/pull/6341
 
+==Dash Modifications==
+* None

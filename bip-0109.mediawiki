@@ -5,7 +5,7 @@
   Author: Gavin Andresen <gavinandresen@gmail.com>
   Comments-Summary: No comments yet.
   Status: Rejected
-  Dash Status:
+  Dash Status: Ignored
   Type: Standards Track
   Created: 2016-01-28
   License: PD
@@ -84,3 +84,6 @@ See also http://gavinandresen.ninja/a-guided-tour-of-the-2mb-fork
 ==Copyright==
 
 This work is placed in the public domain.
+
+==Dash Modifications==
+* None

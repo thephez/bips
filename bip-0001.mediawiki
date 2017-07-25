@@ -4,7 +4,7 @@
   Author: Amir Taaki <genjix@riseup.net>
   Comments-Summary: No comments yet.
   Status: Replaced
-  Dash Status:
+  Dash Status: Ignored
   Type: Process
   Created: 2011-08-19
   Superseded-By: 2
@@ -182,3 +182,6 @@ This document was derived heavily from Python's PEP-0001. In many places text wa
 10 Oct 2015 - Added clarifications about submission process and BIP number assignment.
 
 01 Jan 2016 - Clarified early stages of BIP idea championing, collecting community feedback, etc.
+
+==Dash Modifications==
+* None

@@ -5,7 +5,7 @@
   Author: Gavin Andresen <gavinandresen@gmail.com>
   Comments-Summary: No comments yet.
   Status: Withdrawn
-  Dash Status:
+  Dash Status: Ignored
   Type: Standards Track
   Created: 2011-10-18
 </pre>
@@ -84,3 +84,6 @@ https://bitcointalk.org/index.php?topic=46538
 "Bitcoin Address 01" BIP
 
 M-of-N Multisignature Transactions BIP 11
+
+==Dash Modifications==
+* None

@@ -4,7 +4,7 @@
   Author: Andy Chase <theandychase@gmail.com>
   Comments-Summary: No comments yet.
   Status: Withdrawn
-  Dash Status:
+  Dash Status: Ignored
   Type: Process
   Created: 2015-08-31
   License: PD
@@ -118,3 +118,5 @@ A BIP Process Manager should be chosen who is in charge of:
 
 In order for this process BIP to become active, it must succeed by its own rules. At least a 4% sample of the Bitcoin community must be represented, with at least one committee in each segment included. Once at least one committee has submitted a declaration, a request for comments will be called and the process should be completed from there.
 
+==Dash Modifications==
+* None

@@ -5,7 +5,7 @@
   Author: Luke Dashjr <luke+bip@dashjr.org>
   Comments-Summary: No comments yet.
   Status: Replaced
-  Dash Status:
+  Dash Status: Ignored
   Type: Standards Track
   Created: 2011-01-10
   License: BSD-2-Clause
@@ -225,3 +225,6 @@ This claims the money you were sent. Until your claim transaction has confirmed 
      }
  }
 </pre>
+
+==Dash Modifications==
+* None
