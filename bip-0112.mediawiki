@@ -7,7 +7,7 @@
           Eric Lombrozo <elombrozo@gmail.com>
   Comments-Summary: No comments yet.
   Status: Final
-  Dash Status:
+  Dash Status: Active
   Type: Standards Track
   Created: 2015-08-10
   License: PD
@@ -15,7 +15,7 @@
 
 ==Abstract==
 
-This BIP describes a new opcode (CHECKSEQUENCEVERIFY) for the Bitcoin
+This BIP describes a new opcode (CHECKSEQUENCEVERIFY) for the
 scripting system that in combination with BIP 68 allows execution
 pathways of a script to be restricted based on the age of the output
 being spent.
@@ -44,8 +44,8 @@ the output being spent; until that relative age has been reached any script exec
 
 BIP 68 repurposes the transaction nSequence field meaning by giving
 sequence numbers new consensus-enforced semantics as a relative
-lock-time. However, there is no way to build Bitcoin scripts to make
-decisions based on this field.
+lock-time. However, there is no way to build scripts to make decisions
+based on this field.
 
 By making the nSequence field accessible to script, it becomes
 possible to construct code pathways that only become accessible some
@@ -348,9 +348,9 @@ https://github.com/bitcoin/bitcoin/pull/7524
 
 This BIP is to be deployed by "versionbits" BIP9 using bit 0.
 
-For Bitcoin '''mainnet''', the BIP9 '''starttime''' will be midnight 1st May 2016 UTC (Epoch timestamp 1462060800) and BIP9 '''timeout''' will be midnight 1st May 2017 UTC (Epoch timestamp 1493596800).
+For Dash '''mainnet''', the BIP9 '''starttime''' will be midnight 5th February 2017 UTC (Epoch timestamp 1486252800) and BIP9 '''timeout''' will be midnight 5th February 2018 UTC (Epoch timestamp 1517788800).
 
-For Bitcoin '''testnet''', the BIP9 '''starttime''' will be midnight 1st March 2016 UTC (Epoch timestamp 1456790400) and BIP9 '''timeout''' will be midnight 1st May 2017 UTC (Epoch timestamp 1493596800).
+For Dash '''testnet''', the BIP9 '''starttime''' will be midnight 1st March 2016 UTC (Epoch timestamp 1456790400) and BIP9 '''timeout''' will be midnight 1st May 2017 UTC (Epoch timestamp 1493596800).
 
 This BIP must be deployed simultaneously with BIP68 and BIP113 using the same deployment mechanism.
 
@@ -393,8 +393,11 @@ Thanks to Eric Lombrozo and Anthony Towns for contributing example use cases.
 [https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2013-April/002433.html Jeremy Spilman Micropayment Channels]
 
 
+[https://github.com/dashpay/dash/commit/53e53a33c939949665f60d5eeb82abbb21f97128 Dash merge]
+
 ==Copyright==
 
 This document is placed in the public domain.
 
+==Dash Modifications==
 

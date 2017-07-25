@@ -5,7 +5,7 @@
   Author: Suhas Daftuar <sdaftuar@chaincode.com>
   Comments-Summary: No comments yet.
   Status: Proposed
-  Dash Status:
+  Dash Status: Active
   Type: Standards Track
   Created: 2015-05-08
   License: PD
@@ -44,8 +44,13 @@ Older clients remain fully compatible and interoperable after this change.
 
 ==Implementation==
 
-https://github.com/bitcoin/bitcoin/pull/6494
+[https://github.com/bitcoin/bitcoin/pull/6494 Bitcoin]
+
+[https://github.com/dashpay/dash/commit/9fa8c48abbee1fe9d765705897e105274421d385 Dash merge]
 
 ==Copyright==
 
 This document is placed in the public domain.
+
+==Dash Modifications==
+* None
