@@ -22,7 +22,7 @@ Embedded in the protocol is a version number. Primarily this version number is i
 
 == Rationale ==
 
-With non-separated version numbers, every release of the reference client will increase its internal version number. Primarily this holds every other client hostage to a game of catch-up with reference version number schemes. This plays against the decentralised nature of the project, by forcing every software release to remain in step with the release schedule of one group of developers.
+With non-separated version numbers, every release of the reference client will increase its internal version number. Primarily this holds every other client hostage to a game of catch-up with the reference client's version number schemes. This plays against the decentralised nature of the project, by forcing every software release to remain in step with the release schedule of one group of developers.
 
 Version bumping can also introduce incompatibilities and fracture the network. In order that the health of the network is maintained, the development of the protocol as a shared common collaborative process requires being split off from the implementation of that protocol. Neutral third entities to guide the protocol with representatives from all groups, present the chance for growth in a positive manner with minimal risks.
 
@@ -53,7 +53,7 @@ The version field in "version" and "getblocks" packets will become the protocol 
 
 The currently unused sub_version_num field in "version" packets will become the new user-agent string.
 
-User agents are a modified browser user agent with more structure to aid parsers and provide some coherence. The software usually works like a stack starting from the core code-base up to the end graphical interface. Therefore the user agent strings codify this relationship.
+User agents follow a modified browser user agent syntax with more structure to aid parsers and provide some coherence. The software usually works like a stack starting from the core code-base up to the end graphical interface. Therefore the user agent strings codify this relationship.
 
 Basic format:
 
@@ -79,7 +79,7 @@ Example:
 
   /BitcoinJ:0.2(iPad; U; CPU OS 3_2_1)/AndroidBuild:0.8/
 
-Reserved symbols are therefore: "/", ":",  "(", and  ")"
+Reserved symbols are therefore: '''/''', ''':''',  '''(''', and  ''')'''
 
 They should not be misused beyond what is specified in this section.
 
