@@ -84,7 +84,7 @@ For Dash '''mainnet''', the BIP9 '''starttime''' will be midnight 5th February 2
 
 For Dash '''testnet''', the BIP9 '''starttime''' will be midnight 1st March 2016 UTC (Epoch timestamp 1456790400) and BIP9 '''timeout''' will be midnight 1st May 2017 UTC (Epoch timestamp 1493596800).
 
-This BIP must be deployed simultaneously with BIP68 and BIP112 using the [[bip-0009/assignments.mediawiki.mediawiki|same deployment mechanism]].
+This BIP must be deployed simultaneously with BIP68 and BIP112 using the [[bip-0009/assignments.mediawiki|same deployment mechanism]].
 
 
 ==Acknowledgements==
