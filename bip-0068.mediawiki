@@ -231,7 +231,7 @@ For Dash '''mainnet''', the BIP9 '''starttime''' will be midnight 5th February 2
 
 For Dash '''testnet''', the BIP9 '''starttime''' will be midnight 1st March 2016 UTC (Epoch timestamp 1456790400) and BIP9 '''timeout''' will be midnight 1st May 2017 UTC (Epoch timestamp 1493596800).
 
-This BIP must be deployed simultaneously with BIP112 and BIP113 using the same deployment mechanism.
+This BIP must be deployed simultaneously with BIP112 and BIP113 using the [[assignments.mediawiki|same deployment mechanism]].
 
 ==Compatibility==
 
@@ -273,4 +273,4 @@ Hashed Timelock Contracts (HTLCs): https://github.com/ElementsProject/lightning/
 * Due to the faster block time in Dash (2.5 minutes) the maximum block-based time-lock is only 25% as long as in bitcoin. Dash would need to use 18 bits of the sequence number as the relative lock-time to support a block-based lock-time of one year.
 
 ==Dash Modifications==
-* None
+* Deployment start/end time
