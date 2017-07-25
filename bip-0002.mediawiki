@@ -3,8 +3,8 @@
   Title: BIP process, revised
   Author: Luke Dashjr <luke+bip@dashjr.org>
   Comments-Summary: No comments yet.
-  Comments-URI: https://github.com/bitcoin/bips/wiki/Comments:BIP-0002
   Status: Active
+  Dash Status:
   Type: Process
   Created: 2016-02-03
   License: BSD-2-Clause
@@ -414,3 +414,11 @@ Why is Public Domain no longer acceptable for new BIPs?
 * [[bip-0001.mediawiki|BIP 1: BIP Purpose and Guidelines]]
 * [[bip-0123.mediawiki|BIP 123: BIP Classification]]
 * [https://tools.ietf.org/html/rfc7282 RFC 7282: On Consensus and Humming in the IETF]
+
+==Dash Modifications==
+Dash has released Dash Improvement Protocol (DIP) documents for tracking Dash specific features and protocols.  Per the [https://github.com/dashpay/dips Dash Improvement Protocol (DIP) Readme], DIPs use the same general guidelines for introducing a new DIP as specified in BIP 2, with a few differences. Specifically:
+
+* Instead of the BIP editor, initiate contact with the Dash Core development team and your request should be routed to the DIP editor(s). The DIP workflow mimics the BIP workflow.
+* Recommended licenses include the MIT license
+* Markdown format is the preferred format for DIPs
+* Following a discussion, the proposal should be submitted to the DIPs git repository as a pull request. This draft must be written in BIP/DIP style as described in BIP 2, and named with an alias such as "dip-johndoe-infinitedash" until the editor has assigned it a DIP number (authors MUST NOT self-assign DIP numbers).

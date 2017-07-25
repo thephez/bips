@@ -5,8 +5,8 @@
   Author: Amir Taaki <genjix@riseup.net>
           Patrick Strateman <bitcoin-bips@covertinferno.org>
   Comments-Summary: No comments yet.
-  Comments-URI: https://github.com/bitcoin/bips/wiki/Comments:BIP-0014
   Status: Final
+  Dash Status: Active
   Type: Standards Track
   Created: 2011-11-10
   Post-History: 2011-11-02
@@ -79,14 +79,17 @@ Example:
 
   /BitcoinJ:0.2(iPad; U; CPU OS 3_2_1)/AndroidBuild:0.8/
 
-Reserved symbols are therefore: / : ( )
+Reserved symbols are therefore: "/", ":",  "(", and  ")"
 
 They should not be misused beyond what is specified in this section.
 
-* / separates the code-stack
-* : specifies the implementation version of the particular stack
-* ( and ) delimits a comment which optionally separates data using ;
+* / - separates the code-stack
+* :  - specifies the implementation version of the particular stack
+* ( and ) - delimit a comment which optionally separates data using ";"
 
 == Timeline ==
 
 When this document was published, the bitcoin protocol and Satoshi client versions were currently at 0.5 and undergoing changes. In order to minimise disruption and allow the undergoing changes to be completed, the next protocol version at 0.6 became peeled from the client version (also at 0.6). As of that time (January 2012), protocol and implementation version numbers are distinct from each other.
+
+==Dash Modifications==
+* None

@@ -4,8 +4,8 @@
   Title: Strict DER signatures
   Author: Pieter Wuille <pieter.wuille@gmail.com>
   Comments-Summary: No comments yet.
-  Comments-URI: https://github.com/bitcoin/bips/wiki/Comments:BIP-0066
   Status: Final
+  Dash Status: Active
   Type: Standards Track
   Created: 2015-01-10
   License: BSD-2-Clause
@@ -13,7 +13,7 @@
 
 ==Abstract==
 
-This document specifies proposed changes to the Bitcoin transaction validity rules to restrict signatures to strict DER encoding.
+This document specifies proposed changes to the transaction validity rules to restrict signatures to strict DER encoding.
 
 ==Copyright==
 
@@ -21,7 +21,7 @@ This BIP is licensed under the 2-clause BSD license.
 
 ==Motivation==
 
-Bitcoin's reference implementation currently relies on OpenSSL for signature validation, which means it is implicitly defining Bitcoin's block validity rules. Unfortunately, OpenSSL is not designed for consensus-critical behaviour (it does not guarantee bug-for-bug compatibility between versions), and thus changes to it can - and have - affected Bitcoin software.
+The reference implementation currently relies on OpenSSL for signature validation, which means it is implicitly defining Bitcoin's block validity rules. Unfortunately, OpenSSL is not designed for consensus-critical behaviour (it does not guarantee bug-for-bug compatibility between versions), and thus changes to it can - and has - affected the reference client software.
 
 One specifically critical area is the encoding of signatures. Until recently, OpenSSL's releases would accept various deviations from the DER standard and accept signatures as valid. When this changed in OpenSSL 1.0.0p and 1.0.1k, it made some nodes reject the chain.
 
@@ -136,9 +136,13 @@ The requirement to have signatures that comply strictly with DER has been enforc
 
 ==Implementation==
 
-An implementation for the reference client is available at https://github.com/bitcoin/bitcoin/pull/5713
+[https://github.com/bitcoin/bitcoin/pull/5713 Bitcoin]
+
+[https://github.com/dashpay/dash/commit/80ad135a5e54e8a065fee5ef36e57034679111ab Dash merge]
 
 ==Acknowledgements==
 
 This document is extracted from the previous BIP62 proposal, which had input from various people, in particular Greg Maxwell and Peter Todd, who gave feedback about this document as well. 
 
+==Dash Modifications==
+* None

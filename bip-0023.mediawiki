@@ -4,8 +4,8 @@
   Title: getblocktemplate - Pooled Mining
   Author: Luke Dashjr <luke+bip22@dashjr.org>
   Comments-Summary: No comments yet.
-  Comments-URI: https://github.com/bitcoin/bips/wiki/Comments:BIP-0023
   Status: Final
+  Dash Status:
   Type: Standards Track
   Created: 2012-02-28
   License: BSD-2-Clause

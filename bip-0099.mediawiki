@@ -3,8 +3,8 @@
   Title: Motivation and deployment of consensus rule changes ([soft/hard]forks)
   Author: Jorge Timón <jtimon@jtimon.cc>
   Comments-Summary: No comments yet.
-  Comments-URI: https://github.com/bitcoin/bips/wiki/Comments:BIP-0099
   Status: Draft
+  Dash Status:
   Type: Informational
   Created: 2015-06-20
   License: PD
