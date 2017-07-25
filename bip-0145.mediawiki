@@ -4,8 +4,8 @@
   Title: getblocktemplate Updates for Segregated Witness
   Author: Luke Dashjr <luke+bip22@dashjr.org>
   Comments-Summary: No comments yet.
-  Comments-URI: https://github.com/bitcoin/bips/wiki/Comments:BIP-0145
   Status: Draft
+  Dash Status:
   Type: Standards Track
   Created: 2016-01-30
   License: BSD-2-Clause

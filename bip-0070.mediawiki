@@ -5,8 +5,8 @@
   Author: Gavin Andresen <gavinandresen@gmail.com>
           Mike Hearn <mhearn@bitcoinfoundation.org>
   Comments-Summary: No comments yet.
-  Comments-URI: https://github.com/bitcoin/bips/wiki/Comments:BIP-0070
   Status: Final
+  Dash Status:
   Type: Standards Track
   Created: 2013-07-29
 </pre>
