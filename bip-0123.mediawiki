@@ -13,11 +13,11 @@
 
 ==Abstract==
 
-This document describes a classification scheme for BIPs.
+This document describes a classification scheme for BIPs and [[https://github.com/dashpay/dips|Dash Improvement Proposals (DIPs)]].
 
-BIPs are classified by system layers with lower numbered layers involving more intricate interoperability requirements.
+BIPs/DIPs are classified by system layers with lower numbered layers involving more intricate interoperability requirements.
 
-The specification defines the layers and sets forth specific criteria for deciding to which layer a particular standards BIP belongs.
+The specification defines the layers and sets forth specific criteria for deciding to which layer a particular standards BIP/DIP belongs.
 
 ==Copyright==
 
@@ -31,14 +31,14 @@ In order to have a BIP process which more closely reflects the interoperability 
 
 ==Specification==
 
-Standards BIPs are placed in one of four layers:
+Standards BIPs/DIPs are placed in one of four layers:
 
 # Consensus
 # Peer Services
 # API/RPC
 # Applications
 
-Non-standards BIPs may be placed in these layers, or none at all.
+Non-standards BIPs/DIPs may be placed in these layers, or none at all.
 
 ===1. Consensus Layer===
 
@@ -66,7 +66,7 @@ It is always possible to add new services without breaking compatibility with ex
 
 ===3. API/RPC Layer===
 
-The API/RPC layer specifies higher level calls accessible to applications. Support for these BIPs is not required for basic network interoperability but might be expected by some client applications.
+The API/RPC layer specifies higher level calls accessible to applications. Support for these BIPs/DIPs is not required for basic network interoperability but might be expected by some client applications.
 
 There's room at this layer to allow for competing standards without breaking basic network interoperability.
 
