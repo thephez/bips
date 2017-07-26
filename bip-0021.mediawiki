@@ -6,7 +6,7 @@
           Matt Corallo <bip21@bluematt.me>
   Comments-Summary: No comments yet.
   Status: Final
-  Dash Status: Modified Active
+  Dash-Status: Modified Active
   Type: Standards Track
   Created: 2012-01-29
 </pre>

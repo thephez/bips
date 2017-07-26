@@ -5,7 +5,7 @@
           Jimmy Song <jimmy@monetas.net>
   Comments-Summary: No comments yet.
   Status: Deferred
-  Dash Status: Ignored
+  Dash-Status: Ignored
   Type: Informational
   Created: 2014-08-11
   License: PD

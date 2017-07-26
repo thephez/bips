@@ -8,7 +8,7 @@
           Sean Bowe <ewillbefull@gmail.com>
   Comments-Summary: Unanimously Discourage for implementation
   Status: Proposed
-  Dash Status:
+  Dash-Status:
   Type: Standards Track
   Created: 2013-09-10
 </pre>

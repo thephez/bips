@@ -5,7 +5,7 @@
   Author: Suhas Daftuar <sdaftuar@chaincode.com>
   Comments-Summary: No comments yet.
   Status: Proposed
-  Dash Status: Active
+  Dash-Status: Active
   Type: Standards Track
   Created: 2015-05-08
   License: PD

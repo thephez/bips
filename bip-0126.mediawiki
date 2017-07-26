@@ -4,7 +4,7 @@
   Author: Kristov Atlas <kristov@openbitcoinprivacyproject.org>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash Status:
+  Dash-Status:
   Type: Informational
   Created: 2016-02-10
   License: PD

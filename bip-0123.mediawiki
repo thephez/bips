@@ -4,7 +4,7 @@
   Author: Eric Lombrozo <elombrozo@gmail.com>
   Comments-Summary: No comments yet.
   Status: Active
-  Dash Status:
+  Dash-Status:
   Type: Process
   Created: 2015-08-26
   License: CC0-1.0

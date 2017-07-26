@@ -5,7 +5,7 @@
   Author: Peter Todd <pete@petertodd.org>
   Comments-Summary: No comments yet.
   Status: Final
-  Dash Status: Active
+  Dash-Status: Active
   Type: Standards Track
   Created: 2014-10-01
   License: PD

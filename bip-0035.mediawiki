@@ -5,7 +5,7 @@
   Author: Jeff Garzik <jgarzik@exmulti.com>
   Comments-Summary: No comments yet.
   Status: Final
-  Dash Status: Active
+  Dash-Status: Active
   Type: Standards Track
   Created: 2012-08-16
 </pre>

@@ -6,7 +6,7 @@
           Greg Maxwell <greg@xiph.org>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash Status:
+  Dash-Status:
   Type: Informational
   Created: 2016-03-20
   License: BSD-2-Clause

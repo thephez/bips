@@ -6,7 +6,7 @@
           Patrick Strateman <bitcoin-bips@covertinferno.org>
   Comments-Summary: No comments yet.
   Status: Final
-  Dash Status: Active
+  Dash-Status: Active
   Type: Standards Track
   Created: 2011-11-10
   Post-History: 2011-11-02

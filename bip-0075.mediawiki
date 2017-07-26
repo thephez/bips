@@ -8,7 +8,7 @@
           James MacWhyte <macwhyte@gmail.com>
   Comments-Summary: Recommended for implementation (one person)
   Status: Draft
-  Dash Status:
+  Dash-Status:
   Type: Standards Track
   Created: 2015-11-20
   License: CC-BY-4.0

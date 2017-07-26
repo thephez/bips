@@ -5,7 +5,7 @@
   Author: Jeff Garzik <jgarzik@gmail.com>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash Status: Ignored
+  Dash-Status: Ignored
   Type: Standards Track
   Created: 2015-06-23
 </pre>

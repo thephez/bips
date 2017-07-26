@@ -5,7 +5,7 @@
   Author: Gavin Andresen <gavinandresen@gmail.com>
   Comments-Summary: No comments yet.
   Status: Rejected
-  Dash Status: Ignored
+  Dash-Status: Ignored
   Type: Standards Track
   Created: 2016-01-28
   License: PD

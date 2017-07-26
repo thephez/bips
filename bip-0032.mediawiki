@@ -12,7 +12,7 @@ RECENT CHANGES:
   Author: Pieter Wuille <pieter.wuille@gmail.com>
   Comments-Summary: No comments yet.
   Status: Final
-  Dash Status:
+  Dash-Status:
   Type: Informational
   Created: 2012-02-11
   License: BSD-2-Clause

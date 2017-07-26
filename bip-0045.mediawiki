@@ -7,7 +7,7 @@
           Matias Alejo Garcia <matias@bitpay.com>
   Comments-Summary: No comments yet.
   Status: Proposed
-  Dash Status:
+  Dash-Status:
   Type: Standards Track
   Created: 2014-04-25
 </pre>

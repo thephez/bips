@@ -4,7 +4,7 @@
   Author: Jorge Timón <jtimon@jtimon.cc>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash Status:
+  Dash-Status:
   Type: Informational
   Created: 2015-06-20
   License: PD

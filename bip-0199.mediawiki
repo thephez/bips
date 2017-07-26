@@ -6,7 +6,7 @@
           Daira Hopwood <daira@z.cash>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash Status:
+  Dash-Status:
   Type: Standards Track
   Created: 2017-03-27
   License: BSD-3-Clause

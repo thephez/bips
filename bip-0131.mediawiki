@@ -5,7 +5,7 @@
   Author: Chris Priest <cp368202@ohiou.edu>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash Status:
+  Dash-Status:
   Type: Standards Track
   Created: 2015-11-30
   License: PD

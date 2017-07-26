@@ -5,7 +5,7 @@
   Author: Suhas Daftuar <sdaftuar@chaincode.com>
   Comments-Summary: Mostly Recommended for implementation, with some Discouragement
   Status: Draft
-  Dash Status:
+  Dash-Status:
   Type: Informational
   Created: 2016-11-08
   License: PD

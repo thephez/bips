@@ -4,7 +4,7 @@
   Author: Shaolin Fry <shaolinfry@protonmail.ch>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash Status: Ignored
+  Dash-Status: Ignored
   Type: Informational
   Created: 2017-02-01
   License: BSD-3-Clause

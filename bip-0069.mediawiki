@@ -6,7 +6,7 @@
   Editor: Daniel Cousens <bips@dcousens.com>
   Comments-Summary: No comments yet.
   Status: Proposed
-  Dash Status: Modified Active
+  Dash-Status: Modified Active
   Type: Informational
   Created: 2015-06-12
   License: PD

@@ -5,7 +5,7 @@
   Author: Amir Taaki <genjix@riseup.net>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash Status: Ignored
+  Dash-Status: Ignored
   Type: Standards Track
   Created: 2012-05-15
 </pre>

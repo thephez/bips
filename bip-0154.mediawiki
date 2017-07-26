@@ -5,7 +5,7 @@
   Author: Karl-Johan Alm <karljohan-alm@garage.co.jp>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash Status:
+  Dash-Status:
   Type: Standards Track
   Created: 2017-04-12
   License: BSD-2-Clause

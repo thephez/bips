@@ -6,7 +6,7 @@
           Pavol Rusnak <stick@satoshilabs.com>
   Comments-Summary: Mixed review (one person)
   Status: Proposed
-  Dash Status:
+  Dash-Status:
   Type: Standards Track
   Created: 2014-04-24
 </pre>

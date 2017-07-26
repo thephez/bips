@@ -10,7 +10,7 @@ RECENT CHANGES:
   Author: Justus Ranvier <justus@openbitcoinprivacyproject.org>
   Comments-Summary: Unanimously Discourage for implementation
   Status: Draft
-  Dash Status:
+  Dash-Status:
   Type: Informational
   Created: 2015-04-24
 </pre>

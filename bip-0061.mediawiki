@@ -5,7 +5,7 @@
   Author: Gavin Andresen <gavinandresen@gmail.com>
   Comments-Summary: Controversial; some recommendation, and some discouragement
   Status: Final
-  Dash Status: Extended Active
+  Dash-Status: Extended Active
   Type: Standards Track
   Created: 2014-06-18
 </pre>

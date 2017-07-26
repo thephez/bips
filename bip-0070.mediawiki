@@ -6,7 +6,7 @@
           Mike Hearn <mhearn@bitcoinfoundation.org>
   Comments-Summary: No comments yet.
   Status: Final
-  Dash Status:
+  Dash-Status:
   Type: Standards Track
   Created: 2013-07-29
 </pre>

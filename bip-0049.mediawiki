@@ -5,7 +5,7 @@
   Author: Daniel Weigl <Daniel.Weigl@mycelium.com>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash Status: Ignored
+  Dash-Status: Ignored
   Type: Informational
   Created: 2016-05-19
   License: PD

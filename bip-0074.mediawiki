@@ -5,7 +5,7 @@
   Author: Toby Padilla <tobypadilla@gmail.com>
   Comments-Summary: Unanimously Discourage for implementation
   Status: Draft
-  Dash Status:
+  Dash-Status:
   Type: Standards Track
   Created: 2016-01-29
   License: PD

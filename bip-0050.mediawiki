@@ -4,7 +4,7 @@
   Author: Gavin Andresen <gavinandresen@gmail.com>
   Comments-Summary: No comments yet.
   Status: Final
-  Dash Status: Ignored
+  Dash-Status: Ignored
   Type: Informational
   Created: 2013-03-20
   License: PD

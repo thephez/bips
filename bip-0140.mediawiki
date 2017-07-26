@@ -5,7 +5,7 @@
   Author: Christian Decker <decker.christian@gmail.com>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash Status:
+  Dash-Status:
   Type: Standards Track
   Created: 2015-10-14
   License: PD

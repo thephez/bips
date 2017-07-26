@@ -5,7 +5,7 @@
   Author: Stephen Pair <stephen@bitpay.com>
   Comments-Summary: No comments yet.
   Status: Final
-  Dash Status:
+  Dash-Status:
   Type: Standards Track
   Created: 2013-08-27
 </pre>

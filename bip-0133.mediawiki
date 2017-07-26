@@ -5,7 +5,7 @@
   Author: Alex Morcos <morcos@chaincode.com>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash Status:
+  Dash-Status:
   Type: Standards Track
   Created: 2016-02-13
   License: PD

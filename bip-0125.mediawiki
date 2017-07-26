@@ -6,7 +6,7 @@
           Peter Todd <pete@petertodd.org>
   Comments-Summary: No comments yet.
   Status: Proposed
-  Dash Status: Modified Partial
+  Dash-Status: Modified Partial
   Type: Standards Track
   Created: 2015-12-04
   License: PD

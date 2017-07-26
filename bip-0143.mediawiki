@@ -6,7 +6,7 @@
           Pieter Wuille <pieter.wuille@gmail.com>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash Status: Ignored
+  Dash-Status: Ignored
   Type: Standards Track
   Created: 2016-01-03
   License: PD
