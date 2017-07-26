@@ -5,7 +5,7 @@
   Author: Luke Dashjr <luke+bip@dashjr.org>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash-Status:
+  Dash-Status: Ignored
   Type: Standards Track
   Created: 2017-03-17
   License: BSD-2-Clause
@@ -147,3 +147,6 @@ In non-attack scenarios, they are unnecessary and clients supporting them will o
 ==Reference implementation==
 
 TODO
+
+==Dash Modifications==
+* None

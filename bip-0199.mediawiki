@@ -6,7 +6,7 @@
           Daira Hopwood <daira@z.cash>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash-Status:
+  Dash-Status: Ignored
   Type: Standards Track
   Created: 2017-03-27
   License: BSD-3-Clause
@@ -79,3 +79,5 @@ https://github.com/bitcoin/bitcoin/pull/7601
 
 This document is dual licensed as BSD 3-clause, and Creative Commons CC0 1.0 Universal.
 
+==Dash Modifications==
+* None

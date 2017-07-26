@@ -5,7 +5,7 @@
   Author: Jonas Schnelli <dev@jonasschnelli.ch>
   Comments-Summary: Controversial; some recommendation, and some discouragement
   Status: Draft
-  Dash-Status:
+  Dash-Status: Ignored
   Type: Standards Track
   Created: 2016-03-23
   License: PD
@@ -185,4 +185,5 @@ This proposal is backward compatible. Non-supporting peers will ignore the <code
 == Copyright ==
 This work is placed in the public domain.
 
-
+==Dash Modifications==
+* None

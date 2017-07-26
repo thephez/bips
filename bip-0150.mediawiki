@@ -5,7 +5,7 @@
   Author: Jonas Schnelli <dev@jonasschnelli.ch>
   Comments-Summary: Discouraged for implementation (one person)
   Status: Draft
-  Dash-Status:
+  Dash-Status: Ignored
   Type: Standards Track
   Created: 2016-03-23
   License: PD
@@ -176,3 +176,6 @@ The protocol may be slow if a peer has a large authorized-peers database due to 
 
 == Copyright ==
 This work is placed in the public domain.
+
+==Dash Modifications==
+* None
