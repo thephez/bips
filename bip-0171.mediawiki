@@ -5,7 +5,7 @@
   Author: Luke Dashjr <luke+bip@dashjr.org>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash-Status:
+  Dash-Status: Ignored
   Type: Standards Track
   Created: 2017-03-04
   License: BSD-2-Clause
@@ -198,3 +198,6 @@ TODO
 ==See also==
 
 * [https://w3c-dvcg.github.io/ld-signatures/ Draft W3c Linked Data Signatures specification]
+
+==Dash Modifications==
+* None
