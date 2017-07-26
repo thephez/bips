@@ -450,7 +450,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Kristov Atlas
 | Informational
 | Proposed
-| *
+| Modified Active
 |
 |- style="background-color: #cfffcf"
 | [[bip-0070.mediawiki|70]]
