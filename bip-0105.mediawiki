@@ -5,7 +5,7 @@
   Author: BtcDrak <btcdrak@gmail.com>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash Status:
+  Dash Status: Ignored
   Type: Standards Track
   Created: 2015-08-21
   License: PD
@@ -109,3 +109,6 @@ Meni Rosenfeld and Gregory Maxwell.
 ==Copyright==
 
 This work is placed in the public domain.
+
+==Dash Modifications==
+* None

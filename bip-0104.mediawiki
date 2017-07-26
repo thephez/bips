@@ -5,7 +5,7 @@
   Author: t.khan <teekhan42@gmail.com>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash Status:
+  Dash Status: Ignored
   Type: Standards Track
   Created: 2017-01-13
   License: BSD-2-Clause
@@ -76,3 +76,6 @@ To help negate some of the risks associated with a hard fork and to prevent a si
 
 ==Copyright==
 This BIP is dual-licensed under the BSD 2-clause license and the GNU All-Permissive License.
+
+==Dash Modifications==
+* None
