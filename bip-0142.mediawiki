@@ -5,7 +5,7 @@
   Author: Johnson Lau <jl2012@xbt.hk>
   Comments-Summary: No comments yet.
   Status: Deferred
-  Dash Status:
+  Dash Status: Ignored
   Type: Standards Track
   Created: 2015-12-24
   License: PD
@@ -155,3 +155,6 @@ https://github.com/theuni/bitcoin/commit/ede1b57058ac8efdefe61f67395affb48f2c0d8
 
 == Copyright ==
 This work is placed in the public domain.
+
+==Dash Modifications==
+* None
