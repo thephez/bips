@@ -5,7 +5,7 @@
   Author: Amir Taaki <genjix@riseup.net>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash Status:
+  Dash Status: Ignored
   Type: Standards Track
   Created: 2012-05-15
 </pre>
@@ -137,3 +137,6 @@ NODE_STRATIZED tries its best to maintain the facade and help upkeep the Bitcoin
 == Backwards Compatibility ==
 
 This proposal is an addon to the current Bitcoin network, and is completely backwards compatible.
+
+==Dash Modifications==
+* None
