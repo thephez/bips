@@ -5,7 +5,7 @@
   Author: James Hilliard <james.hilliard1@gmail.com>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash Status:
+  Dash Status: Ignored
   Type: Standards Track
   Created: 2017-05-22
   License: BSD-3-Clause
@@ -115,3 +115,5 @@ By orphaning non-signalling blocks during the BIP9 bit 1 "segwit" deployment, th
 
 This document is dual licensed as BSD 3-clause, and Creative Commons CC0 1.0 Universal.
 
+==Dash Modifications==
+* None

@@ -5,7 +5,7 @@
   Author: Johnson Lau <jl2012@xbt.hk>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash Status:
+  Dash Status: Ignored
   Type: Standards Track
   Created: 2016-04-02
   License: PD
@@ -378,3 +378,6 @@ uint256 ComputeMerkleRootFromBranch(const uint256& leaf, const std::vector<uint2
 
 == Copyright ==
 This document is placed in the public domain.
+
+==Dash Modifications==
+* None

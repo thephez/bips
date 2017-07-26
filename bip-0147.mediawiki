@@ -5,7 +5,7 @@
   Author: Johnson Lau <jl2012@xbt.hk>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash Status:
+  Dash Status: Ignored
   Type: Standards Track
   Created: 2016-09-02
   License: PD
@@ -57,3 +57,6 @@ Peter Todd is the original author of NULLDUMMY. This document is extracted from 
 ==Copyright==
 
 This document is placed in the public domain.
+
+==Dash Modifications==
+* None

@@ -7,7 +7,7 @@
           Pieter Wuille <pieter.wuille@gmail.com>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash Status:
+  Dash Status: Ignored
   Type: Standards Track
   Created: 2015-12-21
   License: PD
@@ -328,3 +328,6 @@ https://github.com/bitcoin/bitcoin/pull/8149
 == Copyright ==
 
 This document is placed in the public domain.
+
+==Dash Modifications==
+* None

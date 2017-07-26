@@ -5,7 +5,7 @@
   Author: Shaolin Fry <shaolinfry@protonmail.ch>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash Status:
+  Dash Status: Ignored
   Type: Standards Track
   Created: 2017-03-12
   License: BSD-3-Clause
@@ -86,3 +86,5 @@ By orphaning non-signalling blocks during the last month of the BIP9 bit 1 "segw
 
 This document is dual licensed as BSD 3-clause, and Creative Commons CC0 1.0 Universal.
 
+==Dash Modifications==
+* None

@@ -5,7 +5,7 @@
   Author: Shaolin Fry <shaolinfry@protonmail.ch>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash Status:
+  Dash Status: Ignored
   Type: Standards Track
   Created: 2017-04-14
   License: BSD-3-Clause
@@ -67,3 +67,6 @@ The '''starttime''' of this BIP is after the BIP9-segwit timeout to remove compa
 ==Copyright==
 
 This document is dual licensed as BSD 3-clause, and Creative Commons CC0 1.0 Universal.
+
+==Dash Modifications==
+* None
