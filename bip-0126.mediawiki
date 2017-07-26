@@ -4,7 +4,7 @@
   Author: Kristov Atlas <kristov@openbitcoinprivacyproject.org>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash-Status:
+  Dash-Status: Ignored
   Type: Informational
   Created: 2016-02-10
   License: PD
@@ -107,3 +107,6 @@ If a user wishes to create an output that is larger than half the total size of 
 ==Reference==
 
 * [[bip-0069.mediawiki|BIP69 - Lexicographical Indexing of Transaction Inputs and Outputs]]
+
+==Dash Modifications==
+* None

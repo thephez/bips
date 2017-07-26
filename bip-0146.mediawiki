@@ -6,7 +6,7 @@
           Pieter Wuille <pieter.wuille@gmail.com>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash-Status:
+  Dash-Status: Ignored
   Type: Standards Track
   Created: 2016-08-16
   License: PD
@@ -137,3 +137,6 @@ This document is extracted from the previous [https://github.com/bitcoin/bips/bl
 ==Copyright==
 
 This document is placed in the public domain.
+
+==Dash Modifications==
+* None

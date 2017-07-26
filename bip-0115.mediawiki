@@ -5,7 +5,7 @@
   Author: Luke Dashjr <luke+bip@dashjr.org>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash-Status:
+  Dash-Status: Ignored
   Type: Standards Track
   Created: 2016-09-23
   License: BSD-2-Clause
@@ -115,3 +115,6 @@ Old nodes will likely also not relay transactions using this opcode for the same
 ==Reference Implementation==
 
 https://github.com/bitcoin/bitcoin/compare/master...luke-jr:cbah
+
+==Dash Modifications==
+* None

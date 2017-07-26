@@ -5,7 +5,7 @@
   Comments-Summary: No comments yet.
                 https://bitco.in/forum/threads/bip9-generalized-version-bits-voting-bip-genvbvoting.1968/
   Status: Draft
-  Dash-Status:
+  Dash-Status: Ignored
   Type: Informational
   Created: 2017-03-29
   License: CC0-1.0
@@ -409,3 +409,6 @@ backward compatibility of the default settings with BIP9.
 
 This BIP is dual-licensed under the Creative Commons CC0 1.0 Universal and
 GNU All-Permissive licenses.
+
+==Dash Modifications==
+* None
