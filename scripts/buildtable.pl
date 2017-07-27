@@ -1,4 +1,8 @@
 #!/usr/bin/perl
+# Script for verifying header information
+# Also prints out text for the wikitable in the README
+#  but it leaves out some BIPs so use with caution
+
 use strict;
 use warnings;
 
@@ -55,6 +59,15 @@ my %ValidStatus = (
 	Replaced => "background-color: #ffcfcf",
 );
 my %ValidDashStatus = (
+	Draft => undef,
+	Deferred => undef,
+	Proposed => "background-color: #ffffcf",
+	Rejected => "background-color: #ffcfcf",
+	Withdrawn => "background-color: #ffcfcf",
+	Final => "background-color: #cfffcf",
+	Replaced => "background-color: #ffcfcf",
+	# Dash Specific status
+	# --------------------
 	Accepted => undef,
 	Partial => undef,
 	'Modified Partial' => undef,
@@ -110,7 +123,7 @@ while (++$bipnum <= $topbip) {
 			die "No <pre> in $fn" if eof $F;
 	}
 	my %found;
-	my ($title, $author, $status, $dashstatus, $type, $layer);
+	my ($title, $author, $status, $dashstatus, $type, $layer, $extowner);
 	my ($field, $val);
 	while (<$F>) {
 		m[^</pre>$] && last;
@@ -191,6 +204,10 @@ while (++$bipnum <= $topbip) {
 	for my $field (keys %RequiredFields) {
 		die "Missing $field in $fn" unless $found{$field};
 	}
+
+	# Extension owner field not currently in header
+	$extowner = '';
+
 	print "|-";
 	if (defined $ValidStatus{$status}) {
 		print " style=\"" . $ValidStatus{$status} . "\"";
@@ -209,6 +226,7 @@ while (++$bipnum <= $topbip) {
 	print "| ${type}\n";
 	print "| ${status}\n";
 	print "| ${dashstatus}\n";
+	print "| ${extowner}\n";
 	close $F;
 }
 
