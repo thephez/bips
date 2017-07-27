@@ -5,7 +5,7 @@
   Author: Toby Padilla <tobypadilla@gmail.com>
   Comments-Summary: Unanimously Discourage for implementation
   Status: Draft
-  Dash-Status:
+  Dash-Status: Draft
   Type: Standards Track
   Created: 2016-01-29
   License: PD
@@ -64,3 +64,6 @@ Since this BIP still supports OP_RETURN statements with a greater than zero valu
 ==Copyright==
 
 This document is placed in the public domain.
+
+==Dash Modifications==
+* None

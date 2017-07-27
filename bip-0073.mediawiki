@@ -5,7 +5,7 @@
   Author: Stephen Pair <stephen@bitpay.com>
   Comments-Summary: No comments yet.
   Status: Final
-  Dash-Status:
+  Dash-Status: Final
   Type: Standards Track
   Created: 2013-08-27
 </pre>
@@ -81,3 +81,6 @@ label and the request URL is of moderate size).  The second image is a QR
 code with only the payment request url specified.
 
 <img src=bip-0073/a.png></img><img src=bip-0073/b.png></img>
+
+==Dash Modifications==
+* None
