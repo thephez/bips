@@ -3,7 +3,6 @@
   Title: Generalized version bits voting
   Author: Sancho Panza <sanch0panza@protonmail.com>
   Comments-Summary: No comments yet.
-                https://bitco.in/forum/threads/bip9-generalized-version-bits-voting-bip-genvbvoting.1968/
   Status: Draft
   Dash-Status: Ignored
   Type: Informational
