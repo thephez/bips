@@ -14,8 +14,8 @@
 ==Abstract==
 
 This BIP defines a logical hierarchy for deterministic wallets based on an algorithm
-described in BIP-0032 (BIP32 from now on) and purpose scheme described in
-BIP-0043 (BIP43 from now on).
+described in [[bip-0032.mediawiki|BIP 0032]] (BIP32 from now on) and purpose scheme described in
+[[bip-0043.mediawiki|BIP 0043]] (BIP43 from now on).
 
 This BIP is a particular application of BIP43.
 
@@ -47,7 +47,7 @@ Hardened derivation is used at this level.
 ===Coin type===
 
 One master node (seed) can be used for unlimited number of independent
-cryptocoins such as Bitcoin, Litecoin or Namecoin. However, sharing the same
+cryptocoins such as Bitcoin, Litecoin, or Dash. However, sharing the same
 space for various cryptocoins has some disadvantages.
 
 This level creates a separate subtree for every cryptocoin, avoiding
@@ -57,7 +57,7 @@ Coin type is a constant, set for each cryptocoin. Cryptocoin developers may ask
 for registering unused number for their project.
 
 The list of already allocated coin types is in the chapter
-"Registered coin types" below.
+[[#registered-coin-types|"Registered coin types"]] below.
 
 Hardened derivation is used at this level.
 
@@ -141,18 +141,19 @@ All these constants are used as hardened derivation.
 !coin
 |-
 |0
-|0x80000000
-|Bitcoin
+|0x80000005
+|Dash
 |-
 |1
 |0x80000001
-|Bitcoin Testnet
+|Testnet
 |}
 
 This BIP is not a central directory for the registered coin types, please
 visit SatoshiLabs that maintains the full list:
 
 [[https://github.com/satoshilabs/slips/blob/master/slip-0044.md|SLIP-0044 : Registered coin types for BIP-0044]]
+* Note: Per SLIP-0044, index 1 (0x80000001) is used for Testnet (all coins).
 
 To register a new coin type, an existing wallet that implements the standard
 is required and a pull request to the above file should be created.
@@ -166,97 +167,97 @@ is required and a pull request to the above file should be created.
 !address
 !path
 |-
-|Bitcoin
+|Dash
 |first
 |external
 |first
-|m / 44' / 0' / 0' / 0 / 0
+|m / 44' / 5' / 0' / 0 / 0
 |-
-|Bitcoin
+|Dash
 |first
 |external
 |second
-|m / 44' / 0' / 0' / 0 / 1
+|m / 44' / 5' / 0' / 0 / 1
 |-
-|Bitcoin
+|Dash
 |first
 |change
 |first
-|m / 44' / 0' / 0' / 1 / 0
+|m / 44' / 5' / 0' / 1 / 0
 |-
-|Bitcoin
+|Dash
 |first
 |change
 |second
-|m / 44' / 0' / 0' / 1 / 1
+|m / 44' / 5' / 0' / 1 / 1
 |-
-|Bitcoin
+|Dash
 |second
 |external
 |first
-|m / 44' / 0' / 1' / 0 / 0
+|m / 44' / 5' / 1' / 0 / 0
 |-
-|Bitcoin
+|Dash
 |second
 |external
 |second
-|m / 44' / 0' / 1' / 0 / 1
+|m / 44' / 5' / 1' / 0 / 1
 |-
-|Bitcoin
+|Dash
 |second
 |change
 |first
-|m / 44' / 0' / 1' / 1 / 0
+|m / 44' / 5' / 1' / 1 / 0
 |-
-|Bitcoin
+|Dash
 |second
 |change
 |second
-|m / 44' / 0' / 1' / 1 / 1
+|m / 44' / 5' / 1' / 1 / 1
 |-
-|Bitcoin Testnet
+|Testnet
 |first
 |external
 |first
 |m / 44' / 1' / 0' / 0 / 0
 |-
-|Bitcoin Testnet
+|Testnet
 |first
 |external
 |second
 |m / 44' / 1' / 0' / 0 / 1
 |-
-|Bitcoin Testnet
+|Testnet
 |first
 |change
 |first
 |m / 44' / 1' / 0' / 1 / 0
 |-
-|Bitcoin Testnet
+|Testnet
 |first
 |change
 |second
 |m / 44' / 1' / 0' / 1 / 1
 |-
-|Bitcoin Testnet
+|Testnet
 |second
 |external
 |first
 |m / 44' / 1' / 1' / 0 / 0
 |-
-|Bitcoin Testnet
+|Testnet
 |second
 |external
 |second
 |m / 44' / 1' / 1' / 0 / 1
 |-
-|Bitcoin Testnet
+|Testnet
 |second
 |change
 |first
 |m / 44' / 1' / 1' / 1 / 0
 |-
-|Bitcoin Testnet
+|Testnet
 |second
 |change
 |second
@@ -275,10 +276,13 @@ is required and a pull request to the above file should be created.
 * [[https://www.ledgerwallet.com/|Ledger Wallet]] ([[https://github.com/LedgerHQ|source]])
 * [[https://21.co/learn/21-lib-wallet/|21 Machine Wallet]] ([[https://github.com/21dotco|source]])
 
+===Dash===
+* [[https://github.com/QuantumExplorer/dashwallet|Dash iOS Wallet]]
+
 ==Reference==
 
 * [[bip-0032.mediawiki|BIP32 - Hierarchical Deterministic Wallets]]
 * [[bip-0043.mediawiki|BIP43 - Purpose Field for Deterministic Wallets]]
 
 ==Dash Modifications==
-*
+* None
