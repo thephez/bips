@@ -80,7 +80,7 @@ Software should prevent a creation of an account if a previous account does not
 have a transaction history (meaning none of its addresses have been used before).
 
 Software needs to discover all used accounts after importing the seed from
-an external source. Such an algorithm is described in "Account discovery" chapter.
+an external source. Such an algorithm is described in [[#account-discovery|"Account discovery"]] chapter.
 
 ===Change===
 
@@ -112,7 +112,7 @@ start to discover the accounts in the following manner:
 
 This algorithm is successful because software should disallow creation of new
 accounts if previous one has no transaction history, as described in chapter
-"Account" above.
+[[#account|"Account"]] above.
 
 Please note that the algorithm works with the transaction history, not account
 balances, so you can have an account with 0 total coins and the algorithm will
@@ -131,7 +131,7 @@ an external chain by generating a new address.
 ==Registered coin types==
 
 These are the default registered coin types for usage in level 2 of BIP44
-described in chapter "Coin type" above.
+described in chapter [[#coin-type|"Coin type"]] above.
 
 All these constants are used as hardened derivation.
 
@@ -277,7 +277,7 @@ is required and a pull request to the above file should be created.
 * [[https://21.co/learn/21-lib-wallet/|21 Machine Wallet]] ([[https://github.com/21dotco|source]])
 
 ===Dash===
-* [[https://github.com/QuantumExplorer/dashwallet|Dash iOS Wallet]]
+* [[https://itunes.apple.com/us/app/dash-wallet/id1206647026?mt=8|Dash Wallet (Apple)]]([[https://github.com/QuantumExplorer/dashwallet|source]])
 
 ==Reference==
 
