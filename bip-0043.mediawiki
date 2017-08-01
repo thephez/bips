@@ -67,5 +67,4 @@ for private nodes (leading to prefixes "xpub" and "xprv" respectively).
 * [[bip-0032.mediawiki|BIP32 - Hierarchical Deterministic Wallets]]
 
 ==Dash Modifications==
-* Some wallets use 0x02FE52F8 for public and 0x02FE52CC for private nodes (leading 
-to prefixes "drkv" and "drkp")
+* Some wallets use 0x02FE52F8 for public and 0x02FE52CC for private nodes (leading to prefixes "drkv" and "drkp")
