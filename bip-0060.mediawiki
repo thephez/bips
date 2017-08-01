@@ -92,3 +92,6 @@ Additionally the protocol version is increased from 70001 to 70002.
 ==Copyright==
 
 This document is placed in the public domain.
+
+==Dash Modifications==
+* None
