@@ -6,7 +6,7 @@
           Pavol Rusnak <stick@satoshilabs.com>
   Comments-Summary: Mixed review (one person)
   Status: Proposed
-  Dash Status:
+  Dash-Status: Proposed
   Type: Standards Track
   Created: 2014-04-24
 </pre>
@@ -279,3 +279,6 @@ is required and a pull request to the above file should be created.
 
 * [[bip-0032.mediawiki|BIP32 - Hierarchical Deterministic Wallets]]
 * [[bip-0043.mediawiki|BIP43 - Purpose Field for Deterministic Wallets]]
+
+==Dash Modifications==
+*

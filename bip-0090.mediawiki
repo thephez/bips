@@ -5,7 +5,7 @@
   Author: Suhas Daftuar <sdaftuar@chaincode.com>
   Comments-Summary: Mostly Recommended for implementation, with some Discouragement
   Status: Draft
-  Dash Status:
+  Dash-Status: Ignored
   Type: Informational
   Created: 2016-11-08
   License: PD
@@ -98,3 +98,6 @@ Thanks to Nicolas Dorier for drafting an initial version of this BIP, and to Ale
 ==Copyright==
 
 This document is placed in the public domain.
+
+==Dash Modifications==
+* None

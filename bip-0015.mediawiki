@@ -5,7 +5,7 @@
   Author: Amir Taaki <genjix@riseup.net>
   Comments-Summary: No comments yet.
   Status: Deferred
-  Dash Status:
+  Dash-Status: Ignored
   Type: Standards Track
   Created: 2011-12-10
 </pre>
@@ -402,3 +402,6 @@ New features can be added later to support uncovered cases.
 
 
 See the specification of [http://dot-bit.org/Namespace:Identity Namecoin ID] for more informations.
+
+==Dash Modifications==
+* None

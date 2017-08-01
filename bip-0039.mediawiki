@@ -8,7 +8,7 @@
           Sean Bowe <ewillbefull@gmail.com>
   Comments-Summary: Unanimously Discourage for implementation
   Status: Proposed
-  Dash Status:
+  Dash-Status: Proposed
   Type: Standards Track
   Created: 2013-09-10
 </pre>
@@ -20,7 +20,7 @@ a group of easy to remember words -- for the generation of deterministic wallets
 
 It consists of two parts: generating the mnemonic, and converting it into a
 binary seed. This seed can be later used to generate deterministic wallets using
-BIP-0032 or similar methods.
+[[bip-0032.mediawiki|BIP 32]] or similar methods.
 
 ==Motivation==
 
@@ -152,3 +152,6 @@ JavaScript:
 
 Ruby:
 * https://github.com/sreekanthgs/bip_mnemonic
+
+==Dash Modifications==
+* None

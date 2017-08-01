@@ -5,7 +5,7 @@
   Author: Luke Dashjr <luke+bip22@dashjr.org>
   Comments-Summary: No comments yet.
   Status: Final
-  Dash Status: Modified Active
+  Dash-Status: Modified Active
   Type: Standards Track
   Created: 2012-02-28
   License: BSD-2-Clause
@@ -227,11 +227,15 @@ Possible reasons a share may be rejected include, but are not limited to:
 |-
 ! Reason !! Description
 |-
-| bad-cb-flag || the server detected a feature-signifying flag that it does not allow
+| bad-cb-amount || the coinbase amount was invalid
 |-
 | bad-cb-length || the coinbase was too long (Dash limit is 100 bytes)
 |-
-| bad-cb-prefix || the server only allows appending to the coinbase, but it was modified beyond that
+| bad-cb-payee || invalid masternode or superblock payee
+|-
+| bad-cb-missing || first transaction is not a coinbase
+|-
+| bad-cb-multiple || more than one coinbase
 |-
 | bad-diffbits || "bits" were changed
 |-
@@ -239,7 +243,13 @@ Possible reasons a share may be rejected include, but are not limited to:
 |-
 | bad-txnmrklroot || the block header's merkle root did not match the transaction merkle tree
 |-
-| bad-txns || the server didn't like something about the transactions in the block
+| bad-txns-BIP30 || tried to overwrite older unspent transaction (BIP34 makes this impossible)
+|-
+| bad-txns-inputs-missingorspent || inputs missing or already spent
+|-
+| bad-txns-inputs-nonfinal || contains a non-BIP68-final transaction
+|-
+| bad-txns-duplicate || duplicate transaction
 |-
 | bad-version || the version was wrong
 |-
@@ -249,19 +259,9 @@ Possible reasons a share may be rejected include, but are not limited to:
 |-
 | rejected || a generic rejection without details
 |-
-| stale-prevblk || the previous-block is no longer the one the server intends to build on
-|-
-| stale-work || the work this block was based on is no longer accepted
-|-
-| time-invalid || the time was not acceptable
-|-
 | time-too-new || the time was too far in the future
 |-
 | time-too-old || the time was too far in the past
-|-
-| unknown-user || the user submitting the block was not recognized
-|-
-| unknown-work || the template or workid could not be identified
 |}
 
 ==Motivation==
@@ -293,3 +293,4 @@ Why should "sigops" be provided for transactions?
 
 == Dash Modifications ==
 * Add Dash specific masternode / superblock template items
+* Updated example rejection reasons

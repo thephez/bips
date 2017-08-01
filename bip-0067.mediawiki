@@ -7,7 +7,7 @@
           Ruben de Vries <ruben@rubensayshi.com>
   Comments-Summary: No comments yet.
   Status: Proposed
-  Dash Status:
+  Dash-Status: Proposed
   Type: Standards Track
   Created: 2015-02-08
   License: PD
@@ -135,3 +135,5 @@ The authors wish to thank BtcDrak and Luke-Jr for their involvement & contributi
 == Copyright ==
 This document is placed in the public domain.
 
+==Dash Modifications==
+* None

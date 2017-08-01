@@ -5,7 +5,7 @@
   Author: Christian Decker <decker.christian@gmail.com>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash Status:
+  Dash-Status: Ignored
   Type: Standards Track
   Created: 2015-10-14
   License: PD
@@ -116,3 +116,6 @@ This is a softfork which replaces <code>OP_NOP4</code> with the new implementati
 
 ==Copyright==
 This document is placed in the public domain.
+
+==Dash Modifications==
+* None

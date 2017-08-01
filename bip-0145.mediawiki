@@ -5,7 +5,7 @@
   Author: Luke Dashjr <luke+bip22@dashjr.org>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash Status:
+  Dash-Status: Ignored
   Type: Standards Track
   Created: 2016-01-30
   License: BSD-2-Clause
@@ -104,3 +104,6 @@ Why shouldn't the server simply add the commitment upfront in the "coinbasetxn",
 ==Copyright==
 
 This BIP is dual-licensed under the Open Publication License and BSD 2-clause license.
+
+==Dash Modifications==
+* None

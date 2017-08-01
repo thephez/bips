@@ -1,4 +1,8 @@
 #!/usr/bin/perl
+# Script for verifying header information
+# Also prints out text for the wikitable in the README
+#  but it leaves out some BIPs so use with caution
+
 use strict;
 use warnings;
 
@@ -9,8 +13,9 @@ my %RequiredFields = (
 	BIP => undef,
 	Title => undef,
 	Author => undef,
-	'Comments-URI' => undef,
+	#'Comments-URI' => undef,
 	Status => undef,
+	'Dash-Status' => undef,	
 	Type => undef,
 	Created => undef,
 	# License => undef,   (has exceptions)
@@ -52,6 +57,25 @@ my %ValidStatus = (
 	Final => "background-color: #cfffcf",
 	Active => "background-color: #cfffcf",
 	Replaced => "background-color: #ffcfcf",
+);
+my %ValidDashStatus = (
+	Draft => undef,
+	Deferred => undef,
+	Proposed => "background-color: #ffffcf",
+	Rejected => "background-color: #ffcfcf",
+	Withdrawn => "background-color: #ffcfcf",
+	Final => "background-color: #cfffcf",
+	Replaced => "background-color: #ffcfcf",
+	# Dash Specific status
+	# --------------------
+	Accepted => undef,
+	Partial => undef,
+	'Modified Partial' => undef,
+	'Extended Partial' => undef,
+	Ignored => "background-color: #ffcfcf",
+	Active => "background-color: #cfffcf",
+	'Modified Active' => "background-color: #cfffcf",
+	'Extended Active' => "background-color: #cfffcf",
 );
 my %ValidType = (
 	'Standards Track' => 'Standard',
@@ -99,7 +123,7 @@ while (++$bipnum <= $topbip) {
 			die "No <pre> in $fn" if eof $F;
 	}
 	my %found;
-	my ($title, $author, $status, $type, $layer);
+	my ($title, $author, $status, $dashstatus, $type, $layer, $extowner);
 	my ($field, $val);
 	while (<$F>) {
 		m[^</pre>$] && last;
@@ -137,8 +161,14 @@ while (++$bipnum <= $topbip) {
 			if ($bipnum == 38) {  # HACK
 				$val =~ s/\s+\(.*\)$//;
 			}
-			die "Invalid status in $fn" unless exists $ValidStatus{$val};
+			die "Invalid status ($val) in $fn" unless exists $ValidStatus{$val};
 			$status = $val;
+		} elsif ($field eq 'Dash-Status') {
+			if ($bipnum == 38) {  # HACK
+				$val =~ s/\s+\(.*\)$//;
+			}
+			die "Invalid Dash status ($val) in $fn" unless exists $ValidDashStatus{$val};
+			$dashstatus = $val;
 		} elsif ($field eq 'Type') {
 			die "Invalid type in $fn" unless exists $ValidType{$val};
 			if (defined $ValidType{$val}) {
@@ -174,6 +204,10 @@ while (++$bipnum <= $topbip) {
 	for my $field (keys %RequiredFields) {
 		die "Missing $field in $fn" unless $found{$field};
 	}
+
+	# Extension owner field not currently in header
+	$extowner = '';
+
 	print "|-";
 	if (defined $ValidStatus{$status}) {
 		print " style=\"" . $ValidStatus{$status} . "\"";
@@ -191,6 +225,8 @@ while (++$bipnum <= $topbip) {
 	print "| ${author}\n";
 	print "| ${type}\n";
 	print "| ${status}\n";
+	print "| ${dashstatus}\n";
+	print "| ${extowner}\n";
 	close $F;
 }
 

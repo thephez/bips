@@ -5,7 +5,7 @@
   Author: Gavin Andresen <gavinandresen@gmail.com>
   Comments-Summary: No comments yet.
   Status: Final
-  Dash Status: Modified Active 
+  Dash-Status: Modified Active 
   Type: Standards Track
   Created: 2013-07-29
 </pre>

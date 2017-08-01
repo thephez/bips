@@ -6,7 +6,7 @@
           Peter Todd <pete@petertodd.org>
   Comments-Summary: No comments yet.
   Status: Proposed
-  Dash Status:
+  Dash-Status: Active
   Type: Standards Track
   Created: 2015-08-20
   License: PD
@@ -23,7 +23,7 @@ lacking the new service bit.
 
 == Motivation ==
 
-BIP 37 did not specify a service bit for the bloom filter service, thus
+[[bip-0037.mediawiki|BIP 37]] did not specify a service bit for the bloom filter service, thus
 implicitly assuming that all nodes that serve peers data support it.
 However, the connection filtering algorithm proposed in BIP 37, and
 implemented in several clients today, has been shown to provide little
@@ -78,7 +78,9 @@ allowing node operators to fully close the bloom-related DoS vectors.
 
 == Reference Implementation ==
 
-https://github.com/bitcoin/bitcoin/pull/6579
+[https://github.com/bitcoin/bitcoin/pull/6579 Bitcoin]
+
+[https://github.com/dashpay/dash/commit/afb0ccaf9c9e4e8fac7db3564c4e19c9218c6b03 Dash merge]
 
 
 == Copyright ==
@@ -88,3 +90,6 @@ This document is placed in the public domain.
 
 == References ==
 <references>
+
+==Dash Modifications==
+* None

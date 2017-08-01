@@ -10,7 +10,7 @@ RECENT CHANGES:
   Author: Justus Ranvier <justus@openbitcoinprivacyproject.org>
   Comments-Summary: Unanimously Discourage for implementation
   Status: Draft
-  Dash Status:
+  Dash-Status: Draft
   Type: Informational
   Created: 2015-04-24
 </pre>
@@ -379,3 +379,6 @@ Alice's wallet should spend the notification change output at the next appropria
 * [[https://en.bitcoin.it/wiki/Base58Check_encoding|Base58Check encoding]]
 * [[https://bitmessage.org/bitmessage.pdf|Bitmessage]]
 * [[https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2015-April/007812.html|Mailing list discussion]]
+
+==Dash Modifications==
+* None

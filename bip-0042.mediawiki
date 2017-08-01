@@ -5,7 +5,7 @@
   Author: Pieter Wuille <pieter.wuille@gmail.com>
   Comments-Summary: Unanimously Recommended for implementation
   Status: Draft
-  Dash Status:
+  Dash-Status: Ignored
   Type: Standards Track
   Created: 2014-04-01
   License: PD
@@ -79,3 +79,6 @@ Thanks to Gregory Maxwell for proposing this solution, and to Mike Hearn for ins
 ==Copyright==
 
 This document is placed in the public domain.
+
+==Dash Modifications==
+* None

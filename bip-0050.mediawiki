@@ -4,7 +4,7 @@
   Author: Gavin Andresen <gavinandresen@gmail.com>
   Comments-Summary: No comments yet.
   Status: Final
-  Dash Status:
+  Dash-Status: Ignored
   Type: Informational
   Created: 2013-03-20
   License: PD
@@ -79,3 +79,6 @@ On 16 August, 2013 block 252,451 (0x0000000000000024b58eeb1134432f00497a6a860412
 ==Copyright==
 
 This document is placed in the public domain.
+
+==Dash Modifications==
+* None

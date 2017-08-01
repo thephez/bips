@@ -5,7 +5,7 @@
   Author: Daniel Weigl <Daniel.Weigl@mycelium.com>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash Status:
+  Dash-Status: Ignored
   Type: Informational
   Created: 2016-05-19
   License: PD
@@ -106,3 +106,6 @@ This BIP is not backwards compatible by design as described under [#consideratio
 == Copyright ==
 
 This document is placed in the public domain.
+
+==Dash Modifications==
+* None

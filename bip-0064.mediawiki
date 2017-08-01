@@ -5,7 +5,7 @@
   Author: Mike Hearn <hearn@vinumeris.com>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash Status:
+  Dash-Status: Ignored
   Type: Standards Track
   Created: 2014-06-10
 </pre>
@@ -104,3 +104,9 @@ results.
 ==Implementation==
 
 https://github.com/bitcoin/bitcoin/pull/4351/files
+
+==References==
+[[https://github.com/dashpay/dash/blob/master/src/protocol.h#L261|Not supported by Dash]]
+
+==Dash Modification==
+* None

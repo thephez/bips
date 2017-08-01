@@ -5,7 +5,7 @@
   Author: Peter Todd <pete@petertodd.org>
   Comments-Summary: No comments yet.
   Status: Final
-  Dash Status:
+  Dash-Status: Active
   Type: Standards Track
   Created: 2014-10-01
   License: PD
@@ -13,7 +13,7 @@
 
 ==Abstract==
 
-This BIP describes a new opcode (OP_CHECKLOCKTIMEVERIFY) for the Bitcoin
+This BIP describes a new opcode (OP_CHECKLOCKTIMEVERIFY) for the
 scripting system that allows a transaction output to be made unspendable until
 some point in the future.
 
@@ -327,8 +327,13 @@ JavaScript / Node.js / bitcore
 
 - https://github.com/mruddy/bip65-demos
 
+[https://github.com/bitcoin/bitcoin/pull/6124/commits Bitcoin]
+
+[https://github.com/dashpay/dash/commit/bc60b2b4b401f0adff5b8b9678903ff8feb5867b Dash merge]
 
 ==Copyright==
 
 This document is placed in the public domain.
+
+==Dash Modifications==
 

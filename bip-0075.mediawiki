@@ -8,7 +8,7 @@
           James MacWhyte <macwhyte@gmail.com>
   Comments-Summary: Recommended for implementation (one person)
   Status: Draft
-  Dash Status:
+  Dash-Status: Draft
   Type: Standards Track
   Created: 2015-11-20
   License: CC-BY-4.0
@@ -426,3 +426,6 @@ The following diagram shows a sample flow in which one mobile client is sending 
 * [https://tools.ietf.org/html/rfc6979 RFC6979]
 * [https://en.bitcoin.it/wiki/Address_reuse Address Reuse]
 * [http://csrc.nist.gov/publications/fips/fips180-4/fips-180-4.pdf FIPS 180-4 (Secure Hash Standard)]
+
+==Dash Modifications==
+* None

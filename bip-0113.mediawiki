@@ -6,7 +6,7 @@
           Mark Friedenbach <mark@friedenbach.org>
   Comments-Summary: No comments yet.
   Status: Final
-  Dash Status:
+  Dash-Status: Active
   Type: Standards Track
   Created: 2015-08-10
   License: PD
@@ -80,11 +80,11 @@ https://github.com/bitcoin/bitcoin/pull/6566
 
 This BIP is to be deployed by "versionbits" BIP9 using bit 0.
 
-For Bitcoin '''mainnet''', the BIP9 '''starttime''' will be midnight 1st May 2016 UTC (Epoch timestamp 1462060800) and BIP9 '''timeout''' will be midnight 1st May 2017 UTC (Epoch timestamp 1493596800).
+For Dash '''mainnet''', the BIP9 '''starttime''' will be midnight 5th February 2017 UTC (Epoch timestamp 1486252800) and BIP9 '''timeout''' will be midnight 5th February 2018 UTC (Epoch timestamp 1517788800).
 
-For Bitcoin '''testnet''', the BIP9 '''starttime''' will be midnight 1st March 2016 UTC (Epoch timestamp 1456790400) and BIP9 '''timeout''' will be midnight 1st May 2017 UTC (Epoch timestamp 1493596800).
+For Dash '''testnet''', the BIP9 '''starttime''' will be midnight 1st March 2016 UTC (Epoch timestamp 1456790400) and BIP9 '''timeout''' will be midnight 1st May 2017 UTC (Epoch timestamp 1493596800).
 
-This BIP must be deployed simultaneously with BIP68 and BIP112 using the same deployment mechanism.
+This BIP must be deployed simultaneously with BIP68 and BIP112 using the [[bip-0009/assignments.mediawiki|same deployment mechanism]].
 
 
 ==Acknowledgements==
@@ -120,7 +120,13 @@ concerns with existing protocols.
 
 [https://gist.github.com/sipa/bf69659f43e763540550 Version bits]
 
+[https://github.com/dashpay/dash/commit/9d55050773d57c0e12005e524f2e54d9e622c6e2 Dash - add GetMedianTimePast logic]
+
+[https://github.com/dashpay/dash/commit/dea8d21fc63e9f442299c97010e4740558f4f037 Dash - enable GetMedianTimePast logic]
 
 ==Copyright==
 
 This document is placed in the public domain.
+
+==Dash Modifications==
+* Deployment start/end time

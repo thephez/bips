@@ -5,7 +5,7 @@
   Author: Kalle Rosenbaum <kalle@rosenbaum.se>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash Status:
+  Dash-Status: Draft
   Type: Standards Track
   Created: 2015-07-28
 </pre>
@@ -153,3 +153,6 @@ The server needs to validate the PoP and reply with "valid" or "invalid". That p
 [https://github.com/bitcoin/bips/blob/master/bip-0070.mediawiki BIP0070]: Payment Protocol
 
 [https://github.com/bitcoin/bips/blob/master/bip-0121.mediawiki BIP0121]: Proof of Payment URI scheme
+
+==Dash Modifications==
+* None

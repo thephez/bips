@@ -6,7 +6,7 @@
           Pavol Rusnak <stick@satoshilabs.com>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash Status:
+  Dash-Status: Draft
   Type: Informational
   Created: 2014-04-24
 </pre>
@@ -65,3 +65,6 @@ for private nodes (leading to prefixes "xpub" and "xprv" respectively).
 ==Reference==
 
 * [[bip-0032.mediawiki|BIP32 - Hierarchical Deterministic Wallets]]
+
+==Dash Modifications==
+* 

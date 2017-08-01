@@ -5,7 +5,7 @@
   Author: Stefan Thomas <justmoon@members.fsf.org>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash Status:
+  Dash-Status: Ignored
   Type: Standards Track
   Created: 2012-08-03
   License: PD
@@ -155,3 +155,6 @@ Finally, this BIP defines both explicitly and implicitly some useful common nome
 ==Copyright==
 
 This document is placed in the public domain.
+
+==Dash Modifications==
+* None

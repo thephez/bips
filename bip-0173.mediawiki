@@ -6,7 +6,7 @@
           Greg Maxwell <greg@xiph.org>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash Status:
+  Dash-Status: Ignored
   Type: Informational
   Created: 2016-03-20
   License: BSD-2-Clause
@@ -362,3 +362,6 @@ separator).
 This document is inspired by the [https://rusty.ozlabs.org/?p=578 address proposal] by Rusty Russell, the
 [https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2014-February/004402.html base32] proposal by Mark Friedenbach, and had input from Luke Dashjr,
 Johnson Lau, Eric Lombrozo, Peter Todd, and various other reviewers.
+
+==Dash Modifications==
+* None

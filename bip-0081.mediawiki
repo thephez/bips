@@ -5,7 +5,7 @@
           Jimmy Song <jimmy@monetas.net>
   Comments-Summary: No comments yet.
   Status: Deferred
-  Dash Status:
+  Dash-Status: Ignored
   Type: Informational
   Created: 2014-08-11
   License: PD
@@ -73,3 +73,6 @@ This document is placed in the public domain.
 * [[bip-0043.mediawiki|BIP43 - Purpose Field for Deterministic Wallets]]
 * [[bip-0044.mediawiki|BIP44 - Multi-Account Hierarchy for Deterministic Wallets]]
 * [[bip-0080.mediawiki|BIP80 - Hierarchy for Non-Colored Voting Pool Deterministic Multisig Wallets]]
+
+==Dash Modifications==
+* None

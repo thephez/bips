@@ -6,7 +6,7 @@
   Editor: Daniel Cousens <bips@dcousens.com>
   Comments-Summary: No comments yet.
   Status: Proposed
-  Dash Status:
+  Dash-Status: Modified Active
   Type: Informational
   Created: 2015-06-12
   License: PD
@@ -14,7 +14,7 @@
 
 ==Abstract==
 
-Currently there is no standard for bitcoin wallet clients when ordering transaction inputs and outputs.
+Currently there is no standard for wallet clients when ordering transaction inputs and outputs.
 As a result, wallet clients often have a discernible blockchain fingerprint, and can leak private information about their users.
 By contrast, a standard for non-deterministic sorting could be difficult to audit.
 This document proposes deterministic lexicographical sorting, using hashes of previous transactions and output indices to sort transaction inputs, as well as values and scriptPubKeys to sort transaction outputs.
@@ -163,8 +163,12 @@ Outputs:
 * [[https://www.npmjs.com/package/bip69|NodeJS]]
 * [[https://github.com/blockchain/My-Wallet-V3/blob/v3.8.0/src/transaction.js#L120-L142|Blockchain.info public beta]]
 * [[https://github.com/btcsuite/btcutil/blob/master/txsort/txsort.go|Btcsuite]]
+* [[https://github.com/dashpay/dash/pull/563/files|Dash]]
 
 ==Acknowledgements==
 
 Danno Ferrin &lt;danno@numisight.com&gt;, Sergio Demian Lerner &lt;sergiolerner@certimix.com&gt;, Justus Ranvier &lt;justus@openbitcoinprivacyproject.org&gt;, and Peter Todd &lt;pete@petertodd.org&gt; contributed to the design and motivations for this BIP.
 A similar proposal was submitted to the Bitcoin-dev mailing list independently by Rusty Russell &lt;rusty@rustcorp.com.au&gt;
+
+==Dash Modifications==
+* Implemented for PrivateSend transactions

@@ -7,7 +7,7 @@
   Author: Pieter Wuille <pieter.wuille@gmail.com>
   Comments-Summary: No comments yet.
   Status: Withdrawn
-  Dash Status:
+  Dash-Status: Ignored
   Type: Standards Track
   Created: 2014-03-12
   License: BSD-2-Clause
@@ -121,3 +121,6 @@ In particular, note that zero could be encoded as (01 80) (negative zero) if usi
 '''Relay of transactions''' A new node software version is released which makes v3 transactions standard, and relays them when their scriptSigs satisfy the above rules. Relaying of v1 transactions is unaffected. A v1 transaction spending an output created by a v3 transaction is also unaffected.
 
 '''Wallet updates''' As v3 transactions are non-standard currently, it is not possible to start creating them immediately. Software can be checked to confirm to the new rules of course, but using v3 should only start when a significant part of the network's nodes has upgraded to compatible code. Its intended meaning is "I want this transaction protected from malleability", and remains a choice of the wallet software.
+
+==Dash Modifications==
+* None

@@ -5,7 +5,7 @@
   Author: Luke Dashjr <luke+bip17@dashjr.org>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash Status:
+  Dash-Status: Ignored
   Type: Standards Track
   Created: 2012-01-30
   License: BSD-2-Clause
@@ -73,3 +73,6 @@ Using OP_CHECKSIG only counts as 1 per signature, so can scale better.
 ==Implementation==
 
 All used operations are already supported by old clients and miners as a non-standard transaction type.
+
+==Dash Modifications==
+* None

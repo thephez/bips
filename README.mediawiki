@@ -450,7 +450,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Kristov Atlas
 | Informational
 | Proposed
-| *
+| Modified Active
 |
 |- style="background-color: #cfffcf"
 | [[bip-0070.mediawiki|70]]
@@ -459,7 +459,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Gavin Andresen, Mike Hearn
 | Standard
 | Final
-| *
+| Modified Active
 |
 |- style="background-color: #cfffcf"
 | [[bip-0071.mediawiki|71]]
@@ -711,7 +711,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Eric Lombrozo
 | Process
 | Active
-| Ignored
+| Active
 |
 |-
 | [[bip-0124.mediawiki|124]]

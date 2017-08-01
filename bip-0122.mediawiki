@@ -5,7 +5,7 @@
   Author: Marco Pontello <marcopon@gmail.com>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash Status:
+  Dash-Status: Draft
   Type: Standards Track
   Created: 2015-08-29
   License: PD
@@ -126,3 +126,6 @@ Thanks to Richard Moore, Matt Whitlock, Andreas Schildbach for help with the str
 ==Copyright==
 
 This document is placed in the public domain.
+
+==Dash Modifications
+* None

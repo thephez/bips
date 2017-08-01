@@ -4,7 +4,7 @@
   Author: Jorge Timón <jtimon@jtimon.cc>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash Status:
+  Dash-Status: Ignored
   Type: Informational
   Created: 2015-06-20
   License: PD
@@ -366,3 +366,6 @@ Btcdrak, Gavin Andresen, Gregory Sanders, Luke Dashjr, Marco Falke.
 ==Copyright==
 
 This document is placed in the public domain.
+
+==Dash Modifications==
+* None

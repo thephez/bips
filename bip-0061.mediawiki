@@ -5,7 +5,7 @@
   Author: Gavin Andresen <gavinandresen@gmail.com>
   Comments-Summary: Controversial; some recommendation, and some discouragement
   Status: Final
-  Dash Status: Extended Active
+  Dash-Status: Extended Active
   Type: Standards Track
   Created: 2014-06-18
 </pre>
@@ -30,7 +30,7 @@ Data types in this specification are as described in the [https://en.bitcoin.it/
 
 ===reject===
 
-One new message type "reject" is introduced. It is sent directly to a peer in response to a "version", "tx" or "block" message.
+One new message type "reject" is introduced. It is sent directly to a peer in response to a "version", "tx", "txlockrequest", or "block" message.
 
 For example, the message flow between two peers for a relayed transaction that is rejected for some reason would be:
 
@@ -185,4 +185,4 @@ an implementation vulnerable to a fill-up-the-users-disk attack.
 
 == Dash Modifications ==
 * Add reject messages for Instant Send Transaction Lock Request message (ix)
-  * Bad TxLockRequest and TxLock conflict reject messages included
+** Bad TxLockRequest and TxLock conflict reject messages included

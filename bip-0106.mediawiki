@@ -5,7 +5,7 @@
   Author: Upal Chakraborty <bitcoin@upalc.com>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash Status:
+  Dash-Status: Ignored
   Type: Standards Track
   Created: 2015-08-24
 </pre>
@@ -81,3 +81,6 @@ This is a hard-forking change to the Bitcoin protocol; anybody running code that
 ==Deployment==
 
 If consensus is achieved, deployment can be made at a future block number at which difficulty will change.
+
+==Dash Modifications==
+* None

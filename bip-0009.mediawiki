@@ -7,7 +7,7 @@
           Rusty Russell <rusty@rustcorp.com.au>
   Comments-Summary: No comments yet.
   Status: Final
-  Dash Status: Active
+  Dash-Status: Active
   Type: Informational
   Created: 2015-10-04
   License: PD

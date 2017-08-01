@@ -5,7 +5,7 @@
   Author: Jeff Garzik <jgarzik@gmail.com>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash Status:
+  Dash-Status: Ignored
   Type: Standards Track
   Created: 2015-06-23
 </pre>
@@ -44,3 +44,5 @@ network engineering limit.
 
 https://github.com/jgarzik/bitcoin/tree/2015_2mb_blocksize
 
+==Dash Modifications==
+* None
