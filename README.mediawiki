@@ -314,7 +314,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Marek Palatinus, Pavol Rusnak
 | Informational
 | Draft
-| Active Modified
+| Modified Active
 |
 |- style="background-color: #ffffcf"
 | [[bip-0044.mediawiki|44]]

@@ -6,7 +6,7 @@
           Pavol Rusnak <stick@satoshilabs.com>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash-Status: Active Modified
+  Dash-Status: Modified Active
   Type: Informational
   Created: 2014-04-24
 </pre>
