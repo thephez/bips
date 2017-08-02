@@ -307,5 +307,5 @@ A Haskell implementation is available at https://github.com/haskoin/haskoin toge
 
 ==Dash Modifications==
 * Some wallets use a key of "Darkcoin seed" instead of "Bitcoin seed" when generating the [[#master-key-generation|Master key]]
-* Some wallets use version bytes of 0x02FE52F8 for public and 0x02FE52CC for private nodes when [[#serialization-format|serializing keys] (leading to prefixes "drkv" and "drkp")
+* Some wallets use version bytes of 0x02FE52F8 for public and 0x02FE52CC for private nodes when [[#serialization-format|serializing keys]] (leading to prefixes "drkv" and "drkp")
 

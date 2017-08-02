@@ -958,6 +958,6 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 |
 |}
 
-* BIP is not Bitcoin or Dash specific (i.e. BIP-0032 for HD Wallets).  Generally relates to the Application Layer and not specifically the reference client. 
+* BIP is not Bitcoin or Dash specific (i.e. BIP-0044 Multi-Account Hierarchy for Deterministic Wallets).  Generally relates to the Application Layer and not specifically the reference client. 
 
 <!-- IMPORTANT!  See the instructions at the top of this page, do NOT JUST add BIPs here! -->
