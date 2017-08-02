@@ -304,4 +304,4 @@ What is the purpose of the "hash" transaction list format?
 * [[bip-0022.mediawiki|BIP 22: getblocktemplate - Fundamentals]]
 
 ==Dash Modifications==
-* None (although the related [[bip-0022.mediawiki|BIP 22]] has some extensions)
+* None (although the related [[bip-0022.mediawiki|BIP 22]] has been extended)

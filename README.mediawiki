@@ -215,7 +215,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Pieter Wuille
 | Informational
 | Final
-| *
+| Modified Active
 |
 |-
 | [[bip-0033.mediawiki|33]]
@@ -314,7 +314,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Marek Palatinus, Pavol Rusnak
 | Informational
 | Draft
-| *
+| Active Modified
 |
 |- style="background-color: #ffffcf"
 | [[bip-0044.mediawiki|44]]
