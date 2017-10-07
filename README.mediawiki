@@ -188,7 +188,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Luke Dashjr
 | Standard
 | Final
-| Modified Active
+| Final
 |
 |- style="background-color: #cfffcf"
 | [[bip-0030.mediawiki|30]]
@@ -215,7 +215,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Pieter Wuille
 | Informational
 | Final
-| *
+| Modified Active
 |
 |-
 | [[bip-0033.mediawiki|33]]
@@ -314,7 +314,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Marek Palatinus, Pavol Rusnak
 | Informational
 | Draft
-| *
+| Modified Active
 |
 |- style="background-color: #ffffcf"
 | [[bip-0044.mediawiki|44]]
@@ -958,6 +958,6 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 |
 |}
 
-* BIP is not Bitcoin or Dash specific (i.e. BIP-0032 for HD Wallets).  Generally relates to the Application Layer and not specifically the reference client. 
+* BIP is not Bitcoin or Dash specific (i.e. BIP-0044 Multi-Account Hierarchy for Deterministic Wallets).  Generally relates to the Application Layer and not specifically the reference client. 
 
 <!-- IMPORTANT!  See the instructions at the top of this page, do NOT JUST add BIPs here! -->

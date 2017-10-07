@@ -5,7 +5,7 @@
   Author: Luke Dashjr <luke+bip22@dashjr.org>
   Comments-Summary: No comments yet.
   Status: Final
-  Dash-Status:
+  Dash-Status: Final
   Type: Standards Track
   Created: 2012-02-28
   License: BSD-2-Clause
@@ -302,3 +302,6 @@ What is the purpose of the "hash" transaction list format?
 
 ==See Also==
 * [[bip-0022.mediawiki|BIP 22: getblocktemplate - Fundamentals]]
+
+==Dash Modifications==
+* None (although the related [[bip-0022.mediawiki|BIP 22]] has been extended)

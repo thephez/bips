@@ -12,7 +12,7 @@ RECENT CHANGES:
   Author: Pieter Wuille <pieter.wuille@gmail.com>
   Comments-Summary: No comments yet.
   Status: Final
-  Dash-Status: Final
+  Dash-Status: Modified Active
   Type: Informational
   Created: 2012-02-11
   License: BSD-2-Clause
@@ -306,4 +306,6 @@ A Haskell implementation is available at https://github.com/haskoin/haskoin toge
 * Mike Caldwell for the version bytes to obtain human-recognizable Base58 strings.
 
 ==Dash Modifications==
-* 
+* Some wallets use a key of "Darkcoin seed" instead of "Bitcoin seed" when generating the [[#master-key-generation|Master key]]
+* Some wallets use version bytes of 0x02FE52F8 for public and 0x02FE52CC for private nodes when [[#serialization-format|serializing keys]] (leading to prefixes "drkv" and "drkp")
+

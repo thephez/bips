@@ -6,7 +6,7 @@
           Pavol Rusnak <stick@satoshilabs.com>
   Comments-Summary: No comments yet.
   Status: Draft
-  Dash-Status: Draft
+  Dash-Status: Modified Active
   Type: Informational
   Created: 2014-04-24
 </pre>
@@ -14,7 +14,7 @@
 ==Abstract==
 
 This BIP introduces a "Purpose Field" for use in deterministic wallets
-based on algorithm described in BIP-0032 (BIP32 from now on).
+based on algorithm described in [[bip-0032.mediawiki|BIP-0032]] (BIP32 from now on).
 
 ==Motivation==
 
@@ -67,4 +67,4 @@ for private nodes (leading to prefixes "xpub" and "xprv" respectively).
 * [[bip-0032.mediawiki|BIP32 - Hierarchical Deterministic Wallets]]
 
 ==Dash Modifications==
-* 
+* Some wallets use version bytes of 0x02FE52F8 for public and 0x02FE52CC for private nodes when [[#node-serialization|serializing keys]] (leading to prefixes "drkv" and "drkp")
