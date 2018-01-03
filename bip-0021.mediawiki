@@ -42,10 +42,11 @@ Elements of the query component may contain characters outside the valid range. 
  dashurn     = "dash:" dashaddress [ "?" dashparams ]
  dashaddress = *base58
  dashparams  = dashparam [ "&" dashparams ]
- dashparam   = [ amountparam / labelparam / messageparam / otherparam / reqparam ]
+ dashparam   = [ amountparam / labelparam / messageparam / instantsendparam / otherparam / reqparam ]
  amountparam    = "amount=" *digit [ "." *digit ]
  labelparam     = "label=" *qchar
  messageparam   = "message=" *qchar
+ instantsendparam     = "IS=" *bool
  otherparam     = qchar *qchar [ "=" *qchar ]
  reqparam       = "req-" qchar *qchar [ "=" *qchar ]
 
@@ -97,7 +98,7 @@ Please see the BNF grammar above for the normative syntax.
 
 [foo] means optional, &lt;bar&gt; are placeholders
 
- <nowiki>dash:<address>[?amount=<amount>][?label=<label>][?message=<message>]</nowiki>
+ <nowiki>dash:<address>[?amount=<amount>][?label=<label>][?message=<message>][?IS=<instantsend>]</nowiki>
 
 === Examples ===
 
@@ -112,6 +113,9 @@ Request 20.30 DASH to "Luke-Jr":
 
 Request 50 DASH with message:
  dash:X75tWpb8K1S7NmH4Zx6rewF9WQrcZv245W?amount=50&label=Luke-Jr&message=Donation%20for%20project%20xyz
+
+Request 50 DASH (via InstantSend) with message:
+ dash:X75tWpb8K1S7NmH4Zx6rewF9WQrcZv245W?amount=50&label=Luke-Jr&message=Donation%20for%20project%20xyz&IS=1
 
 Some future version that has variables which are (currently) not understood and required and thus invalid:
  dash:X75tWpb8K1S7NmH4Zx6rewF9WQrcZv245W?req-somethingyoudontunderstand=50&req-somethingelseyoudontget=999
@@ -133,3 +137,4 @@ Characters must be URI encoded properly.
 == Dash Modifications ==
 * Remove coin specific references where possible
 * Change handler from "bitcoin:" to "dash:"
+* Add the InstantSend URI parameter ("IS")
