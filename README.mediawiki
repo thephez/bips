@@ -1,23 +1,26 @@
-Here we discuss bitcoin improvement protocols that have made or could make their way into dash generally from an downstream merge from bitcoin core.
+Here we discuss Bitcoin Improvement Proposals (BIPs) that have made or could make their way into Dash generally from an downstream merge from Bitcoin Core.
 
-You can not submit BIPs into Dash.  The name for Dash improvement protocols are DIPs and are DASH specific.
+You can not submit BIPs into Dash.  The name for Dash Improvement Proposals are [https://github.com/dashpay/dips DIPs] and they are Dash specific.
 
-Having a BIP referenced here does not mean it was formally accepted in the bitcoin ecosystem unless its status is Final or Active.
+Having a BIP referenced here does not mean it was formally accepted in the Bitcoin ecosystem unless its status is Final or Active.
 
-One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statuses can be one of the following:
+One should note 2 types of statuses, Bitcoin Status and Dash Status.  Dash statuses can be one of the following:
 
-* Accepted - Kept from bitcoin, but not yet implemented.  
-* Partial - Kept from bitcoin, implemented partially.  Notes should explain in the BIP current progress.  
-* Active - Kept from bitcoin, fully implemented.  
-* Ignored - Not applicable to DASH or previously withdrawn from Bitcoin.  
-* Rejected - Accepted or Final in Bitcoin but Rejected in DASH.  
+* Accepted - Kept from bitcoin, but not yet implemented.
+* Partial - Kept from bitcoin, implemented partially.  Notes should explain in the BIP current progress.
+* Active - Kept from bitcoin, fully implemented.
+* Ignored - Not applicable to DASH or previously withdrawn from Bitcoin.
+* Rejected - Accepted or Final in Bitcoin but Rejected in DASH.
 
-2 Keywords can also give more information, they will preceed the Status: (ie Extended Partial).  
+2 Keywords can also give more information, they will preceed the Status: (ie Extended Partial).
 
-* Extended - Kept from bitcoin with extensions to meet DASH network demands.  
-* Modified - Kept from bitcoin and slightly modified.  
+* Extended - Kept from bitcoin with extensions to meet DASH network demands.
+* Modified - Kept from bitcoin and slightly modified.
 
 
+==Active BIPs==
+
+The following BIPs are active in Dash. Click [[#Ignored_BIPs|here]] to see the BIPs that are ignored.
 
 {| class="wikitable sortable" style="width: auto; text-align: center; font-size: smaller; table-layout: fixed;"
 !Number
@@ -26,35 +29,8 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 !Owner
 !Type
 !Bitcoin Status
-!DASH Status
+!Dash Status
 !Extention Owner
-|- style="background-color: #ffcfcf"
-| [[bip-0001.mediawiki|1]]
-|
-| BIP Purpose and Guidelines
-| Amir Taaki
-| Process
-| Replaced
-| Ignored
-|
-|- style="background-color: #cfffcf"
-| [[bip-0002.mediawiki|2]]
-|
-| BIP process, revised
-| Luke Dashjr
-| Process
-| Active
-| Ignored
-|
-|-
-| [[bip-0008.mediawiki|8]]
-|
-| Version bits with lock-in by height
-| Shaolin Fry
-| Informational
-| Draft
-| Ignored
-|
 |- style="background-color: #cfffcf"
 | [[bip-0009.mediawiki|9]]
 |
@@ -63,15 +39,6 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Informational
 | Final
 | Active
-|
-|- style="background-color: #ffcfcf"
-| [[bip-0010.mediawiki|10]]
-| Applications
-| Multi-Sig Transaction Distribution
-| Alan Reiner
-| Informational
-| Withdrawn
-| Ignored
 |
 |- style="background-color: #cfffcf"
 | [[bip-0011.mediawiki|11]]
@@ -82,15 +49,6 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Final
 | Active
 |
-|- style="background-color: #ffcfcf"
-| [[bip-0012.mediawiki|12]]
-| Consensus (soft fork)
-| OP_EVAL
-| Gavin Andresen
-| Standard
-| Withdrawn
-| Ignored
-|
 |- style="background-color: #cfffcf"
 | [[bip-0013.mediawiki|13]]
 | Applications
@@ -98,7 +56,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Gavin Andresen
 | Standard
 | Final
-| Modified Active
+| [[bip-0013.mediawiki#Dash_Modifications|Modified Active]]
 |
 |- style="background-color: #cfffcf"
 | [[bip-0014.mediawiki|14]]
@@ -108,15 +66,6 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Standard
 | Final
 | Active
-| 
-|-
-| [[bip-0015.mediawiki|15]]
-| Applications
-| Aliases
-| Amir Taaki
-| Standard
-| Deferred
-| Ignored
 |
 |- style="background-color: #cfffcf"
 | [[bip-0016.mediawiki|16]]
@@ -127,42 +76,6 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Final
 | Active
 |
-|- style="background-color: #ffcfcf"
-| [[bip-0017.mediawiki|17]]
-| Consensus (soft fork)
-| OP_CHECKHASHVERIFY (CHV)
-| Luke Dashjr
-| Standard
-| Withdrawn
-| Ignored
-|
-|- style="background-color: #ffffcf"
-| [[bip-0018.mediawiki|18]]
-| Consensus (soft fork)
-| hashScriptCheck
-| Luke Dashjr
-| Standard
-| Proposed
-| Ignored
-|
-|-
-| [[bip-0019.mediawiki|19]]
-| Applications
-| M-of-N Standard Transactions (Low SigOp)
-| Luke Dashjr
-| Standard
-| Draft
-| Ignored
-|
-|- style="background-color: #ffcfcf"
-| [[bip-0020.mediawiki|20]]
-| Applications
-| URI Scheme
-| Luke Dashjr
-| Standard
-| Replaced
-| Ignored
-|
 |- style="background-color: #cfffcf"
 | [[bip-0021.mediawiki|21]]
 | Applications
@@ -170,7 +83,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Nils Schneider, Matt Corallo
 | Standard
 | Final
-| Modified Active
+| [[bip-0021.mediawiki#Dash_Modifications|Modified Active]]
 |
 |- style="background-color: #cfffcf"
 | [[bip-0022.mediawiki|22]]
@@ -179,7 +92,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Luke Dashjr
 | Standard
 | Final
-| Modified Active
+| [[bip-0022.mediawiki#Dash_Modifications|Modified Active]]
 |
 |- style="background-color: #cfffcf"
 | [[bip-0023.mediawiki|23]]
@@ -215,16 +128,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Pieter Wuille
 | Informational
 | Final
-| Modified Active
-|
-|-
-| [[bip-0033.mediawiki|33]]
-| Peer Services
-| Stratized Nodes
-| Amir Taaki
-| Standard
-| Draft
-| Ignored
+| [[bip-0032.mediawiki#Dash_Modifications|Modified Active]]
 |
 |- style="background-color: #cfffcf"
 | [[bip-0034.mediawiki|34]]
@@ -244,15 +148,6 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Final
 | Active
 |
-|-
-| [[bip-0036.mediawiki|36]]
-| Peer Services
-| Custom Services
-| Stefan Thomas
-| Standard
-| Draft
-| Ignored
-|
 |- style="background-color: #cfffcf"
 | [[bip-0037.mediawiki|37]]
 | Peer Services
@@ -269,7 +164,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Mike Caldwell, Aaron Voisine
 | Standard
 | Draft
-| *
+| Active *
 |
 |- style="background-color: #ffffcf"
 | [[bip-0039.mediawiki|39]]
@@ -278,34 +173,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Marek Palatinus, Pavol Rusnak, Aaron Voisine, Sean Bowe
 | Standard
 | Proposed
-| *
-|
-|-
-| 40
-| API/RPC
-| Stratum wire protocol
-| Marek Palatinus
-| Standard
-| BIP number allocated
-| Ignored
-|
-|-
-| 41
-| API/RPC
-| Stratum mining protocol
-| Marek Palatinus
-| Standard
-| BIP number allocated
-| Ignored
-|
-|-
-| [[bip-0042.mediawiki|42]]
-| Consensus (soft fork)
-| A finite monetary supply for Bitcoin
-| Pieter Wuille
-| Standard
-| Draft
-| Ignored
+| Active *
 |
 |-
 | [[bip-0043.mediawiki|43]]
@@ -314,7 +182,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Marek Palatinus, Pavol Rusnak
 | Informational
 | Draft
-| Modified Active
+| [[bip-0043.mediawiki#Dash_Modifications|Modified Active]]
 |
 |- style="background-color: #ffffcf"
 | [[bip-0044.mediawiki|44]]
@@ -323,7 +191,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Marek Palatinus, Pavol Rusnak
 | Standard
 | Proposed
-| *
+| Active *
 |
 |- style="background-color: #ffffcf"
 | [[bip-0045.mediawiki|45]]
@@ -332,7 +200,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Manuel Araoz, Ryan X. Charles, Matias Alejo Garcia
 | Standard
 | Proposed
-| *
+| Active *
 |
 |-
 | [[bip-0047.mediawiki|47]]
@@ -341,36 +209,9 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Justus Ranvier
 | Informational
 | Draft
-| *
+| Active *
 |
 |-
-| [[bip-0049.mediawiki|49]]
-| Applications
-| Derivation scheme for P2WPKH-nested-in-P2SH based accounts
-| Daniel Weigl
-| Informational
-| Draft
-| Ignored
-|
-|- style="background-color: #cfffcf"
-| [[bip-0050.mediawiki|50]]
-|
-| March 2013 Chain Fork Post-Mortem
-| Gavin Andresen
-| Informational
-| Final
-| Ignored
-|
-<!-- 50 series reserved for a group of post-mortems -->
-|-
-| [[bip-0060.mediawiki|60]]
-| Peer Services
-| Fixed Length "version" Message (Relay-Transactions Field)
-| Amir Taaki
-| Standard
-| Draft
-| Ignored
-|
 |- style="background-color: #cfffcf"
 | [[bip-0061.mediawiki|61]]
 | Peer Services
@@ -378,34 +219,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Gavin Andresen
 | Standard
 | Final
-| Extended Active
-|
-|- style="background-color: #ffcfcf"
-| [[bip-0062.mediawiki|62]]
-| Consensus (soft fork)
-| Dealing with malleability
-| Pieter Wuille
-| Standard
-| Withdrawn
-| Ignored
-|
-|-
-| 63
-| Applications
-| Stealth Addresses
-| Peter Todd
-| Standard
-| BIP number allocated
-| Ignored
-|
-|-
-| [[bip-0064.mediawiki|64]]
-| Peer Services
-| getutxo message
-| Mike Hearn
-| Standard
-| Draft
-| Ignored
+| [[bip-0061.mediawiki#Dash_Modifications|Extended Active]]
 |
 |- style="background-color: #cfffcf"
 | [[bip-0065.mediawiki|65]]
@@ -432,7 +246,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Thomas Kerin, Jean-Pierre Rupp, Ruben de Vries
 | Standard
 | Proposed
-| *
+| Active *
 |
 |- style="background-color: #cfffcf"
 | [[bip-0068.mediawiki|68]]
@@ -450,7 +264,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Kristov Atlas
 | Informational
 | Proposed
-| Modified Active
+| [[bip-0069.mediawiki#Dash_Modifications|Modified Active]]
 |
 |- style="background-color: #cfffcf"
 | [[bip-0070.mediawiki|70]]
@@ -459,7 +273,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Gavin Andresen, Mike Hearn
 | Standard
 | Final
-| Modified Active
+| [[bip-0070.mediawiki#Dash_Modifications|Modified Active]]
 |
 |- style="background-color: #cfffcf"
 | [[bip-0071.mediawiki|71]]
@@ -468,7 +282,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Gavin Andresen
 | Standard
 | Final
-| Modified Active
+| [[bip-0071.mediawiki#Dash_Modifications|Modified Active]]
 |
 |- style="background-color: #cfffcf"
 | [[bip-0072.mediawiki|72]]
@@ -477,7 +291,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Gavin Andresen
 | Standard
 | Final
-| Modified Active
+| [[bip-0072.mediawiki#Dash_Modifications|Modified Active]]
 |
 |- style="background-color: #cfffcf"
 | [[bip-0073.mediawiki|73]]
@@ -486,7 +300,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Stephen Pair
 | Standard
 | Final
-| *
+| Active *
 |
 |-
 | [[bip-0074.mediawiki|74]]
@@ -495,7 +309,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Toby Padilla
 | Standard
 | Draft
-| *
+| Active *
 |
 |-
 | [[bip-0075.mediawiki|75]]
@@ -504,25 +318,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Justin Newton, Matt David, Aaron Voisine, James MacWhyte
 | Standard
 | Draft
-| *
-|
-|-
-| [[bip-0080.mediawiki|80]]
-|
-| Hierarchy for Non-Colored Voting Pool Deterministic Multisig Wallets
-| Justus Ranvier, Jimmy Song
-| Informational
-| Deferred
-| Ignored
-|
-|-
-| [[bip-0081.mediawiki|81]]
-|
-| Hierarchy for Colored Voting Pool Deterministic Multisig Wallets
-| Justus Ranvier, Jimmy Song
-| Informational
-| Deferred
-| Ignored
+| Active *
 |
 |-
 | [[bip-0083.mediawiki|83]]
@@ -531,106 +327,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Eric Lombrozo
 | Standard
 | Draft
-| *
-|
-|-
-| [[bip-0090.mediawiki|90]]
-| Consensus (hard fork)
-| Buried Deployments
-| Suhas Daftuar
-| Informational
-| Draft
-| Ignored
-|
-|-
-| [[bip-0091.mediawiki|91]]
-| Consensus (soft fork)
-| Reduced threshold Segwit MASF
-| James Hilliard
-| Standard
-| Draft
-| Ignored
-|
-|-
-| [[bip-0099.mediawiki|99]]
-|
-| Motivation and deployment of consensus rule changes ([soft/hard]forks)
-| Jorge Timón
-| Informational
-| Draft
-| Ignored
-|
-|- style="background-color: #ffcfcf"
-| [[bip-0101.mediawiki|101]]
-| Consensus (hard fork)
-| Increase maximum block size
-| Gavin Andresen
-| Standard
-| Withdrawn
-| Ignored
-|
-|-
-| [[bip-0102.mediawiki|102]]
-| Consensus (hard fork)
-| Block size increase to 2MB
-| Jeff Garzik
-| Standard
-| Draft
-| Ignored
-|
-|-
-| [[bip-0103.mediawiki|103]]
-| Consensus (hard fork)
-| Block size following technological growth
-| Pieter Wuille
-| Standard
-| Draft
-| Ignored
-|
-|-
-| [[bip-0104.mediawiki|104]]
-| Consensus (hard fork)
-| 'Block75' - Max block size like difficulty
-| t.khan
-| Standard
-| Draft
-| Ignored
-|
-|-
-| [[bip-0105.mediawiki|105]]
-| Consensus (hard fork)
-| Consensus based block size retargeting algorithm
-| BtcDrak
-| Standard
-| Draft
-| Ignored
-|
-|-
-| [[bip-0106.mediawiki|106]]
-| Consensus (hard fork)
-| Dynamically Controlled Bitcoin Block Size Max Cap
-| Upal Chakraborty
-| Standard
-| Draft
-| Ignored
-|
-|-
-| [[bip-0107.mediawiki|107]]
-| Consensus (hard fork)
-| Dynamic limit on the block size
-| Washington Y. Sanchez
-| Standard
-| Draft
-| Ignored
-|
-|- style="background-color: #ffcfcf"
-| [[bip-0109.mediawiki|109]]
-| Consensus (hard fork)
-| Two million byte size limit with sigop and sighash limits
-| Gavin Andresen
-| Standard
-| Rejected
-| Ignored
+| Active *
 |
 |- style="background-color: #ffffcf"
 | [[bip-0111.mediawiki|111]]
@@ -660,40 +357,13 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Active
 |
 |-
-| [[bip-0114.mediawiki|114]]
-| Consensus (soft fork)
-| Merkelized Abstract Syntax Tree
-| Johnson Lau
-| Standard
-| Draft
-| Ignored
-|
-|-
-| [[bip-0115.mediawiki|115]]
-| Consensus (soft fork)
-| Generic anti-replay protection using Script
-| Luke Dashjr
-| Standard
-| Draft
-| Ignored
-|
-|-
 | [[bip-0120.mediawiki|120]]
 | Applications
 | Proof of Payment
 | Kalle Rosenbaum
 | Standard
 | Draft
-| *
-|
-|-
-| [[bip-0121.mediawiki|121]]
-| Applications
-| Proof of Payment URI scheme
-| Kalle Rosenbaum
-| Standard
-| Draft
-| Ignored
+| Active *
 |
 |-
 | [[bip-0122.mediawiki|122]]
@@ -702,7 +372,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Marco Pontello
 | Standard
 | Draft
-| *
+| Active *
 |
 |- style="background-color: #cfffcf"
 | [[bip-0123.mediawiki|123]]
@@ -720,7 +390,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Eric Lombrozo, William Swanson
 | Informational
 | Draft
-| *
+| Active *
 |
 |- style="background-color: #ffffcf"
 | [[bip-0125.mediawiki|125]]
@@ -729,16 +399,7 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | David A. Harding, Peter Todd
 | Standard
 | Proposed
-| Modified Partial
-|
-|-
-| [[bip-0126.mediawiki|126]]
-|
-| Best Practices for Heterogeneous Input Script Transactions
-| Kristov Atlas
-| Informational
-| Draft
-| Ignored
+| [[bip-0125.mediawiki#Dash_Modifications|Modified Partial]]
 |
 |- style="background-color: #ffffcf"
 | [[bip-0130.mediawiki|130]]
@@ -749,6 +410,328 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Proposed
 | Active
 |
+|}
+
+<nowiki>*</nowiki> BIP is not Bitcoin or Dash specific (i.e. BIP-0044 Multi-Account Hierarchy for Deterministic Wallets).  Generally relates to the Application Layer and not specifically the reference client.
+
+==Ignored BIPs==
+
+The following BIPs are either not applicable to Dash or were previously withdrawn from Bitcoin.
+
+{| class="wikitable sortable" style="width: auto; text-align: center; font-size: smaller; table-layout: fixed;"
+!Number
+!Layer
+!Title
+!Owner
+!Type
+!Bitcoin Status
+!DASH Status
+|- style="background-color: #ffcfcf"
+| [[bip-0001.mediawiki|1]]
+|
+| BIP Purpose and Guidelines
+| Amir Taaki
+| Process
+| Replaced
+| Ignored
+|- style="background-color: #cfffcf"
+| [[bip-0002.mediawiki|2]]
+|
+| BIP process, revised
+| Luke Dashjr
+| Process
+| Active
+| Ignored
+|-
+| [[bip-0008.mediawiki|8]]
+|
+| Version bits with lock-in by height
+| Shaolin Fry
+| Informational
+| Draft
+| Ignored
+|- style="background-color: #ffcfcf"
+| [[bip-0010.mediawiki|10]]
+| Applications
+| Multi-Sig Transaction Distribution
+| Alan Reiner
+| Informational
+| Withdrawn
+| Ignored
+|- style="background-color: #ffcfcf"
+| [[bip-0012.mediawiki|12]]
+| Consensus (soft fork)
+| OP_EVAL
+| Gavin Andresen
+| Standard
+| Withdrawn
+| Ignored
+|-
+| [[bip-0015.mediawiki|15]]
+| Applications
+| Aliases
+| Amir Taaki
+| Standard
+| Deferred
+| Ignored
+|- style="background-color: #ffcfcf"
+| [[bip-0017.mediawiki|17]]
+| Consensus (soft fork)
+| OP_CHECKHASHVERIFY (CHV)
+| Luke Dashjr
+| Standard
+| Withdrawn
+| Ignored
+|- style="background-color: #ffffcf"
+| [[bip-0018.mediawiki|18]]
+| Consensus (soft fork)
+| hashScriptCheck
+| Luke Dashjr
+| Standard
+| Proposed
+| Ignored
+|-
+| [[bip-0019.mediawiki|19]]
+| Applications
+| M-of-N Standard Transactions (Low SigOp)
+| Luke Dashjr
+| Standard
+| Draft
+| Ignored
+|- style="background-color: #ffcfcf"
+| [[bip-0020.mediawiki|20]]
+| Applications
+| URI Scheme
+| Luke Dashjr
+| Standard
+| Replaced
+| Ignored
+|-
+| [[bip-0033.mediawiki|33]]
+| Peer Services
+| Stratized Nodes
+| Amir Taaki
+| Standard
+| Draft
+| Ignored
+|-
+| [[bip-0036.mediawiki|36]]
+| Peer Services
+| Custom Services
+| Stefan Thomas
+| Standard
+| Draft
+| Ignored
+|-
+| 40
+| API/RPC
+| Stratum wire protocol
+| Marek Palatinus
+| Standard
+| BIP number allocated
+| Ignored
+|-
+| 41
+| API/RPC
+| Stratum mining protocol
+| Marek Palatinus
+| Standard
+| BIP number allocated
+| Ignored
+|-
+| [[bip-0042.mediawiki|42]]
+| Consensus (soft fork)
+| A finite monetary supply for Bitcoin
+| Pieter Wuille
+| Standard
+| Draft
+| Ignored
+|-
+| [[bip-0049.mediawiki|49]]
+| Applications
+| Derivation scheme for P2WPKH-nested-in-P2SH based accounts
+| Daniel Weigl
+| Informational
+| Draft
+| Ignored
+|- style="background-color: #cfffcf"
+| [[bip-0050.mediawiki|50]]
+|
+| March 2013 Chain Fork Post-Mortem
+| Gavin Andresen
+| Informational
+| Final
+| Ignored
+<!-- 50 series reserved for a group of post-mortems -->
+|-
+| [[bip-0060.mediawiki|60]]
+| Peer Services
+| Fixed Length "version" Message (Relay-Transactions Field)
+| Amir Taaki
+| Standard
+| Draft
+| Ignored
+|- style="background-color: #ffcfcf"
+| [[bip-0062.mediawiki|62]]
+| Consensus (soft fork)
+| Dealing with malleability
+| Pieter Wuille
+| Standard
+| Withdrawn
+| Ignored
+|-
+| 63
+| Applications
+| Stealth Addresses
+| Peter Todd
+| Standard
+| BIP number allocated
+| Ignored
+|-
+| [[bip-0064.mediawiki|64]]
+| Peer Services
+| getutxo message
+| Mike Hearn
+| Standard
+| Draft
+| Ignored
+|-
+| [[bip-0080.mediawiki|80]]
+|
+| Hierarchy for Non-Colored Voting Pool Deterministic Multisig Wallets
+| Justus Ranvier, Jimmy Song
+| Informational
+| Deferred
+| Ignored
+|-
+| [[bip-0081.mediawiki|81]]
+|
+| Hierarchy for Colored Voting Pool Deterministic Multisig Wallets
+| Justus Ranvier, Jimmy Song
+| Informational
+| Deferred
+| Ignored
+|-
+| [[bip-0090.mediawiki|90]]
+| Consensus (hard fork)
+| Buried Deployments
+| Suhas Daftuar
+| Informational
+| Draft
+| Ignored
+|-
+| [[bip-0091.mediawiki|91]]
+| Consensus (soft fork)
+| Reduced threshold Segwit MASF
+| James Hilliard
+| Standard
+| Draft
+| Ignored
+|-
+| [[bip-0099.mediawiki|99]]
+|
+| Motivation and deployment of consensus rule changes ([soft/hard]forks)
+| Jorge Timón
+| Informational
+| Draft
+| Ignored
+|- style="background-color: #ffcfcf"
+| [[bip-0101.mediawiki|101]]
+| Consensus (hard fork)
+| Increase maximum block size
+| Gavin Andresen
+| Standard
+| Withdrawn
+| Ignored
+|-
+| [[bip-0102.mediawiki|102]]
+| Consensus (hard fork)
+| Block size increase to 2MB
+| Jeff Garzik
+| Standard
+| Draft
+| Ignored
+|-
+| [[bip-0103.mediawiki|103]]
+| Consensus (hard fork)
+| Block size following technological growth
+| Pieter Wuille
+| Standard
+| Draft
+| Ignored
+|-
+| [[bip-0104.mediawiki|104]]
+| Consensus (hard fork)
+| 'Block75' - Max block size like difficulty
+| t.khan
+| Standard
+| Draft
+| Ignored
+|-
+| [[bip-0105.mediawiki|105]]
+| Consensus (hard fork)
+| Consensus based block size retargeting algorithm
+| BtcDrak
+| Standard
+| Draft
+| Ignored
+|
+|-
+| [[bip-0106.mediawiki|106]]
+| Consensus (hard fork)
+| Dynamically Controlled Bitcoin Block Size Max Cap
+| Upal Chakraborty
+| Standard
+| Draft
+| Ignored
+|-
+| [[bip-0107.mediawiki|107]]
+| Consensus (hard fork)
+| Dynamic limit on the block size
+| Washington Y. Sanchez
+| Standard
+| Draft
+| Ignored
+|- style="background-color: #ffcfcf"
+| [[bip-0109.mediawiki|109]]
+| Consensus (hard fork)
+| Two million byte size limit with sigop and sighash limits
+| Gavin Andresen
+| Standard
+| Rejected
+| Ignored
+|-
+| [[bip-0114.mediawiki|114]]
+| Consensus (soft fork)
+| Merkelized Abstract Syntax Tree
+| Johnson Lau
+| Standard
+| Draft
+| Ignored
+|-
+| [[bip-0115.mediawiki|115]]
+| Consensus (soft fork)
+| Generic anti-replay protection using Script
+| Luke Dashjr
+| Standard
+| Draft
+| Ignored
+|-
+| [[bip-0121.mediawiki|121]]
+| Applications
+| Proof of Payment URI scheme
+| Kalle Rosenbaum
+| Standard
+| Draft
+| Ignored
+|-
+| [[bip-0126.mediawiki|126]]
+|
+| Best Practices for Heterogeneous Input Script Transactions
+| Kristov Atlas
+| Informational
+| Draft
+| Ignored
 |-
 | [[bip-0131.mediawiki|131]]
 | Consensus (hard fork)
@@ -757,7 +740,6 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Standard
 | Draft
 | Ignored
-|
 |- style="background-color: #ffcfcf"
 | [[bip-0132.mediawiki|132]]
 |
@@ -766,7 +748,6 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Process
 | Withdrawn
 | Ignored
-|
 |-
 | [[bip-0133.mediawiki|133]]
 | Peer Services
@@ -775,7 +756,6 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Standard
 | Draft
 | Ignored
-|
 |-
 | [[bip-0134.mediawiki|134]]
 | Consensus (hard fork)
@@ -784,7 +764,6 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Standard
 | Draft
 | Ignored
-|
 |-
 | [[bip-0135.mediawiki|135]]
 |
@@ -793,7 +772,6 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Informational
 | Draft
 | Ignored
-|
 |-
 | [[bip-0140.mediawiki|140]]
 | Consensus (soft fork)
@@ -802,7 +780,6 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Standard
 | Draft
 | Ignored
-|
 |-
 | [[bip-0141.mediawiki|141]]
 | Consensus (soft fork)
@@ -811,7 +788,6 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Standard
 | Draft
 | Ignored
-|
 |-
 | [[bip-0142.mediawiki|142]]
 | Applications
@@ -820,7 +796,6 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Standard
 | Deferred
 | Ignored
-|
 |-
 | [[bip-0143.mediawiki|143]]
 | Consensus (soft fork)
@@ -829,7 +804,6 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Standard
 | Draft
 | Ignored
-|
 |-
 | [[bip-0144.mediawiki|144]]
 | Peer Services
@@ -838,7 +812,6 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Standard
 | Draft
 | Ignored
-|
 |-
 | [[bip-0145.mediawiki|145]]
 | API/RPC
@@ -847,7 +820,6 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Standard
 | Draft
 | Ignored
-|
 |-
 | [[bip-0146.mediawiki|146]]
 | Consensus (soft fork)
@@ -856,7 +828,6 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Standard
 | Draft
 | Ignored
-|
 |-
 | [[bip-0147.mediawiki|147]]
 | Consensus (soft fork)
@@ -865,7 +836,6 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Standard
 | Draft
 | Ignored
-|
 |-
 | [[bip-0148.mediawiki|148]]
 | Consensus (soft fork)
@@ -874,7 +844,6 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Standard
 | Draft
 | Ignored
-|
 |-
 | [[bip-0149.mediawiki|149]]
 | Consensus (soft fork)
@@ -883,7 +852,6 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Standard
 | Draft
 | Ignored
-|
 |-
 | [[bip-0150.mediawiki|150]]
 | Peer Services
@@ -892,7 +860,6 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Standard
 | Draft
 | Ignored
-|
 |-
 | [[bip-0151.mediawiki|151]]
 | Peer Services
@@ -901,7 +868,6 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Standard
 | Draft
 | Ignored
-|
 |-
 | [[bip-0152.mediawiki|152]]
 | Peer Services
@@ -910,7 +876,6 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Standard
 | Draft
 | Ignored
-|
 |-
 | [[bip-0154.mediawiki|154]]
 | Peer Services
@@ -919,7 +884,6 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Standard
 | Draft
 | Ignored
-|
 |-
 | [[bip-0171.mediawiki|171]]
 | Applications
@@ -928,7 +892,6 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Standard
 | Draft
 | Ignored
-|
 |-
 | [[bip-0173.mediawiki|173]]
 | Applications
@@ -937,7 +900,6 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Informational
 | Draft
 | Ignored
-|
 |-
 | [[bip-0180.mediawiki|180]]
 | Peer Services
@@ -946,7 +908,6 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Standard
 | Draft
 | Ignored
-|
 |-
 | [[bip-0199.mediawiki|199]]
 | Applications
@@ -955,9 +916,6 @@ One should note 2 types of statuses, Bitcoin Status and DASH Status.  DASH statu
 | Standard
 | Draft
 | Ignored
-|
 |}
-
-* BIP is not Bitcoin or Dash specific (i.e. BIP-0044 Multi-Account Hierarchy for Deterministic Wallets).  Generally relates to the Application Layer and not specifically the reference client. 
 
 <!-- IMPORTANT!  See the instructions at the top of this page, do NOT JUST add BIPs here! -->
