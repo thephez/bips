@@ -86,7 +86,7 @@ If the requesting client is looking up outputs for a signed transaction that the
 client can partly verify the returned output by running the input scripts with it. Currently this
 verifies only that the script is correct. A future version of the Bitcoin protocol is likely to also
 allow the value to be checked in this way. It does not show that the output is really unspent or was
-ever actually created in the block chain however. Additionally, the form of the provided scriptPubKey 
+ever actually created in the block chain however. Additionally, the form of the provided scriptPubKey
 should be checked before execution to ensure the remote peer doesn't just set the script to OP_TRUE.
 
 If the requesting client has a mapping of chain heights to block hashes in the best chain e.g.
@@ -106,7 +106,7 @@ results.
 https://github.com/bitcoin/bitcoin/pull/4351/files
 
 ==References==
-[[https://github.com/dashpay/dash/blob/master/src/protocol.h#L261|Not supported by Dash]]
+[[https://github.com/dashpay/dash/blob/b82b9787d26b126b9f19a5ac000a6cd8d964b42b/src/protocol.h#L261|Not supported by Dash]]
 
 ==Dash Modification==
 * None

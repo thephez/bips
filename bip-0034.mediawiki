@@ -12,9 +12,9 @@
 
 ==Abstract==
 
-Blocks and transactions are versioned binary structures. Both currently use version 1. This BIP introduces an upgrade path for versioned transactions and blocks. A unique value is added to newly produced coinbase transactions, and blocks are updated to version 2.  
+Blocks and transactions are versioned binary structures. Both currently use version 1. This BIP introduces an upgrade path for versioned transactions and blocks. A unique value is added to newly produced coinbase transactions, and blocks are updated to version 2.
 
-Note: In Dash, the only version 1 block is the genesis block (see [https://github.com/dashpay/dash/blob/master/src/chainparams.cpp]).  All subsequent blocks have a version number > 1.
+Note: In Dash, the only version 1 block is the genesis block (see [https://github.com/dashpay/dash/blob/3028af19f1d3291bddb48c69a649d3b51ce2e5c1/src/chainparams.cpp#L41-#L57 chainparams.cpp]).  All subsequent blocks have a version number > 1.
 
 ==Motivation==
 
