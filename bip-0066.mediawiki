@@ -75,7 +75,7 @@ bool static IsValidSignatureEncoding(const std::vector<unsigned char> &sig) {
     // Verify that the length of the signature matches the sum of the length
     // of the elements.
     if ((size_t)(lenR + lenS + 7) != sig.size()) return false;
- 
+
     // Check whether the R element is an integer.
     if (sig[2] != 0x02) return false;
 
@@ -142,7 +142,11 @@ The requirement to have signatures that comply strictly with DER has been enforc
 
 ==Acknowledgements==
 
-This document is extracted from the previous BIP62 proposal, which had input from various people, in particular Greg Maxwell and Peter Todd, who gave feedback about this document as well. 
+This document is extracted from the previous BIP62 proposal, which had input from various people, in particular Greg Maxwell and Peter Todd, who gave feedback about this document as well.
+
+==Disclosures==
+
+* Subsequent to the network-wide adoption and enforcement of this BIP, the author [https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2015-July/009697.html disclosed] that strict DER signatures provided an indirect solution to a consensus bug he had previously discovered.
 
 ==Dash Modifications==
 * None

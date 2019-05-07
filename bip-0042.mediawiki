@@ -4,7 +4,8 @@
   Title: A finite monetary supply for Bitcoin
   Author: Pieter Wuille <pieter.wuille@gmail.com>
   Comments-Summary: Unanimously Recommended for implementation
-  Status: Draft
+  Comments-URI: https://github.com/bitcoin/bips/wiki/Comments:BIP-0042
+  Status: Final
   Dash-Status: Ignored
   Type: Standards Track
   Created: 2014-04-01
@@ -42,7 +43,7 @@ Note that several other programming languages do not exhibit this behaviour, mak
 
 ===Floating-point approximation===
 
-An obvious solution would be to reimplement the shape of the subsidy curve using floating-point approximations, such as simulated annealing or quantitative easing, which have already proven their worth in consensus systems. Unfortunately, since the financial crisis everyone considers numbers with decimal points in them fishy, and integers are not well supported by Javascript. 
+An obvious solution would be to reimplement the shape of the subsidy curve using floating-point approximations, such as simulated annealing or quantitative easing, which have already proven their worth in consensus systems. Unfortunately, since the financial crisis everyone considers numbers with decimal points in them fishy, and integers are not well supported by Javascript.
 
 ===Truncation===
 
