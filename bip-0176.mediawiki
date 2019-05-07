@@ -5,6 +5,7 @@
   Comments-Summary: No comments yet.
   Comments-URI: https://github.com/bitcoin/bips/wiki/Comments:BIP-0176
   Status: Draft
+  Dash-Status: Ignored
   Type: Informational
   Created: 2017-12-12
   License: BSD-2-Clause
@@ -48,7 +49,7 @@ The term "bit" has many different definitions, but the ones of particular note a
 * bit meaning some amount of data (e.g. The first bit of the version field is 0)
 * bit meaning strength of a cryptographic algorithm (e.g. 256-bit ECDSA is used in Bitcoin)
 
-The first is a bit dated and isn't likely to confuse people dealing with Bitcoin. The second and third are computer science terms and context should be sufficient to figure out what the user of the word means. 
+The first is a bit dated and isn't likely to confuse people dealing with Bitcoin. The second and third are computer science terms and context should be sufficient to figure out what the user of the word means.
 
 == Copyright ==
 This BIP is licensed under the BSD 2-clause license.
