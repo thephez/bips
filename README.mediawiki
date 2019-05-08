@@ -300,7 +300,7 @@ The following BIPs are active in Dash. Click [[#Ignored_BIPs|here]] to see the B
 | Stephen Pair
 | Standard
 | Final
-| Active *
+| Final *
 |
 |-
 | [[bip-0074.mediawiki|74]]
@@ -329,6 +329,15 @@ The following BIPs are active in Dash. Click [[#Ignored_BIPs|here]] to see the B
 | Draft
 | Active *
 |
+|-
+| [[bip-0090.mediawiki|90]]
+|
+| Buried Deployments
+| Suhas Daftuar
+| Informational
+| Draft
+| Active
+|
 |- style="background-color: #ffffcf"
 | [[bip-0111.mediawiki|111]]
 | Peer Services
@@ -355,15 +364,6 @@ The following BIPs are active in Dash. Click [[#Ignored_BIPs|here]] to see the B
 | Standard
 | Final
 | Active
-|
-|-
-| [[bip-0120.mediawiki|120]]
-| Applications
-| Proof of Payment
-| Kalle Rosenbaum
-| Standard
-| Draft
-| Active *
 |
 |-
 | [[bip-0122.mediawiki|122]]
@@ -408,6 +408,24 @@ The following BIPs are active in Dash. Click [[#Ignored_BIPs|here]] to see the B
 | Suhas Daftuar
 | Standard
 | Proposed
+| Active
+|
+|- style="background-color: #cfffcf"
+| [[bip-0147.mediawiki|147]]
+| Consensus (soft fork)
+| Dealing with dummy stack element malleability
+| Johnson Lau
+| Standard
+| Final
+| Active
+|
+|-
+| [[bip-0152.mediawiki|152]]
+| Peer Services
+| Compact Block Relay
+| Matt Corallo
+| Standard
+| Draft
 | Active
 |
 |}
