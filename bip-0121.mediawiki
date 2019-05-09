@@ -4,7 +4,8 @@
   Title: Proof of Payment URI scheme
   Author: Kalle Rosenbaum <kalle@rosenbaum.se>
   Comments-Summary: No comments yet.
-  Status: Draft
+  Comments-URI: https://github.com/bitcoin/bips/wiki/Comments:BIP-0121
+  Status: Withdrawn
   Dash-Status: Ignored
   Type: Standards Track
   Created: 2015-07-27

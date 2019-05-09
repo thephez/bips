@@ -4,7 +4,8 @@
   Title: Reduced threshold Segwit MASF
   Author: James Hilliard <james.hilliard1@gmail.com>
   Comments-Summary: No comments yet.
-  Status: Draft
+  Comments-URI: https://github.com/bitcoin/bips/wiki/Comments:BIP-0091
+  Status: Final
   Dash-Status: Ignored
   Type: Standards Track
   Created: 2017-05-22
@@ -86,7 +87,7 @@ if (VersionBitsState(pindex->pprev, chainparams.GetConsensus(), Consensus::DEPLO
 }
 </pre>
 
-https://github.com/bitcoin/bitcoin/compare/0.14...jameshilliard:segsignal-v0.14.1
+https://github.com/segsignal/bitcoin
 
 ==Backwards Compatibility==
 
