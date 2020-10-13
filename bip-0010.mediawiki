@@ -4,6 +4,7 @@
   Title: Multi-Sig Transaction Distribution
   Author: Alan Reiner <etotheipi@gmail.com>
   Comments-Summary: No comments yet.
+  Comments-URI: https://github.com/bitcoin/bips/wiki/Comments:BIP-0010
   Status: Withdrawn
   Dash-Status: Ignored
   Type: Informational

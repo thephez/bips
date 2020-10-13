@@ -17,21 +17,21 @@ State can be defined, active, failed. Dates are in UTC.
 |-
 | csv
 | 0
-| 2017-02-05 00:00:00
-| 2018-02-05 00:00:00
-| Active
+| 2016-05-01 00:00:00
+| 2017-05-01 00:00:00
+| active since #419328
 | 2016-03-01 00:00:00
-| 2017-03-01 00:00:00
-| Active
+| 2017-05-01 00:00:00
+| active since #770112
 | [[/bip-0068.mediawiki|68]], [[/bip-0112.mediawiki|112]], [[/bip-0113.mediawiki|113]]
 |-
-| dip0001
+| segwit
 | 1
-| 2017-10-15 00:00:00
-| 2018-10-15 00:00:00
-| Active
-| 2017-09-18 00:00:00
-| 2018-09-18 00:00:00
-| Active
-| [https://github.com/dashpay/dips/blob/master/dip-0001.md DIP-1]
+| 2016-11-15 00:00:00
+| 2017-11-15 00:00:00
+| active since #481824
+| 2016-05-01 00:00:00
+| 2017-05-01 00:00:00
+| active since #834624
+| [[/bip-0141.mediawiki|141]], [[/bip-0143.mediawiki|143]], [[/bip-0147.mediawiki|147]]
 |}

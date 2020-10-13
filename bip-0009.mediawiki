@@ -6,6 +6,7 @@
           Greg Maxwell <greg@xiph.org>
           Rusty Russell <rusty@rustcorp.com.au>
   Comments-Summary: No comments yet.
+  Comments-URI: https://github.com/bitcoin/bips/wiki/Comments:BIP-0009
   Status: Final
   Dash-Status: Active
   Type: Informational
@@ -15,13 +16,13 @@
 
 ==Abstract==
 
-This document specifies a proposed change to the semantics of the 'version' field in blocks, allowing multiple backward-compatible changes (further called "soft forks") to be deployed in parallel. It relies on interpreting the version field as a bit vector, where each bit can be used to track an independent change. These are tallied each retarget period. Once the consensus change succeeds or times out, there is a "fallow" pause after which the bit can be reused for later changes.
+This document specifies a proposed change to the semantics of the 'version' field in Bitcoin blocks, allowing multiple backward-compatible changes (further called "soft forks") to be deployed in parallel. It relies on interpreting the version field as a bit vector, where each bit can be used to track an independent change. These are tallied each retarget period. Once the consensus change succeeds or times out, there is a "fallow" pause after which the bit can be reused for later changes.
 
 ==Motivation==
 
-[[bip-0034.mediawiki|BIP 34]] introduced a mechanism for doing soft-forking changes without a predefined flag timestamp (or flag block height), instead relying on measuring miner support indicated by a higher version number in block headers. As it relies on comparing version numbers as integers however, it only supports one single change being rolled out at once, requiring coordination between proposals, and does not allow for permanent rejection: as long as one soft fork is not fully rolled out, no future one can be scheduled.
+BIP 34 introduced a mechanism for doing soft-forking changes without a predefined flag timestamp (or flag block height), instead relying on measuring miner support indicated by a higher version number in block headers. As it relies on comparing version numbers as integers however, it only supports one single change being rolled out at once, requiring coordination between proposals, and does not allow for permanent rejection: as long as one soft fork is not fully rolled out, no future one can be scheduled.
 
-In addition, BIP 34 made the integer comparison (nVersion >= 2) a consensus rule after its 95% threshold was reached, removing 2<sup>31</sup>+2 values from the set of valid version numbers (all negative numbers, as nVersion is interpreted as a signed integer, as well as 0 and 1). This indicates another downside this approach: every upgrade permanently restricts the set of allowed nVersion field values. This approach was later reused in [[bip-0066.mediawiki|BIP 66]] and [[bip-0065.mediawiki|BIP 65]], which further removed nVersions 2 and 3 as valid options. As will be shown further, this is unnecessary.
+In addition, BIP 34 made the integer comparison (nVersion >= 2) a consensus rule after its 95% threshold was reached, removing 2<sup>31</sup>+2 values from the set of valid version numbers (all negative numbers, as nVersion is interpreted as a signed integer, as well as 0 and 1). This indicates another downside this approach: every upgrade permanently restricts the set of allowed nVersion field values. This approach was later reused in BIP 66 and BIP 65, which further removed nVersions 2 and 3 as valid options. As will be shown further, this is unnecessary.
 
 ==Specification==
 
@@ -217,7 +218,7 @@ Soft forks right now are typically treated as booleans: they go from an inactive
 
 The failure timeout allows eventual reuse of bits even if a soft fork was
 never activated, so it's clear that the new use of the bit refers to a
-new BIP.  It's deliberately very course grained, to take into account
+new BIP.  It's deliberately very coarse-grained, to take into account
 reasonable development and deployment delays.  There are unlikely to be
 enough failed proposals to cause a bit shortage.
 
