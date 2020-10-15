@@ -4,7 +4,6 @@
   Title: hashScriptCheck
   Author: Luke Dashjr <luke+bip17@dashjr.org>
   Comments-Summary: No comments yet.
-  Comments-URI: https://github.com/bitcoin/bips/wiki/Comments:BIP-0018
   Status: Proposed
   Dash-Status: Ignored
   Type: Standards Track

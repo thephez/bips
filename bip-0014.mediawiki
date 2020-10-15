@@ -5,7 +5,6 @@
   Author: Amir Taaki <genjix@riseup.net>
           Patrick Strateman <bitcoin-bips@covertinferno.org>
   Comments-Summary: No comments yet.
-  Comments-URI: https://github.com/bitcoin/bips/wiki/Comments:BIP-0014
   Status: Final
   Dash-Status: Active
   Type: Standards Track

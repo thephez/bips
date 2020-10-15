@@ -4,7 +4,6 @@
   Author: Shaolin Fry <shaolinfry@protonmail.ch>
           Luke Dashjr <luke+bip@dashjr.org>
   Comments-Summary: No comments yet.
-  Comments-URI: https://github.com/bitcoin/bips/wiki/Comments:BIP-0008
   Status: Draft
   Dash-Status: Ignored
   Type: Informational

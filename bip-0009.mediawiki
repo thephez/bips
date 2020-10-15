@@ -6,7 +6,6 @@
           Greg Maxwell <greg@xiph.org>
           Rusty Russell <rusty@rustcorp.com.au>
   Comments-Summary: No comments yet.
-  Comments-URI: https://github.com/bitcoin/bips/wiki/Comments:BIP-0009
   Status: Final
   Dash-Status: Active
   Type: Informational
