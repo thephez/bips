@@ -30,7 +30,7 @@ This rule initially applied to all blocks whose timestamp is after March 15, 201
 ==Rationale==
 Whatever solution is used, the following law must be obeyed to guarantee sane behaviour: the set of usable
 transactions outputs must not be modified by adding blocks to the chain and removing them again. This happens during
-a reorganisation, and the current reference implementation does not obey this law in case the temporarily
+a reorganisation, and the current Bitcoin reference implementation does not obey this law in case the temporarily
 added blocks contain a duplicate transaction.
 
 There are several potential solutions to this problem:

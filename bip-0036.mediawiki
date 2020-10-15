@@ -4,7 +4,7 @@
   Title: Custom Services
   Author: Stefan Thomas <justmoon@members.fsf.org>
   Comments-Summary: No comments yet.
-  Status: Draft
+  Status: Rejected
   Dash-Status: Ignored
   Type: Standards Track
   Created: 2012-08-03

@@ -14,8 +14,8 @@
 ==Abstract==
 
 This BIP defines a logical hierarchy for deterministic wallets based on an algorithm
-described in [[bip-0032.mediawiki|BIP 0032]] (BIP32 from now on) and purpose scheme described in
-[[bip-0043.mediawiki|BIP 0043]] (BIP43 from now on).
+described in BIP-0032 (BIP32 from now on) and purpose scheme described in
+BIP-0043 (BIP43 from now on).
 
 This BIP is a particular application of BIP43.
 
@@ -57,7 +57,7 @@ Coin type is a constant, set for each cryptocoin. Cryptocoin developers may ask
 for registering unused number for their project.
 
 The list of already allocated coin types is in the chapter
-[[#registered-coin-types|"Registered coin types"]] below.
+"Registered coin types" below.
 
 Hardened derivation is used at this level.
 
@@ -80,7 +80,7 @@ Software should prevent a creation of an account if a previous account does not
 have a transaction history (meaning none of its addresses have been used before).
 
 Software needs to discover all used accounts after importing the seed from
-an external source. Such an algorithm is described in [[#account-discovery|"Account discovery"]] chapter.
+an external source. Such an algorithm is described in "Account discovery" chapter.
 
 ===Change===
 
@@ -112,7 +112,7 @@ start to discover the accounts in the following manner:
 
 This algorithm is successful because software should disallow creation of new
 accounts if previous one has no transaction history, as described in chapter
-[[#account|"Account"]] above.
+"Account" above.
 
 Please note that the algorithm works with the transaction history, not account
 balances, so you can have an account with 0 total coins and the algorithm will
@@ -131,7 +131,7 @@ an external chain by generating a new address.
 ==Registered coin types==
 
 These are the default registered coin types for usage in level 2 of BIP44
-described in chapter [[#coin-type|"Coin type"]] above.
+described in chapter "Coin type" above.
 
 All these constants are used as hardened derivation.
 
@@ -153,7 +153,6 @@ This BIP is not a central directory for the registered coin types, please
 visit SatoshiLabs that maintains the full list:
 
 [[https://github.com/satoshilabs/slips/blob/master/slip-0044.md|SLIP-0044 : Registered coin types for BIP-0044]]
-* Note: Per SLIP-0044, index 1 (0x80000001) is used for Testnet (all coins).
 
 To register a new coin type, an existing wallet that implements the standard
 is required and a pull request to the above file should be created.

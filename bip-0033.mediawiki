@@ -4,7 +4,7 @@
   Title: Stratized Nodes
   Author: Amir Taaki <genjix@riseup.net>
   Comments-Summary: No comments yet.
-  Status: Draft
+  Status: Rejected
   Dash-Status: Ignored
   Type: Standards Track
   Created: 2012-05-15
