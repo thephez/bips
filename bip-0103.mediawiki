@@ -4,7 +4,7 @@
   Title: Block size following technological growth
   Author: Pieter Wuille <pieter.wuille@gmail.com>
   Comments-Summary: No comments yet.
-  Status: Draft
+  Status: Withdrawn
   Dash-Status: Ignored
   Type: Standards Track
   Created: 2015-07-21

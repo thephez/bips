@@ -3,7 +3,7 @@
   Title: Generalized version bits voting
   Author: Sancho Panza <sanch0panza@protonmail.com>
   Comments-Summary: No comments yet.
-  Status: Draft
+  Status: Rejected
   Dash-Status: Ignored
   Type: Informational
   Created: 2017-03-29

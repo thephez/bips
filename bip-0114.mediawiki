@@ -4,7 +4,7 @@
   Title: Merkelized Abstract Syntax Tree
   Author: Johnson Lau <jl2012@xbt.hk>
   Comments-Summary: No comments yet.
-  Status: Draft
+  Status: Rejected
   Dash-Status: Ignored
   Type: Standards Track
   Created: 2016-04-02

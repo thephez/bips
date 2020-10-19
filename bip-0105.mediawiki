@@ -4,7 +4,7 @@
   Title: Consensus based block size retargeting algorithm
   Author: BtcDrak <btcdrak@gmail.com>
   Comments-Summary: No comments yet.
-  Status: Draft
+  Status: Rejected
   Dash-Status: Ignored
   Type: Standards Track
   Created: 2015-08-21

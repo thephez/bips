@@ -4,7 +4,6 @@
   Title: SIGHASH_NOINPUT
   Author: Christian Decker <decker.christian@gmail.com>
   Comments-Summary: No comments yet.
-  Comments-URI: https://github.com/bitcoin/bips/wiki/Comments:BIP-0118
   Status: Draft
   Dash-Status: Ignored
   Type: Standards Track

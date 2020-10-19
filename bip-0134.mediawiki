@@ -4,7 +4,7 @@
   Title: Flexible Transactions
   Author: Tom Zander <tomz@freedommail.ch>
   Comments-Summary: No comments yet.
-  Status: Draft
+  Status: Rejected
   Dash-Status: Ignored
   Type: Standards Track
   Created: 2016-07-27

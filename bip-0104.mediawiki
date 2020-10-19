@@ -4,7 +4,7 @@
   Title: 'Block75' - Max block size like difficulty
   Author: t.khan <teekhan42@gmail.com>
   Comments-Summary: No comments yet.
-  Status: Draft
+  Status: Rejected
   Dash-Status: Ignored
   Type: Standards Track
   Created: 2017-01-13

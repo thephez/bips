@@ -4,7 +4,7 @@
   Title: Dynamically Controlled Bitcoin Block Size Max Cap
   Author: Upal Chakraborty <bitcoin@upalc.com>
   Comments-Summary: No comments yet.
-  Status: Draft
+  Status: Rejected
   Dash-Status: Ignored
   Type: Standards Track
   Created: 2015-08-24

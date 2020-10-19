@@ -4,7 +4,7 @@
   Title: Generic anti-replay protection using Script
   Author: Luke Dashjr <luke+bip@dashjr.org>
   Comments-Summary: No comments yet.
-  Status: Draft
+  Status: Rejected
   Dash-Status: Ignored
   Type: Standards Track
   Created: 2016-09-23

@@ -4,7 +4,7 @@
   Title: Dynamic limit on the block size
   Author: Washington Y. Sanchez <washington.sanchez@gmail.com>
   Comments-Summary: No comments yet.
-  Status: Draft
+  Status: Rejected
   Dash-Status: Ignored
   Type: Standards Track
   Created: 2015-09-11

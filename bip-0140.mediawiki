@@ -4,7 +4,7 @@
   Title: Normalized TXID
   Author: Christian Decker <decker.christian@gmail.com>
   Comments-Summary: No comments yet.
-  Status: Draft
+  Status: Rejected
   Dash-Status: Ignored
   Type: Standards Track
   Created: 2015-10-14

@@ -4,7 +4,7 @@
   Title: "Coalescing Transaction" Specification (wildcard inputs)
   Author: Chris Priest <cp368202@ohiou.edu>
   Comments-Summary: No comments yet.
-  Status: Draft
+  Status: Rejected
   Dash-Status: Ignored
   Type: Standards Track
   Created: 2015-11-30
