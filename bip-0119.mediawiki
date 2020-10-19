@@ -4,6 +4,7 @@
   Title: CHECKTEMPLATEVERIFY
   Author: Jeremy Rubin <j@rubin.io>
   Status: Draft
+  Dash-Status: Ignored
   Type: Standards Track
   Created: 2020-01-06
   License: BSD-3-Clause

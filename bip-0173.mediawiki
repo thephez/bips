@@ -6,7 +6,7 @@
           Greg Maxwell <greg@xiph.org>
   Comments-Summary: No comments yet.
   Status: Final
-  Dash-Status: Ignored  
+  Dash-Status: Ignored
   Type: Informational
   Created: 2017-03-20
   License: BSD-2-Clause

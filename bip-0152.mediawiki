@@ -5,7 +5,7 @@
   Author: Matt Corallo <bip152@bluematt.me>
   Comments-Summary: Unanimously Recommended for implementation
   Status: Final
-  Dash-Status: Ignored
+  Dash-Status: Final
   Type: Standards Track
   Created: 2016-04-27
   License: PD

@@ -5,6 +5,7 @@
   Author: Suhas Daftuar <sdaftuar@chaincode.com>
   Comments-Summary: No comments yet.
   Status: Draft
+  Dash-Status: Ignored
   Type: Standards Track
   Created: 2020-02-03
   License: BSD-2-Clause

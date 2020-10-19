@@ -6,6 +6,7 @@
           Tim Ruffing <crypto@timruffing.de>
   Comments-Summary: No comments yet.
   Status: Draft
+  Dash-Status: Ignored
   Type: Standards Track
   License: BSD-2-Clause
   Created: 2020-01-19
