@@ -175,7 +175,7 @@ The following BIPs are active in Dash. Click [[#Ignored_BIPs|here]] to see the B
 | Proposed
 | Active *
 |
-|-
+|- style="background-color: #cfffcf"
 | [[bip-0043.mediawiki|43]]
 | Applications
 | Purpose Field for Deterministic Wallets
@@ -329,15 +329,6 @@ The following BIPs are active in Dash. Click [[#Ignored_BIPs|here]] to see the B
 | Draft
 | Active *
 |
-|-
-| [[bip-0090.mediawiki|90]]
-|
-| Buried Deployments
-| Suhas Daftuar
-| Informational
-| Draft
-| Active
-|
 |- style="background-color: #ffffcf"
 | [[bip-0111.mediawiki|111]]
 | Peer Services
@@ -383,12 +374,13 @@ The following BIPs are active in Dash. Click [[#Ignored_BIPs|here]] to see the B
 | Active
 | Active
 |
-|-
+|- style="background-color: #ffcfcf"
 | [[bip-0124.mediawiki|124]]
 | Applications
 | Hierarchical Deterministic Script Templates
 | Eric Lombrozo, William Swanson
 | Informational
+| Rejected
 | Draft
 | Active *
 |
@@ -934,14 +926,6 @@ The following BIPs are either not applicable to Dash or were previously withdraw
 | Draft
 | Ignored
 |- style="background-color: #cfffcf"
-| [[bip-0147.mediawiki|147]]
-| Consensus (soft fork)
-| Dealing with dummy stack element malleability
-| Johnson Lau
-| Standard
-| Final
-| Ignored
-|- style="background-color: #cfffcf"
 | [[bip-0148.mediawiki|148]]
 | Consensus (soft fork)
 | Mandatory activation of segwit deployment
@@ -972,14 +956,6 @@ The following BIPs are either not applicable to Dash or were previously withdraw
 | Jonas Schnelli
 | Standard
 | Withdrawn
-| Ignored
-|- style="background-color: #cfffcf"
-| [[bip-0152.mediawiki|152]]
-| Peer Services
-| Compact Block Relay
-| Matt Corallo
-| Standard
-| Final
 | Ignored
 |-
 | [[bip-0154.mediawiki|154]]
