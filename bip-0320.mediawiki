@@ -3,7 +3,6 @@
   Title: nVersion bits for general purpose use
   Author: BtcDrak <btcdrak@gmail.com>
   Comments-Summary: No comments yet.
-  Comments-URI: https://github.com/bitcoin/bips/wiki/Comments:BIP-0320
   Status: Draft
   Dash-Status: Ignored
   Type: Standards Track
