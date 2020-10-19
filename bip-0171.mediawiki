@@ -4,7 +4,7 @@
   Title: Currency/exchange rate information API
   Author: Luke Dashjr <luke+bip@dashjr.org>
   Comments-Summary: No comments yet.
-  Status: Draft
+  Status: Rejected
   Dash-Status: Ignored
   Type: Standards Track
   Created: 2017-03-04
