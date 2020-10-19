@@ -39,6 +39,7 @@ my %MiscField = (
 	'Discussions-To' => undef,
 	'Post-History' => undef,
 	'Replaces' => undef,
+	'Requires' => undef,
 	'Superseded-By' => undef,
 );
 
@@ -58,6 +59,7 @@ my %ValidStatus = (
 	Final => "background-color: #cfffcf",
 	Active => "background-color: #cfffcf",
 	Replaced => "background-color: #ffcfcf",
+	Obsolete => "background-color: #ffcfcf",
 );
 my %ValidDashStatus = (
 	Draft => undef,
@@ -67,6 +69,7 @@ my %ValidDashStatus = (
 	Withdrawn => "background-color: #ffcfcf",
 	Final => "background-color: #cfffcf",
 	Replaced => "background-color: #ffcfcf",
+	Obsolete => "background-color: #ffcfcf",	
 	# Dash Specific status
 	# --------------------
 	Accepted => undef,
