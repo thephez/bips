@@ -17,21 +17,51 @@ State can be defined, active, failed. Dates are in UTC.
 |-
 | csv
 | 0
-| 2016-05-01 00:00:00
-| 2017-05-01 00:00:00
-| active since #419328
+| 2017-02-05 00:00:00
+| 2018-02-05 00:00:00
+| Active
 | 2016-03-01 00:00:00
-| 2017-05-01 00:00:00
-| active since #770112
+| 2017-03-01 00:00:00
+| Active
 | [[/bip-0068.mediawiki|68]], [[/bip-0112.mediawiki|112]], [[/bip-0113.mediawiki|113]]
 |-
-| segwit
+| dip0001
 | 1
-| 2016-11-15 00:00:00
-| 2017-11-15 00:00:00
-| active since #481824
-| 2016-05-01 00:00:00
-| 2017-05-01 00:00:00
-| active since #834624
-| [[/bip-0141.mediawiki|141]], [[/bip-0143.mediawiki|143]], [[/bip-0147.mediawiki|147]]
+| 2017-10-15 00:00:00
+| 2018-10-15 00:00:00
+| Active
+| 2017-09-18 00:00:00
+| 2018-09-18 00:00:00
+| Active
+| [https://github.com/dashpay/dips/blob/master/dip-0001.md DIP-1]
+|-
+| dip0003
+| 1
+| 2019-01-01 00:00:00
+| 2020-01-01 00:00:00
+| Active
+| 2018-12-13 00:00:00
+| 2019-12-13 00:00:00
+| Active
+| [https://github.com/dashpay/dips/blob/master/dip-0003.md DIP-3]
+|-
+| dip0008
+| 1
+| 2019-05-15 00:00:00
+| 2020-05-15 00:00:00
+| Active
+| 2019-03-21 00:00:00
+| 2020-03-21 00:00:00
+| Active
+| [https://github.com/dashpay/dips/blob/master/dip-0008.md DIP-8]
+|-
+| realloc
+| 1
+| 2020-10-01 00:00:00
+| 2021-10-01 00:00:00
+| Started
+| 2020-09-01 00:00:00
+| 2021-09-01 00:00:00
+| Active
+| 
 |}
