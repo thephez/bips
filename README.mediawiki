@@ -381,7 +381,6 @@ The following BIPs are active in Dash. Click [[#Ignored_BIPs|here]] to see the B
 | Eric Lombrozo, William Swanson
 | Informational
 | Rejected
-| Draft
 | Active *
 |
 |- style="background-color: #ffffcf"
