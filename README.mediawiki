@@ -452,7 +452,6 @@ The following BIPs are either not applicable to Dash or were previously withdraw
 | Process
 | Replaced
 | Ignored
-|
 |- style="background-color: #cfffcf"
 | [[bip-0002.mediawiki|2]]
 |
@@ -461,7 +460,6 @@ The following BIPs are either not applicable to Dash or were previously withdraw
 | Process
 | Active
 | Ignored
-|
 |-
 | [[bip-0008.mediawiki|8]]
 |
@@ -470,7 +468,6 @@ The following BIPs are either not applicable to Dash or were previously withdraw
 | Informational
 | Draft
 | Ignored
-|
 |- style="background-color: #ffcfcf"
 | [[bip-0010.mediawiki|10]]
 | Applications
@@ -479,7 +476,6 @@ The following BIPs are either not applicable to Dash or were previously withdraw
 | Informational
 | Withdrawn
 | Ignored
-|
 |- style="background-color: #ffcfcf"
 | [[bip-0012.mediawiki|12]]
 | Consensus (soft fork)
@@ -488,7 +484,6 @@ The following BIPs are either not applicable to Dash or were previously withdraw
 | Standard
 | Withdrawn
 | Ignored
-|
 |-
 | [[bip-0015.mediawiki|15]]
 | Applications
@@ -497,7 +492,6 @@ The following BIPs are either not applicable to Dash or were previously withdraw
 | Standard
 | Deferred
 | Ignored
-|
 |- style="background-color: #ffcfcf"
 | [[bip-0017.mediawiki|17]]
 | Consensus (soft fork)
@@ -506,7 +500,6 @@ The following BIPs are either not applicable to Dash or were previously withdraw
 | Standard
 | Withdrawn
 | Ignored
-|
 |- style="background-color: #ffffcf"
 | [[bip-0018.mediawiki|18]]
 | Consensus (soft fork)
@@ -515,7 +508,6 @@ The following BIPs are either not applicable to Dash or were previously withdraw
 | Standard
 | Proposed
 | Ignored
-|
 |-
 | [[bip-0019.mediawiki|19]]
 | Applications
@@ -524,7 +516,6 @@ The following BIPs are either not applicable to Dash or were previously withdraw
 | Standard
 | Draft
 | Ignored
-|
 |- style="background-color: #ffcfcf"
 | [[bip-0020.mediawiki|20]]
 | Applications
@@ -533,7 +524,6 @@ The following BIPs are either not applicable to Dash or were previously withdraw
 | Standard
 | Replaced
 | Ignored
-|
 |-
 | [[bip-0033.mediawiki|33]]
 | Peer Services
@@ -542,7 +532,6 @@ The following BIPs are either not applicable to Dash or were previously withdraw
 | Standard
 | Draft
 | Ignored
-|
 |-
 | [[bip-0036.mediawiki|36]]
 | Peer Services
@@ -551,24 +540,6 @@ The following BIPs are either not applicable to Dash or were previously withdraw
 | Standard
 | Draft
 | Ignored
-|-
-| 40
-| API/RPC
-| Stratum wire protocol
-| Marek Palatinus
-| Standard
-| BIP number allocated
-| Ignored
-|-
-| 41
-| API/RPC
-| Stratum mining protocol
-| Marek Palatinus
-| Standard
-| BIP number allocated
-| Ignored
-|-
-|
 |- style="background-color: #cfffcf"
 | [[bip-0042.mediawiki|42]]
 | Consensus (soft fork)
@@ -577,7 +548,6 @@ The following BIPs are either not applicable to Dash or were previously withdraw
 | Standard
 | Final
 | Ignored
-|
 |-
 | [[bip-0049.mediawiki|49]]
 | Applications
@@ -615,15 +585,6 @@ The following BIPs are either not applicable to Dash or were previously withdraw
 | Ignored
 |
 |-
-| 63
-| Applications
-| Stealth Addresses
-| Peter Todd
-| Standard
-| BIP number allocated
-| Ignored
-|
-|-
 | [[bip-0064.mediawiki|64]]
 | Peer Services
 | getutxo message
@@ -631,7 +592,14 @@ The following BIPs are either not applicable to Dash or were previously withdraw
 | Standard
 | Draft
 | Ignored
-|
+|-
+| [[bip-0078.mediawiki|78]]
+| Applications
+| A Simple Payjoin Proposal
+| Nicolas Dorier
+| Standard
+| Draft
+| Ignored
 |- style="background-color: #ffffcf"
 | [[bip-0079.mediawiki|79]]
 | Applications
@@ -640,7 +608,6 @@ The following BIPs are either not applicable to Dash or were previously withdraw
 | Informational
 | Proposed
 | Ignored
-|
 |-
 | [[bip-0080.mediawiki|80]]
 |
@@ -667,7 +634,22 @@ The following BIPs are either not applicable to Dash or were previously withdraw
 | Informational
 | Draft
 | Ignored
+|-
+| [[bip-0085.mediawiki|85]]
+| Applications
+| Deterministic Entropy From BIP32 Keychains
+| Ethan Kosakovsky
+| Informational
+| Draft
+| Ignored
+|-
+| [[bip-0090.mediawiki|90]]
 |
+| Buried Deployments
+| Suhas Daftuar
+| Informational
+| Draft
+| Ignored
 |- style="background-color: #cfffcf"
 | [[bip-0091.mediawiki|91]]
 | Consensus (soft fork)
@@ -694,7 +676,14 @@ The following BIPs are either not applicable to Dash or were previously withdraw
 | Informational
 | Draft
 | Ignored
-|
+|- style="background-color: #ffcfcf"
+| [[bip-0100.mediawiki|100]]
+| Consensus (hard fork)
+| Dynamic maximum block size by miner vote
+| Jeff Garzik, Tom Harding, Dagur Valberg Johannsson
+| Standard
+| Rejected
+| Ignored
 |- style="background-color: #ffcfcf"
 | [[bip-0101.mediawiki|101]]
 | Consensus (hard fork)
@@ -811,7 +800,13 @@ The following BIPs are either not applicable to Dash or were previously withdraw
 | Standard
 | Draft
 | Ignored
-|
+| [[bip-0119.mediawiki|119]]
+| Consensus (soft fork)
+| CHECKTEMPLATEVERIFY
+| Jeremy Rubin
+| Standard
+| Draft
+| Ignored
 |- style="background-color: #ffcfcf"
 | [[bip-0120.mediawiki|120]]
 | Applications
@@ -892,7 +887,14 @@ The following BIPs are either not applicable to Dash or were previously withdraw
 | Informational
 | Draft
 | Ignored
-|
+|-
+| [[bip-0136.mediawiki|136]]
+| Applications
+| Bech32 Encoded Tx Position References
+| Велеслав, Jonas Schnelli, Daniel Pape
+| Informational
+| Draft
+| Ignored
 |- style="background-color: #cfffcf"
 | [[bip-0137.mediawiki|137]]
 | Applications
@@ -964,7 +966,14 @@ The following BIPs are either not applicable to Dash or were previously withdraw
 | Standard
 | Draft
 | Ignored
-|
+|- style="background-color: #cfffcf"
+| [[bip-0147.mediawiki|147]]
+| Consensus (soft fork)
+| Dealing with dummy stack element malleability
+| Johnson Lau
+| Standard
+| Final
+| Ignored
 |- style="background-color: #cfffcf"
 | [[bip-0148.mediawiki|148]]
 | Consensus (soft fork)
@@ -1000,7 +1009,14 @@ The following BIPs are either not applicable to Dash or were previously withdraw
 | Standard
 | Withdrawn
 | Ignored
-|
+|- style="background-color: #cfffcf"
+| [[bip-0152.mediawiki|152]]
+| Peer Services
+| Compact Block Relay
+| Matt Corallo
+| Standard
+| Final
+| Ignored
 |-
 | [[bip-0154.mediawiki|154]]
 | Peer Services
@@ -1009,7 +1025,13 @@ The following BIPs are either not applicable to Dash or were previously withdraw
 | Standard
 | Draft
 | Ignored
-|
+| [[bip-0155.mediawiki|155]]
+| Peer Services
+| addrv2 message
+| Wladimir J. van der Laan
+| Standard
+| Draft
+| Ignored
 |-
 | [[bip-0156.mediawiki|156]]
 | Peer Services
@@ -1099,7 +1121,14 @@ The following BIPs are either not applicable to Dash or were previously withdraw
 | Standard
 | Draft
 | Ignored
+|-
+| [[bip-0179.mediawiki|179]]
 |
+| Name for payment recipient identifiers
+| Emil Engler, MarcoFalke, Luke Dashjr
+| Informational
+| Draft
+| Ignored
 |-
 | [[bip-0180.mediawiki|180]]
 | Peer Services
@@ -1126,7 +1155,22 @@ The following BIPs are either not applicable to Dash or were previously withdraw
 | Standard
 | Draft
 | Ignored
-|
+|-
+| [[bip-0300.mediawiki|300]]
+| Consensus (soft fork)
+| Hashrate Escrows (Consensus layer)
+| Paul Sztorc, CryptAxe
+| Standard
+| Draft
+| Ignored
+|-
+| [[bip-0301.mediawiki|301]]
+| Consensus (soft fork)
+| Blind Merged Mining (Consensus layer)
+| Paul Sztorc, CryptAxe
+| Standard
+| Draft
+| Ignored
 |-
 | [[bip-0310.mediawiki|310]]
 | Applications
@@ -1153,7 +1197,59 @@ The following BIPs are either not applicable to Dash or were previously withdraw
 | Standard
 | Draft
 | Ignored
+|-
+| [[bip-0325.mediawiki|325]]
+| Applications
+| Signet
+| Karl-Johan Alm
+| Standard
+| Draft
+| Ignored
+| 
+|-
+| [[bip-0330.mediawiki|330]]
+| Peer Services
+| Transaction announcements reconciliation
+| Gleb Naumenko, Pieter Wuille
+| Standard
+| Draft
+| Ignored
+| 
+|-
+| [[bip-0339.mediawiki|339]]
+| Peer Services
+| WTXID-based transaction relay
+| Suhas Daftuar
+| Standard
+| Draft
+| Ignored
+| 
+|-
+| [[bip-0340.mediawiki|340]]
 |
+| Schnorr Signatures for secp256k1
+| Pieter Wuille, Jonas Nick, Tim Ruffing
+| Standard
+| Draft
+| Ignored
+| 
+|-
+| [[bip-0341.mediawiki|341]]
+| Consensus (soft fork)
+| Taproot: SegWit version 1 spending rules
+| Pieter Wuille, Jonas Nick, Anthony Towns
+| Standard
+| Draft
+| Ignored
+| 
+|-
+| [[bip-0342.mediawiki|342]]
+| Consensus (soft fork)
+| Validation of Taproot Scripts
+| Pieter Wuille, Jonas Nick, Anthony Towns
+| Standard
+| Draft
+| Ignored
 |}
 
 <!-- IMPORTANT!  See the instructions at the top of this page, do NOT JUST add BIPs here! -->
