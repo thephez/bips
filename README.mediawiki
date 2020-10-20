@@ -329,6 +329,15 @@ The following BIPs are active in Dash. Click [[#Ignored_BIPs|here]] to see the B
 | Draft
 | Active *
 |
+|-
+| [[bip-0090.mediawiki|90]]
+|
+| Buried Deployments
+| Suhas Daftuar
+| Informational
+| Draft
+| Active
+|
 |- style="background-color: #ffffcf"
 | [[bip-0111.mediawiki|111]]
 | Peer Services
@@ -415,6 +424,15 @@ The following BIPs are active in Dash. Click [[#Ignored_BIPs|here]] to see the B
 | Peer Services
 | Compact Block Relay
 | Matt Corallo
+| Standard
+| Draft
+| Active
+|
+|-
+| [[bip-0159.mediawiki|159]]
+| Peer Services
+| NODE_NETWORK_LIMITED service bit
+| Jonas Schnelli
 | Standard
 | Draft
 | Active
@@ -625,14 +643,6 @@ The following BIPs are either not applicable to Dash or were previously withdraw
 | Applications
 | Deterministic Entropy From BIP32 Keychains
 | Ethan Kosakovsky
-| Informational
-| Draft
-| Ignored
-|-
-| [[bip-0090.mediawiki|90]]
-|
-| Buried Deployments
-| Suhas Daftuar
 | Informational
 | Draft
 | Ignored
@@ -993,14 +1003,6 @@ The following BIPs are either not applicable to Dash or were previously withdraw
 | Peer Services
 | Compact Block Filters for Light Clients
 | Olaoluwa Osuntokun, Alex Akselrod
-| Standard
-| Draft
-| Ignored
-|-
-| [[bip-0159.mediawiki|159]]
-| Peer Services
-| NODE_NETWORK_LIMITED service bit
-| Jonas Schnelli
 | Standard
 | Draft
 | Ignored
